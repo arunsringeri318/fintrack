@@ -1,0 +1,5666 @@
+{
+  "familyProfile": {
+    "selfName": "Arun",
+    "selfAge": "42",
+    "selfContact": "8105104599",
+    "spouseName": "Kavya",
+    "spouseAge": "37",
+    "spouseContact": "9620504256",
+    "kid1Name": "Aaryan",
+    "kid1Age": "12",
+    "kid2Name": "Atharv",
+    "kid2Age": "7"
+  },
+  "digitalDocs": [
+    {
+      "id": "doc1",
+      "title": "Self Aadhaar Card",
+      "category": "Aadhaar Card",
+      "holder": "Self",
+      "number": "381838155674",
+      "issueDate": "2015-04-10",
+      "expiryDate": "",
+      "notes": "Linked to mobile 8105104599"
+    },
+    {
+      "id": "doc2",
+      "title": "PAN",
+      "category": "PAN Card",
+      "holder": "Self",
+      "number": "AQCPA1597L",
+      "issueDate": "2016-08-12",
+      "expiryDate": "",
+      "notes": "Primary tax identification"
+    }
+  ],
+  "chits": [
+    {
+      "id": "c1",
+      "title": "Pavan Chits 5 Lakh",
+      "organizer": "Pavan",
+      "value": 500000,
+      "monthly": 25000,
+      "months": 20,
+      "date": 25,
+      "paidCount": 1,
+      "isLifted": false,
+      "liftedAmount": 0,
+      "monthlyInterest": 0
+    },
+    {
+      "id": "c2",
+      "title": "Ravi 2 Lakh",
+      "organizer": "Ravi",
+      "value": 300000,
+      "monthly": 8000,
+      "months": 25,
+      "date": 10,
+      "paidCount": 9,
+      "isLifted": false,
+      "liftedAmount": 0,
+      "monthlyInterest": 0
+    },
+    {
+      "id": "c_1785804642121",
+      "title": "Vasavi Templ 9L",
+      "organizer": "Suresh Janappa",
+      "value": 900000,
+      "monthly": 30000,
+      "months": 30,
+      "date": 15,
+      "paidCount": 10,
+      "isLifted": false,
+      "liftedAmount": 0,
+      "monthlyInterest": 0
+    },
+    {
+      "id": "c_1785804751971",
+      "title": "Vasavi Temple 9L",
+      "organizer": "Eshwar Glass",
+      "value": 900000,
+      "monthly": 30000,
+      "months": 30,
+      "date": 15,
+      "paidCount": 13,
+      "isLifted": false,
+      "liftedAmount": 0,
+      "monthlyInterest": 0
+    }
+  ],
+  "pigmies": [
+    {
+      "id": "pig1",
+      "title": "Sangam bank",
+      "agent": "Venumadav agent",
+      "dailyAmount": 2000,
+      "totalPaid": 319000,
+      "startDate": "2026-01-29",
+      "autoDaily": false
+    }
+  ],
+  "stocks": [
+    {
+      "id": "st_1785805256559",
+      "name": "AngelOne",
+      "category": "Direct Equity Portfolio",
+      "owner": "Self",
+      "broker": "AngelOne",
+      "monthlySip": 0,
+      "invested": 1065000,
+      "current": 1071000
+    },
+    {
+      "id": "st_1785805320140",
+      "name": "Angelone Mutual",
+      "category": "Mutual Fund Portfolio",
+      "owner": "Self",
+      "broker": "AngelOne",
+      "monthlySip": 5000,
+      "invested": 124994,
+      "current": 139775
+    },
+    {
+      "id": "st_1785805380040",
+      "name": "Angelone Equity",
+      "category": "Direct Equity Portfolio",
+      "owner": "Spouse",
+      "broker": "AngelOne",
+      "monthlySip": 0,
+      "invested": 441300,
+      "current": 441600
+    },
+    {
+      "id": "st_1785805436844",
+      "name": "Angelone Mutual",
+      "category": "Mutual Fund Portfolio",
+      "owner": "Spouse",
+      "broker": "AngelOne",
+      "monthlySip": 12000,
+      "invested": 292000,
+      "current": 314233
+    },
+    {
+      "id": "st_1785811131885",
+      "owner": "Spouse",
+      "broker": "Zerodha",
+      "category": "Direct Equity Portfolio",
+      "name": "Aaryan",
+      "monthlySip": 0,
+      "invested": 65000,
+      "current": 65000
+    }
+  ],
+  "fixedDeposits": [
+    {
+      "id": "fd1",
+      "bankName": "SSS Bank",
+      "owner": "Spouse",
+      "amount": 500000,
+      "interestRate": 10,
+      "depositDate": "2025-02-10",
+      "maturityDate": "2027-02-10",
+      "maturityAmount": 575000
+    },
+    {
+      "id": "fd2",
+      "bankName": "SSS Bank",
+      "owner": "Spouse",
+      "amount": 100000,
+      "interestRate": 10,
+      "depositDate": "2025-06-15",
+      "maturityDate": "2026-06-15",
+      "maturityAmount": 110000
+    },
+    {
+      "id": "fd_1785805770934",
+      "bankName": "One Card",
+      "owner": "Self",
+      "amount": 60561,
+      "interestRate": 7,
+      "depositDate": "2025-08-16",
+      "maturityDate": "2026-08-17",
+      "maturityAmount": 64950
+    }
+  ],
+  "insurance": [
+    {
+      "id": "ins1",
+      "owner": "Self",
+      "type": "Life / Endowment",
+      "name": "ARUN - 708940104",
+      "company": "LIC Jeevan Labh",
+      "sumAssured": 1000000,
+      "premium": 55414,
+      "commenceDate": "2023-09-28",
+      "renewalDate": "2026-09-28",
+      "surrenderValue": 0,
+      "notes": ""
+    },
+    {
+      "id": "ins2",
+      "owner": "Self",
+      "type": "Life / Endowment",
+      "name": "Couple - 1W554658510",
+      "company": "SBI LIFE Smart Humsafar",
+      "sumAssured": 1200000,
+      "premium": 57348,
+      "commenceDate": "2026-06-17",
+      "renewalDate": "2027-07-14",
+      "surrenderValue": 0,
+      "notes": ""
+    },
+    {
+      "id": "ins_1785847338695",
+      "owner": "Joint",
+      "type": "Life / Endowment",
+      "name": "Atharv - 708966007",
+      "company": "LIC",
+      "sumAssured": 500000,
+      "premium": 27401,
+      "commenceDate": "2024-02-28",
+      "renewalDate": "2027-02-28",
+      "surrenderValue": 0,
+      "notes": ""
+    },
+    {
+      "id": "ins_1785848282213",
+      "owner": "Self",
+      "type": "Term Insurance",
+      "name": "ARUN - 80208549",
+      "company": "Kotak",
+      "sumAssured": 10000000,
+      "premium": 84600,
+      "commenceDate": "2026-03-12",
+      "renewalDate": "2027-03-12",
+      "surrenderValue": 84600,
+      "notes": ""
+    }
+  ],
+  "cashAccounts": [
+    {
+      "id": "ca1",
+      "title": "Kotak Blr Savings Account (Primary)",
+      "type": "Bank Account",
+      "owner": "Self",
+      "amount": 120000
+    },
+    {
+      "id": "ca2",
+      "title": "Kotak pvg Savings Account",
+      "type": "Bank Account",
+      "owner": "Self",
+      "amount": 12000
+    },
+    {
+      "id": "ca3",
+      "title": "Home Locker Reserve Cash",
+      "type": "Home / Locker Cash",
+      "owner": "Self",
+      "amount": 1000000
+    }
+  ],
+  "expenses": [
+    {
+      "id": "e2",
+      "title": "Jio fibre",
+      "category": "recharges",
+      "amount": 1077,
+      "date": "Monthly",
+      "kid": null
+    },
+    {
+      "id": "e4",
+      "title": "NBIRS 1ST Term",
+      "category": "kids",
+      "amount": 45000,
+      "date": "15-May",
+      "kid": "Aaryan"
+    },
+    {
+      "id": "e6",
+      "title": "Atharv - school fee",
+      "category": "kids",
+      "amount": 30000,
+      "date": "10-Jun",
+      "kid": "Atharv"
+    },
+    {
+      "id": "exp_1785806824988",
+      "title": "I10",
+      "category": "general",
+      "amount": 80000,
+      "date": "2025",
+      "kid": null
+    },
+    {
+      "id": "exp_1785806851947",
+      "category": "general",
+      "title": "Alto",
+      "amount": 100000,
+      "date": "July",
+      "kid": null
+    },
+    {
+      "id": "exp_1786389180230",
+      "title": "Power",
+      "category": "recharges",
+      "amount": 2000,
+      "date": "1",
+      "kid": null
+    },
+    {
+      "id": "exp_1786389526345",
+      "title": "Milk",
+      "category": "recharges",
+      "amount": 5000,
+      "date": "1",
+      "kid": null
+    },
+    {
+      "id": "exp_1786389566530",
+      "title": "Van - Atharv",
+      "category": "recharges",
+      "amount": 1100,
+      "date": "1",
+      "kid": null
+    }
+  ],
+  "employees": [
+    {
+      "id": "emp_1786361413321",
+      "name": "Sai",
+      "role": "Helper",
+      "salary": 11000,
+      "payDay": 9
+    },
+    {
+      "id": "emp_1786364657127",
+      "name": "Devaraj",
+      "role": "Helper",
+      "salary": 7000,
+      "payDay": 15
+    },
+    {
+      "id": "emp_1786364681523",
+      "name": "Narayana ",
+      "role": "Helper",
+      "salary": 10000,
+      "payDay": 10
+    },
+    {
+      "id": "emp_1786364698835",
+      "name": "Murthy",
+      "role": "Helper",
+      "salary": 11500,
+      "payDay": 1
+    }
+  ],
+  "lending": [
+    {
+      "id": "l2",
+      "title": "DAD",
+      "amount": 5500000,
+      "details": ""
+    }
+  ],
+  "liabilities": [],
+  "snapshots": [
+    {
+      "id": "auto_1786389594476",
+      "date": "11 Aug 2026, 12:49 am (Auto)",
+      "netWorth": 10195769,
+      "assets": 10195769,
+      "liabilities": 0,
+      "state": {
+        "familyProfile": {
+          "selfName": "Arun",
+          "selfAge": "42",
+          "selfContact": "8105104599",
+          "spouseName": "Kavya",
+          "spouseAge": "37",
+          "spouseContact": "9620504256",
+          "kid1Name": "Aaryan",
+          "kid1Age": "12",
+          "kid2Name": "Atharv",
+          "kid2Age": "7"
+        },
+        "digitalDocs": [
+          {
+            "id": "doc1",
+            "title": "Self Aadhaar Card",
+            "category": "Aadhaar Card",
+            "holder": "Self",
+            "number": "381838155674",
+            "issueDate": "2015-04-10",
+            "expiryDate": "",
+            "notes": "Linked to mobile 8105104599"
+          },
+          {
+            "id": "doc2",
+            "title": "PAN",
+            "category": "PAN Card",
+            "holder": "Self",
+            "number": "AQCPA1597L",
+            "issueDate": "2016-08-12",
+            "expiryDate": "",
+            "notes": "Primary tax identification"
+          }
+        ],
+        "chits": [
+          {
+            "id": "c1",
+            "title": "Pavan Chits 5 Lakh",
+            "organizer": "Pavan",
+            "value": 500000,
+            "monthly": 25000,
+            "months": 20,
+            "date": 25,
+            "paidCount": 1,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          },
+          {
+            "id": "c2",
+            "title": "Ravi 2 Lakh",
+            "organizer": "Ravi",
+            "value": 300000,
+            "monthly": 8000,
+            "months": 25,
+            "date": 10,
+            "paidCount": 9,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          },
+          {
+            "id": "c_1785804642121",
+            "title": "Vasavi Templ 9L",
+            "organizer": "Suresh Janappa",
+            "value": 900000,
+            "monthly": 30000,
+            "months": 30,
+            "date": 15,
+            "paidCount": 10,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          },
+          {
+            "id": "c_1785804751971",
+            "title": "Vasavi Temple 9L",
+            "organizer": "Eshwar Glass",
+            "value": 900000,
+            "monthly": 30000,
+            "months": 30,
+            "date": 15,
+            "paidCount": 13,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          }
+        ],
+        "pigmies": [
+          {
+            "id": "pig1",
+            "title": "Sangam bank",
+            "agent": "Venumadav agent",
+            "dailyAmount": 2000,
+            "totalPaid": 319000,
+            "startDate": "2026-01-29",
+            "autoDaily": false
+          }
+        ],
+        "stocks": [
+          {
+            "id": "st_1785805256559",
+            "name": "AngelOne",
+            "category": "Direct Equity Portfolio",
+            "owner": "Self",
+            "broker": "AngelOne",
+            "monthlySip": 0,
+            "invested": 1065000,
+            "current": 1071000
+          },
+          {
+            "id": "st_1785805320140",
+            "name": "Angelone Mutual",
+            "category": "Mutual Fund Portfolio",
+            "owner": "Self",
+            "broker": "AngelOne",
+            "monthlySip": 5000,
+            "invested": 124994,
+            "current": 139775
+          },
+          {
+            "id": "st_1785805380040",
+            "name": "Angelone Equity",
+            "category": "Direct Equity Portfolio",
+            "owner": "Spouse",
+            "broker": "AngelOne",
+            "monthlySip": 0,
+            "invested": 441300,
+            "current": 441600
+          },
+          {
+            "id": "st_1785805436844",
+            "name": "Angelone Mutual",
+            "category": "Mutual Fund Portfolio",
+            "owner": "Spouse",
+            "broker": "AngelOne",
+            "monthlySip": 12000,
+            "invested": 292000,
+            "current": 314233
+          },
+          {
+            "id": "st_1785811131885",
+            "owner": "Spouse",
+            "broker": "Zerodha",
+            "category": "Direct Equity Portfolio",
+            "name": "Aaryan",
+            "monthlySip": 0,
+            "invested": 65000,
+            "current": 65000
+          }
+        ],
+        "fixedDeposits": [
+          {
+            "id": "fd1",
+            "bankName": "SSS Bank",
+            "owner": "Spouse",
+            "amount": 500000,
+            "interestRate": 10,
+            "depositDate": "2025-02-10",
+            "maturityDate": "2027-02-10",
+            "maturityAmount": 575000
+          },
+          {
+            "id": "fd2",
+            "bankName": "SSS Bank",
+            "owner": "Spouse",
+            "amount": 100000,
+            "interestRate": 10,
+            "depositDate": "2025-06-15",
+            "maturityDate": "2026-06-15",
+            "maturityAmount": 110000
+          },
+          {
+            "id": "fd_1785805770934",
+            "bankName": "One Card",
+            "owner": "Self",
+            "amount": 60561,
+            "interestRate": 7,
+            "depositDate": "2025-08-16",
+            "maturityDate": "2026-08-17",
+            "maturityAmount": 64950
+          }
+        ],
+        "insurance": [
+          {
+            "id": "ins1",
+            "owner": "Self",
+            "type": "Life / Endowment",
+            "name": "ARUN - 708940104",
+            "company": "LIC Jeevan Labh",
+            "sumAssured": 1000000,
+            "premium": 55414,
+            "commenceDate": "2023-09-28",
+            "renewalDate": "2026-09-28",
+            "surrenderValue": 0,
+            "notes": ""
+          },
+          {
+            "id": "ins2",
+            "owner": "Self",
+            "type": "Life / Endowment",
+            "name": "Couple - 1W554658510",
+            "company": "SBI LIFE Smart Humsafar",
+            "sumAssured": 1200000,
+            "premium": 57348,
+            "commenceDate": "2026-06-17",
+            "renewalDate": "2027-07-14",
+            "surrenderValue": 0,
+            "notes": ""
+          },
+          {
+            "id": "ins_1785847338695",
+            "owner": "Joint",
+            "type": "Life / Endowment",
+            "name": "Atharv - 708966007",
+            "company": "LIC",
+            "sumAssured": 500000,
+            "premium": 27401,
+            "commenceDate": "2024-02-28",
+            "renewalDate": "2027-02-28",
+            "surrenderValue": 0,
+            "notes": ""
+          },
+          {
+            "id": "ins_1785848282213",
+            "owner": "Self",
+            "type": "Term Insurance",
+            "name": "ARUN - 80208549",
+            "company": "Kotak",
+            "sumAssured": 10000000,
+            "premium": 84600,
+            "commenceDate": "2026-03-12",
+            "renewalDate": "2027-03-12",
+            "surrenderValue": 84600,
+            "notes": ""
+          }
+        ],
+        "cashAccounts": [
+          {
+            "id": "ca1",
+            "title": "Kotak Blr Savings Account (Primary)",
+            "type": "Bank Account",
+            "owner": "Self",
+            "amount": 120000
+          },
+          {
+            "id": "ca2",
+            "title": "Kotak pvg Savings Account",
+            "type": "Bank Account",
+            "owner": "Self",
+            "amount": 12000
+          },
+          {
+            "id": "ca3",
+            "title": "Home Locker Reserve Cash",
+            "type": "Home / Locker Cash",
+            "owner": "Self",
+            "amount": 1000000
+          }
+        ],
+        "expenses": [
+          {
+            "id": "e2",
+            "title": "Jio fibre",
+            "category": "recharges",
+            "amount": 1077,
+            "date": "Monthly",
+            "kid": null
+          },
+          {
+            "id": "e4",
+            "title": "NBIRS 1ST Term",
+            "category": "kids",
+            "amount": 45000,
+            "date": "15-May",
+            "kid": "Aaryan"
+          },
+          {
+            "id": "e6",
+            "title": "Atharv - school fee",
+            "category": "kids",
+            "amount": 30000,
+            "date": "10-Jun",
+            "kid": "Atharv"
+          },
+          {
+            "id": "exp_1785806824988",
+            "title": "I10",
+            "category": "general",
+            "amount": 80000,
+            "date": "2025",
+            "kid": null
+          },
+          {
+            "id": "exp_1785806851947",
+            "category": "general",
+            "title": "Alto",
+            "amount": 100000,
+            "date": "July",
+            "kid": null
+          },
+          {
+            "id": "exp_1786389180230",
+            "title": "Power",
+            "category": "recharges",
+            "amount": 2000,
+            "date": "1",
+            "kid": null
+          },
+          {
+            "id": "exp_1786389526345",
+            "title": "Milk",
+            "category": "recharges",
+            "amount": 5000,
+            "date": "1",
+            "kid": null
+          },
+          {
+            "id": "exp_1786389566530",
+            "title": "Van - Atharv",
+            "category": "recharges",
+            "amount": 1100,
+            "date": "1",
+            "kid": null
+          }
+        ],
+        "employees": [
+          {
+            "id": "emp_1786361413321",
+            "name": "Sai",
+            "role": "Helper",
+            "salary": 11000,
+            "payDay": 9
+          },
+          {
+            "id": "emp_1786364657127",
+            "name": "Devaraj",
+            "role": "Helper",
+            "salary": 7000,
+            "payDay": 15
+          },
+          {
+            "id": "emp_1786364681523",
+            "name": "Narayana ",
+            "role": "Helper",
+            "salary": 10000,
+            "payDay": 10
+          },
+          {
+            "id": "emp_1786364698835",
+            "name": "Murthy",
+            "role": "Helper",
+            "salary": 11500,
+            "payDay": 1
+          }
+        ],
+        "lending": [
+          {
+            "id": "l2",
+            "title": "DAD",
+            "amount": 5500000,
+            "details": ""
+          }
+        ],
+        "liabilities": []
+      }
+    },
+    {
+      "id": "auto_1786389566532",
+      "date": "11 Aug 2026, 12:49 am (Auto)",
+      "netWorth": 10195769,
+      "assets": 10195769,
+      "liabilities": 0,
+      "state": {
+        "familyProfile": {
+          "selfName": "Arun",
+          "selfAge": "42",
+          "selfContact": "8105104599",
+          "spouseName": "Kavya",
+          "spouseAge": "37",
+          "spouseContact": "9620504256",
+          "kid1Name": "Aaryan",
+          "kid1Age": "12",
+          "kid2Name": "Atharv",
+          "kid2Age": "7"
+        },
+        "digitalDocs": [
+          {
+            "id": "doc1",
+            "title": "Self Aadhaar Card",
+            "category": "Aadhaar Card",
+            "holder": "Self",
+            "number": "381838155674",
+            "issueDate": "2015-04-10",
+            "expiryDate": "",
+            "notes": "Linked to mobile 8105104599"
+          },
+          {
+            "id": "doc2",
+            "title": "PAN",
+            "category": "PAN Card",
+            "holder": "Self",
+            "number": "AQCPA1597L",
+            "issueDate": "2016-08-12",
+            "expiryDate": "",
+            "notes": "Primary tax identification"
+          }
+        ],
+        "chits": [
+          {
+            "id": "c1",
+            "title": "Pavan Chits 5 Lakh",
+            "organizer": "Pavan",
+            "value": 500000,
+            "monthly": 25000,
+            "months": 20,
+            "date": 25,
+            "paidCount": 1,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          },
+          {
+            "id": "c2",
+            "title": "Ravi 2 Lakh",
+            "organizer": "Ravi",
+            "value": 300000,
+            "monthly": 8000,
+            "months": 25,
+            "date": 10,
+            "paidCount": 9,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          },
+          {
+            "id": "c_1785804642121",
+            "title": "Vasavi Templ 9L",
+            "organizer": "Suresh Janappa",
+            "value": 900000,
+            "monthly": 30000,
+            "months": 30,
+            "date": 15,
+            "paidCount": 10,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          },
+          {
+            "id": "c_1785804751971",
+            "title": "Vasavi Temple 9L",
+            "organizer": "Eshwar Glass",
+            "value": 900000,
+            "monthly": 30000,
+            "months": 30,
+            "date": 15,
+            "paidCount": 13,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          }
+        ],
+        "pigmies": [
+          {
+            "id": "pig1",
+            "title": "Sangam bank",
+            "agent": "Venumadav agent",
+            "dailyAmount": 2000,
+            "totalPaid": 319000,
+            "startDate": "2026-01-29",
+            "autoDaily": false
+          }
+        ],
+        "stocks": [
+          {
+            "id": "st_1785805256559",
+            "name": "AngelOne",
+            "category": "Direct Equity Portfolio",
+            "owner": "Self",
+            "broker": "AngelOne",
+            "monthlySip": 0,
+            "invested": 1065000,
+            "current": 1071000
+          },
+          {
+            "id": "st_1785805320140",
+            "name": "Angelone Mutual",
+            "category": "Mutual Fund Portfolio",
+            "owner": "Self",
+            "broker": "AngelOne",
+            "monthlySip": 5000,
+            "invested": 124994,
+            "current": 139775
+          },
+          {
+            "id": "st_1785805380040",
+            "name": "Angelone Equity",
+            "category": "Direct Equity Portfolio",
+            "owner": "Spouse",
+            "broker": "AngelOne",
+            "monthlySip": 0,
+            "invested": 441300,
+            "current": 441600
+          },
+          {
+            "id": "st_1785805436844",
+            "name": "Angelone Mutual",
+            "category": "Mutual Fund Portfolio",
+            "owner": "Spouse",
+            "broker": "AngelOne",
+            "monthlySip": 12000,
+            "invested": 292000,
+            "current": 314233
+          },
+          {
+            "id": "st_1785811131885",
+            "owner": "Spouse",
+            "broker": "Zerodha",
+            "category": "Direct Equity Portfolio",
+            "name": "Aaryan",
+            "monthlySip": 0,
+            "invested": 65000,
+            "current": 65000
+          }
+        ],
+        "fixedDeposits": [
+          {
+            "id": "fd1",
+            "bankName": "SSS Bank",
+            "owner": "Spouse",
+            "amount": 500000,
+            "interestRate": 10,
+            "depositDate": "2025-02-10",
+            "maturityDate": "2027-02-10",
+            "maturityAmount": 575000
+          },
+          {
+            "id": "fd2",
+            "bankName": "SSS Bank",
+            "owner": "Spouse",
+            "amount": 100000,
+            "interestRate": 10,
+            "depositDate": "2025-06-15",
+            "maturityDate": "2026-06-15",
+            "maturityAmount": 110000
+          },
+          {
+            "id": "fd_1785805770934",
+            "bankName": "One Card",
+            "owner": "Self",
+            "amount": 60561,
+            "interestRate": 7,
+            "depositDate": "2025-08-16",
+            "maturityDate": "2026-08-17",
+            "maturityAmount": 64950
+          }
+        ],
+        "insurance": [
+          {
+            "id": "ins1",
+            "owner": "Self",
+            "type": "Life / Endowment",
+            "name": "ARUN - 708940104",
+            "company": "LIC Jeevan Labh",
+            "sumAssured": 1000000,
+            "premium": 55414,
+            "commenceDate": "2023-09-28",
+            "renewalDate": "2026-09-28",
+            "surrenderValue": 0,
+            "notes": ""
+          },
+          {
+            "id": "ins2",
+            "owner": "Self",
+            "type": "Life / Endowment",
+            "name": "Couple - 1W554658510",
+            "company": "SBI LIFE Smart Humsafar",
+            "sumAssured": 1200000,
+            "premium": 57348,
+            "commenceDate": "2026-06-17",
+            "renewalDate": "2027-07-14",
+            "surrenderValue": 0,
+            "notes": ""
+          },
+          {
+            "id": "ins_1785847338695",
+            "owner": "Joint",
+            "type": "Life / Endowment",
+            "name": "Atharv - 708966007",
+            "company": "LIC",
+            "sumAssured": 500000,
+            "premium": 27401,
+            "commenceDate": "2024-02-28",
+            "renewalDate": "2027-02-28",
+            "surrenderValue": 0,
+            "notes": ""
+          },
+          {
+            "id": "ins_1785848282213",
+            "owner": "Self",
+            "type": "Term Insurance",
+            "name": "ARUN - 80208549",
+            "company": "Kotak",
+            "sumAssured": 10000000,
+            "premium": 84600,
+            "commenceDate": "2026-03-12",
+            "renewalDate": "2027-03-12",
+            "surrenderValue": 84600,
+            "notes": ""
+          }
+        ],
+        "cashAccounts": [
+          {
+            "id": "ca1",
+            "title": "Kotak Blr Savings Account (Primary)",
+            "type": "Bank Account",
+            "owner": "Self",
+            "amount": 120000
+          },
+          {
+            "id": "ca2",
+            "title": "Kotak pvg Savings Account",
+            "type": "Bank Account",
+            "owner": "Self",
+            "amount": 12000
+          },
+          {
+            "id": "ca3",
+            "title": "Home Locker Reserve Cash",
+            "type": "Home / Locker Cash",
+            "owner": "Self",
+            "amount": 1000000
+          }
+        ],
+        "expenses": [
+          {
+            "id": "e2",
+            "title": "Jio fibre",
+            "category": "recharges",
+            "amount": 1077,
+            "date": "Monthly",
+            "kid": null
+          },
+          {
+            "id": "e4",
+            "title": "NBIRS 1ST Term",
+            "category": "kids",
+            "amount": 45000,
+            "date": "15-May",
+            "kid": "Aaryan"
+          },
+          {
+            "id": "e6",
+            "title": "Atharv - school fee",
+            "category": "kids",
+            "amount": 30000,
+            "date": "10-Jun",
+            "kid": "Atharv"
+          },
+          {
+            "id": "exp_1785806824988",
+            "title": "I10",
+            "category": "general",
+            "amount": 80000,
+            "date": "2025",
+            "kid": null
+          },
+          {
+            "id": "exp_1785806851947",
+            "category": "general",
+            "title": "Alto",
+            "amount": 100000,
+            "date": "July",
+            "kid": null
+          },
+          {
+            "id": "exp_1786389180230",
+            "title": "Power",
+            "category": "recharges",
+            "amount": 2000,
+            "date": "1",
+            "kid": null
+          },
+          {
+            "id": "exp_1786389526345",
+            "title": "Milk",
+            "category": "recharges",
+            "amount": 5000,
+            "date": "1",
+            "kid": null
+          },
+          {
+            "id": "exp_1786389566530",
+            "title": "Van",
+            "category": "kids",
+            "amount": 1100,
+            "date": "1",
+            "kid": "Kid 2"
+          }
+        ],
+        "employees": [
+          {
+            "id": "emp_1786361413321",
+            "name": "Sai",
+            "role": "Helper",
+            "salary": 11000,
+            "payDay": 9
+          },
+          {
+            "id": "emp_1786364657127",
+            "name": "Devaraj",
+            "role": "Helper",
+            "salary": 7000,
+            "payDay": 15
+          },
+          {
+            "id": "emp_1786364681523",
+            "name": "Narayana ",
+            "role": "Helper",
+            "salary": 10000,
+            "payDay": 10
+          },
+          {
+            "id": "emp_1786364698835",
+            "name": "Murthy",
+            "role": "Helper",
+            "salary": 11500,
+            "payDay": 1
+          }
+        ],
+        "lending": [
+          {
+            "id": "l2",
+            "title": "DAD",
+            "amount": 5500000,
+            "details": ""
+          }
+        ],
+        "liabilities": []
+      }
+    },
+    {
+      "id": "auto_1786389526347",
+      "date": "11 Aug 2026, 12:48 am (Auto)",
+      "netWorth": 10195769,
+      "assets": 10195769,
+      "liabilities": 0,
+      "state": {
+        "familyProfile": {
+          "selfName": "Arun",
+          "selfAge": "42",
+          "selfContact": "8105104599",
+          "spouseName": "Kavya",
+          "spouseAge": "37",
+          "spouseContact": "9620504256",
+          "kid1Name": "Aaryan",
+          "kid1Age": "12",
+          "kid2Name": "Atharv",
+          "kid2Age": "7"
+        },
+        "digitalDocs": [
+          {
+            "id": "doc1",
+            "title": "Self Aadhaar Card",
+            "category": "Aadhaar Card",
+            "holder": "Self",
+            "number": "381838155674",
+            "issueDate": "2015-04-10",
+            "expiryDate": "",
+            "notes": "Linked to mobile 8105104599"
+          },
+          {
+            "id": "doc2",
+            "title": "PAN",
+            "category": "PAN Card",
+            "holder": "Self",
+            "number": "AQCPA1597L",
+            "issueDate": "2016-08-12",
+            "expiryDate": "",
+            "notes": "Primary tax identification"
+          }
+        ],
+        "chits": [
+          {
+            "id": "c1",
+            "title": "Pavan Chits 5 Lakh",
+            "organizer": "Pavan",
+            "value": 500000,
+            "monthly": 25000,
+            "months": 20,
+            "date": 25,
+            "paidCount": 1,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          },
+          {
+            "id": "c2",
+            "title": "Ravi 2 Lakh",
+            "organizer": "Ravi",
+            "value": 300000,
+            "monthly": 8000,
+            "months": 25,
+            "date": 10,
+            "paidCount": 9,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          },
+          {
+            "id": "c_1785804642121",
+            "title": "Vasavi Templ 9L",
+            "organizer": "Suresh Janappa",
+            "value": 900000,
+            "monthly": 30000,
+            "months": 30,
+            "date": 15,
+            "paidCount": 10,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          },
+          {
+            "id": "c_1785804751971",
+            "title": "Vasavi Temple 9L",
+            "organizer": "Eshwar Glass",
+            "value": 900000,
+            "monthly": 30000,
+            "months": 30,
+            "date": 15,
+            "paidCount": 13,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          }
+        ],
+        "pigmies": [
+          {
+            "id": "pig1",
+            "title": "Sangam bank",
+            "agent": "Venumadav agent",
+            "dailyAmount": 2000,
+            "totalPaid": 319000,
+            "startDate": "2026-01-29",
+            "autoDaily": false
+          }
+        ],
+        "stocks": [
+          {
+            "id": "st_1785805256559",
+            "name": "AngelOne",
+            "category": "Direct Equity Portfolio",
+            "owner": "Self",
+            "broker": "AngelOne",
+            "monthlySip": 0,
+            "invested": 1065000,
+            "current": 1071000
+          },
+          {
+            "id": "st_1785805320140",
+            "name": "Angelone Mutual",
+            "category": "Mutual Fund Portfolio",
+            "owner": "Self",
+            "broker": "AngelOne",
+            "monthlySip": 5000,
+            "invested": 124994,
+            "current": 139775
+          },
+          {
+            "id": "st_1785805380040",
+            "name": "Angelone Equity",
+            "category": "Direct Equity Portfolio",
+            "owner": "Spouse",
+            "broker": "AngelOne",
+            "monthlySip": 0,
+            "invested": 441300,
+            "current": 441600
+          },
+          {
+            "id": "st_1785805436844",
+            "name": "Angelone Mutual",
+            "category": "Mutual Fund Portfolio",
+            "owner": "Spouse",
+            "broker": "AngelOne",
+            "monthlySip": 12000,
+            "invested": 292000,
+            "current": 314233
+          },
+          {
+            "id": "st_1785811131885",
+            "owner": "Spouse",
+            "broker": "Zerodha",
+            "category": "Direct Equity Portfolio",
+            "name": "Aaryan",
+            "monthlySip": 0,
+            "invested": 65000,
+            "current": 65000
+          }
+        ],
+        "fixedDeposits": [
+          {
+            "id": "fd1",
+            "bankName": "SSS Bank",
+            "owner": "Spouse",
+            "amount": 500000,
+            "interestRate": 10,
+            "depositDate": "2025-02-10",
+            "maturityDate": "2027-02-10",
+            "maturityAmount": 575000
+          },
+          {
+            "id": "fd2",
+            "bankName": "SSS Bank",
+            "owner": "Spouse",
+            "amount": 100000,
+            "interestRate": 10,
+            "depositDate": "2025-06-15",
+            "maturityDate": "2026-06-15",
+            "maturityAmount": 110000
+          },
+          {
+            "id": "fd_1785805770934",
+            "bankName": "One Card",
+            "owner": "Self",
+            "amount": 60561,
+            "interestRate": 7,
+            "depositDate": "2025-08-16",
+            "maturityDate": "2026-08-17",
+            "maturityAmount": 64950
+          }
+        ],
+        "insurance": [
+          {
+            "id": "ins1",
+            "owner": "Self",
+            "type": "Life / Endowment",
+            "name": "ARUN - 708940104",
+            "company": "LIC Jeevan Labh",
+            "sumAssured": 1000000,
+            "premium": 55414,
+            "commenceDate": "2023-09-28",
+            "renewalDate": "2026-09-28",
+            "surrenderValue": 0,
+            "notes": ""
+          },
+          {
+            "id": "ins2",
+            "owner": "Self",
+            "type": "Life / Endowment",
+            "name": "Couple - 1W554658510",
+            "company": "SBI LIFE Smart Humsafar",
+            "sumAssured": 1200000,
+            "premium": 57348,
+            "commenceDate": "2026-06-17",
+            "renewalDate": "2027-07-14",
+            "surrenderValue": 0,
+            "notes": ""
+          },
+          {
+            "id": "ins_1785847338695",
+            "owner": "Joint",
+            "type": "Life / Endowment",
+            "name": "Atharv - 708966007",
+            "company": "LIC",
+            "sumAssured": 500000,
+            "premium": 27401,
+            "commenceDate": "2024-02-28",
+            "renewalDate": "2027-02-28",
+            "surrenderValue": 0,
+            "notes": ""
+          },
+          {
+            "id": "ins_1785848282213",
+            "owner": "Self",
+            "type": "Term Insurance",
+            "name": "ARUN - 80208549",
+            "company": "Kotak",
+            "sumAssured": 10000000,
+            "premium": 84600,
+            "commenceDate": "2026-03-12",
+            "renewalDate": "2027-03-12",
+            "surrenderValue": 84600,
+            "notes": ""
+          }
+        ],
+        "cashAccounts": [
+          {
+            "id": "ca1",
+            "title": "Kotak Blr Savings Account (Primary)",
+            "type": "Bank Account",
+            "owner": "Self",
+            "amount": 120000
+          },
+          {
+            "id": "ca2",
+            "title": "Kotak pvg Savings Account",
+            "type": "Bank Account",
+            "owner": "Self",
+            "amount": 12000
+          },
+          {
+            "id": "ca3",
+            "title": "Home Locker Reserve Cash",
+            "type": "Home / Locker Cash",
+            "owner": "Self",
+            "amount": 1000000
+          }
+        ],
+        "expenses": [
+          {
+            "id": "e2",
+            "title": "Jio fibre",
+            "category": "recharges",
+            "amount": 1077,
+            "date": "Monthly",
+            "kid": null
+          },
+          {
+            "id": "e4",
+            "title": "NBIRS 1ST Term",
+            "category": "kids",
+            "amount": 45000,
+            "date": "15-May",
+            "kid": "Aaryan"
+          },
+          {
+            "id": "e6",
+            "title": "Atharv - school fee",
+            "category": "kids",
+            "amount": 30000,
+            "date": "10-Jun",
+            "kid": "Atharv"
+          },
+          {
+            "id": "exp_1785806824988",
+            "title": "I10",
+            "category": "general",
+            "amount": 80000,
+            "date": "2025",
+            "kid": null
+          },
+          {
+            "id": "exp_1785806851947",
+            "category": "general",
+            "title": "Alto",
+            "amount": 100000,
+            "date": "July",
+            "kid": null
+          },
+          {
+            "id": "exp_1786389180230",
+            "title": "Power",
+            "category": "recharges",
+            "amount": 2000,
+            "date": "1",
+            "kid": null
+          },
+          {
+            "id": "exp_1786389526345",
+            "title": "Milk",
+            "category": "recharges",
+            "amount": 5000,
+            "date": "1",
+            "kid": null
+          }
+        ],
+        "employees": [
+          {
+            "id": "emp_1786361413321",
+            "name": "Sai",
+            "role": "Helper",
+            "salary": 11000,
+            "payDay": 9
+          },
+          {
+            "id": "emp_1786364657127",
+            "name": "Devaraj",
+            "role": "Helper",
+            "salary": 7000,
+            "payDay": 15
+          },
+          {
+            "id": "emp_1786364681523",
+            "name": "Narayana ",
+            "role": "Helper",
+            "salary": 10000,
+            "payDay": 10
+          },
+          {
+            "id": "emp_1786364698835",
+            "name": "Murthy",
+            "role": "Helper",
+            "salary": 11500,
+            "payDay": 1
+          }
+        ],
+        "lending": [
+          {
+            "id": "l2",
+            "title": "DAD",
+            "amount": 5500000,
+            "details": ""
+          }
+        ],
+        "liabilities": []
+      }
+    },
+    {
+      "id": "auto_1786389180232",
+      "date": "11 Aug 2026, 12:43 am (Auto)",
+      "netWorth": 10195769,
+      "assets": 10195769,
+      "liabilities": 0,
+      "state": {
+        "familyProfile": {
+          "selfName": "Arun",
+          "selfAge": "42",
+          "selfContact": "8105104599",
+          "spouseName": "Kavya",
+          "spouseAge": "37",
+          "spouseContact": "9620504256",
+          "kid1Name": "Aaryan",
+          "kid1Age": "12",
+          "kid2Name": "Atharv",
+          "kid2Age": "7"
+        },
+        "digitalDocs": [
+          {
+            "id": "doc1",
+            "title": "Self Aadhaar Card",
+            "category": "Aadhaar Card",
+            "holder": "Self",
+            "number": "381838155674",
+            "issueDate": "2015-04-10",
+            "expiryDate": "",
+            "notes": "Linked to mobile 8105104599"
+          },
+          {
+            "id": "doc2",
+            "title": "PAN",
+            "category": "PAN Card",
+            "holder": "Self",
+            "number": "AQCPA1597L",
+            "issueDate": "2016-08-12",
+            "expiryDate": "",
+            "notes": "Primary tax identification"
+          }
+        ],
+        "chits": [
+          {
+            "id": "c1",
+            "title": "Pavan Chits 5 Lakh",
+            "organizer": "Pavan",
+            "value": 500000,
+            "monthly": 25000,
+            "months": 20,
+            "date": 25,
+            "paidCount": 1,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          },
+          {
+            "id": "c2",
+            "title": "Ravi 2 Lakh",
+            "organizer": "Ravi",
+            "value": 300000,
+            "monthly": 8000,
+            "months": 25,
+            "date": 10,
+            "paidCount": 9,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          },
+          {
+            "id": "c_1785804642121",
+            "title": "Vasavi Templ 9L",
+            "organizer": "Suresh Janappa",
+            "value": 900000,
+            "monthly": 30000,
+            "months": 30,
+            "date": 15,
+            "paidCount": 10,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          },
+          {
+            "id": "c_1785804751971",
+            "title": "Vasavi Temple 9L",
+            "organizer": "Eshwar Glass",
+            "value": 900000,
+            "monthly": 30000,
+            "months": 30,
+            "date": 15,
+            "paidCount": 13,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          }
+        ],
+        "pigmies": [
+          {
+            "id": "pig1",
+            "title": "Sangam bank",
+            "agent": "Venumadav agent",
+            "dailyAmount": 2000,
+            "totalPaid": 319000,
+            "startDate": "2026-01-29",
+            "autoDaily": false
+          }
+        ],
+        "stocks": [
+          {
+            "id": "st_1785805256559",
+            "name": "AngelOne",
+            "category": "Direct Equity Portfolio",
+            "owner": "Self",
+            "broker": "AngelOne",
+            "monthlySip": 0,
+            "invested": 1065000,
+            "current": 1071000
+          },
+          {
+            "id": "st_1785805320140",
+            "name": "Angelone Mutual",
+            "category": "Mutual Fund Portfolio",
+            "owner": "Self",
+            "broker": "AngelOne",
+            "monthlySip": 5000,
+            "invested": 124994,
+            "current": 139775
+          },
+          {
+            "id": "st_1785805380040",
+            "name": "Angelone Equity",
+            "category": "Direct Equity Portfolio",
+            "owner": "Spouse",
+            "broker": "AngelOne",
+            "monthlySip": 0,
+            "invested": 441300,
+            "current": 441600
+          },
+          {
+            "id": "st_1785805436844",
+            "name": "Angelone Mutual",
+            "category": "Mutual Fund Portfolio",
+            "owner": "Spouse",
+            "broker": "AngelOne",
+            "monthlySip": 12000,
+            "invested": 292000,
+            "current": 314233
+          },
+          {
+            "id": "st_1785811131885",
+            "owner": "Spouse",
+            "broker": "Zerodha",
+            "category": "Direct Equity Portfolio",
+            "name": "Aaryan",
+            "monthlySip": 0,
+            "invested": 65000,
+            "current": 65000
+          }
+        ],
+        "fixedDeposits": [
+          {
+            "id": "fd1",
+            "bankName": "SSS Bank",
+            "owner": "Spouse",
+            "amount": 500000,
+            "interestRate": 10,
+            "depositDate": "2025-02-10",
+            "maturityDate": "2027-02-10",
+            "maturityAmount": 575000
+          },
+          {
+            "id": "fd2",
+            "bankName": "SSS Bank",
+            "owner": "Spouse",
+            "amount": 100000,
+            "interestRate": 10,
+            "depositDate": "2025-06-15",
+            "maturityDate": "2026-06-15",
+            "maturityAmount": 110000
+          },
+          {
+            "id": "fd_1785805770934",
+            "bankName": "One Card",
+            "owner": "Self",
+            "amount": 60561,
+            "interestRate": 7,
+            "depositDate": "2025-08-16",
+            "maturityDate": "2026-08-17",
+            "maturityAmount": 64950
+          }
+        ],
+        "insurance": [
+          {
+            "id": "ins1",
+            "owner": "Self",
+            "type": "Life / Endowment",
+            "name": "ARUN - 708940104",
+            "company": "LIC Jeevan Labh",
+            "sumAssured": 1000000,
+            "premium": 55414,
+            "commenceDate": "2023-09-28",
+            "renewalDate": "2026-09-28",
+            "surrenderValue": 0,
+            "notes": ""
+          },
+          {
+            "id": "ins2",
+            "owner": "Self",
+            "type": "Life / Endowment",
+            "name": "Couple - 1W554658510",
+            "company": "SBI LIFE Smart Humsafar",
+            "sumAssured": 1200000,
+            "premium": 57348,
+            "commenceDate": "2026-06-17",
+            "renewalDate": "2027-07-14",
+            "surrenderValue": 0,
+            "notes": ""
+          },
+          {
+            "id": "ins_1785847338695",
+            "owner": "Joint",
+            "type": "Life / Endowment",
+            "name": "Atharv - 708966007",
+            "company": "LIC",
+            "sumAssured": 500000,
+            "premium": 27401,
+            "commenceDate": "2024-02-28",
+            "renewalDate": "2027-02-28",
+            "surrenderValue": 0,
+            "notes": ""
+          },
+          {
+            "id": "ins_1785848282213",
+            "owner": "Self",
+            "type": "Term Insurance",
+            "name": "ARUN - 80208549",
+            "company": "Kotak",
+            "sumAssured": 10000000,
+            "premium": 84600,
+            "commenceDate": "2026-03-12",
+            "renewalDate": "2027-03-12",
+            "surrenderValue": 84600,
+            "notes": ""
+          }
+        ],
+        "cashAccounts": [
+          {
+            "id": "ca1",
+            "title": "Kotak Blr Savings Account (Primary)",
+            "type": "Bank Account",
+            "owner": "Self",
+            "amount": 120000
+          },
+          {
+            "id": "ca2",
+            "title": "Kotak pvg Savings Account",
+            "type": "Bank Account",
+            "owner": "Self",
+            "amount": 12000
+          },
+          {
+            "id": "ca3",
+            "title": "Home Locker Reserve Cash",
+            "type": "Home / Locker Cash",
+            "owner": "Self",
+            "amount": 1000000
+          }
+        ],
+        "expenses": [
+          {
+            "id": "e2",
+            "title": "Jio fibre",
+            "category": "recharges",
+            "amount": 1077,
+            "date": "Monthly",
+            "kid": null
+          },
+          {
+            "id": "e4",
+            "title": "NBIRS 1ST Term",
+            "category": "kids",
+            "amount": 45000,
+            "date": "15-May",
+            "kid": "Aaryan"
+          },
+          {
+            "id": "e6",
+            "title": "Atharv - school fee",
+            "category": "kids",
+            "amount": 30000,
+            "date": "10-Jun",
+            "kid": "Atharv"
+          },
+          {
+            "id": "exp_1785806824988",
+            "title": "I10",
+            "category": "general",
+            "amount": 80000,
+            "date": "2025",
+            "kid": null
+          },
+          {
+            "id": "exp_1785806851947",
+            "category": "general",
+            "title": "Alto",
+            "amount": 100000,
+            "date": "July",
+            "kid": null
+          },
+          {
+            "id": "exp_1786389180230",
+            "title": "Power",
+            "category": "recharges",
+            "amount": 2000,
+            "date": "1",
+            "kid": null
+          }
+        ],
+        "employees": [
+          {
+            "id": "emp_1786361413321",
+            "name": "Sai",
+            "role": "Helper",
+            "salary": 11000,
+            "payDay": 9
+          },
+          {
+            "id": "emp_1786364657127",
+            "name": "Devaraj",
+            "role": "Helper",
+            "salary": 7000,
+            "payDay": 15
+          },
+          {
+            "id": "emp_1786364681523",
+            "name": "Narayana ",
+            "role": "Helper",
+            "salary": 10000,
+            "payDay": 10
+          },
+          {
+            "id": "emp_1786364698835",
+            "name": "Murthy",
+            "role": "Helper",
+            "salary": 11500,
+            "payDay": 1
+          }
+        ],
+        "lending": [
+          {
+            "id": "l2",
+            "title": "DAD",
+            "amount": 5500000,
+            "details": ""
+          }
+        ],
+        "liabilities": []
+      }
+    },
+    {
+      "id": "auto_1786388844266",
+      "date": "11 Aug 2026, 12:37 am (Auto)",
+      "netWorth": 10195769,
+      "assets": 10195769,
+      "liabilities": 0,
+      "state": {
+        "familyProfile": {
+          "selfName": "Arun",
+          "selfAge": "42",
+          "selfContact": "8105104599",
+          "spouseName": "Kavya",
+          "spouseAge": "37",
+          "spouseContact": "9620504256",
+          "kid1Name": "Aaryan",
+          "kid1Age": "12",
+          "kid2Name": "Atharv",
+          "kid2Age": "7"
+        },
+        "digitalDocs": [
+          {
+            "id": "doc1",
+            "title": "Self Aadhaar Card",
+            "category": "Aadhaar Card",
+            "holder": "Self",
+            "number": "381838155674",
+            "issueDate": "2015-04-10",
+            "expiryDate": "",
+            "notes": "Linked to mobile 8105104599"
+          },
+          {
+            "id": "doc2",
+            "title": "PAN",
+            "category": "PAN Card",
+            "holder": "Self",
+            "number": "AQCPA1597L",
+            "issueDate": "2016-08-12",
+            "expiryDate": "",
+            "notes": "Primary tax identification"
+          }
+        ],
+        "chits": [
+          {
+            "id": "c1",
+            "title": "Pavan Chits 5 Lakh",
+            "organizer": "Pavan",
+            "value": 500000,
+            "monthly": 25000,
+            "months": 20,
+            "date": 25,
+            "paidCount": 1,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          },
+          {
+            "id": "c2",
+            "title": "Ravi 2 Lakh",
+            "organizer": "Ravi",
+            "value": 300000,
+            "monthly": 8000,
+            "months": 25,
+            "date": 10,
+            "paidCount": 9,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          },
+          {
+            "id": "c_1785804642121",
+            "title": "Vasavi Templ 9L",
+            "organizer": "Suresh Janappa",
+            "value": 900000,
+            "monthly": 30000,
+            "months": 30,
+            "date": 15,
+            "paidCount": 10,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          },
+          {
+            "id": "c_1785804751971",
+            "title": "Vasavi Temple 9L",
+            "organizer": "Eshwar Glass",
+            "value": 900000,
+            "monthly": 30000,
+            "months": 30,
+            "date": 15,
+            "paidCount": 13,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          }
+        ],
+        "pigmies": [
+          {
+            "id": "pig1",
+            "title": "Sangam bank",
+            "agent": "Venumadav agent",
+            "dailyAmount": 2000,
+            "totalPaid": 319000,
+            "startDate": "2026-01-29",
+            "autoDaily": false
+          }
+        ],
+        "stocks": [
+          {
+            "id": "st_1785805256559",
+            "name": "AngelOne",
+            "category": "Direct Equity Portfolio",
+            "owner": "Self",
+            "broker": "AngelOne",
+            "monthlySip": 0,
+            "invested": 1065000,
+            "current": 1071000
+          },
+          {
+            "id": "st_1785805320140",
+            "name": "Angelone Mutual",
+            "category": "Mutual Fund Portfolio",
+            "owner": "Self",
+            "broker": "AngelOne",
+            "monthlySip": 5000,
+            "invested": 124994,
+            "current": 139775
+          },
+          {
+            "id": "st_1785805380040",
+            "name": "Angelone Equity",
+            "category": "Direct Equity Portfolio",
+            "owner": "Spouse",
+            "broker": "AngelOne",
+            "monthlySip": 0,
+            "invested": 441300,
+            "current": 441600
+          },
+          {
+            "id": "st_1785805436844",
+            "name": "Angelone Mutual",
+            "category": "Mutual Fund Portfolio",
+            "owner": "Spouse",
+            "broker": "AngelOne",
+            "monthlySip": 12000,
+            "invested": 292000,
+            "current": 314233
+          },
+          {
+            "id": "st_1785811131885",
+            "owner": "Spouse",
+            "broker": "Zerodha",
+            "category": "Direct Equity Portfolio",
+            "name": "Aaryan",
+            "monthlySip": 0,
+            "invested": 65000,
+            "current": 65000
+          }
+        ],
+        "fixedDeposits": [
+          {
+            "id": "fd1",
+            "bankName": "SSS Bank",
+            "owner": "Spouse",
+            "amount": 500000,
+            "interestRate": 10,
+            "depositDate": "2025-02-10",
+            "maturityDate": "2027-02-10",
+            "maturityAmount": 575000
+          },
+          {
+            "id": "fd2",
+            "bankName": "SSS Bank",
+            "owner": "Spouse",
+            "amount": 100000,
+            "interestRate": 10,
+            "depositDate": "2025-06-15",
+            "maturityDate": "2026-06-15",
+            "maturityAmount": 110000
+          },
+          {
+            "id": "fd_1785805770934",
+            "bankName": "One Card",
+            "owner": "Self",
+            "amount": 60561,
+            "interestRate": 7,
+            "depositDate": "2025-08-16",
+            "maturityDate": "2026-08-17",
+            "maturityAmount": 64950
+          }
+        ],
+        "insurance": [
+          {
+            "id": "ins1",
+            "owner": "Self",
+            "type": "Life / Endowment",
+            "name": "ARUN - 708940104",
+            "company": "LIC Jeevan Labh",
+            "sumAssured": 1000000,
+            "premium": 55414,
+            "commenceDate": "2023-09-28",
+            "renewalDate": "2026-09-28",
+            "surrenderValue": 0,
+            "notes": ""
+          },
+          {
+            "id": "ins2",
+            "owner": "Self",
+            "type": "Life / Endowment",
+            "name": "Couple - 1W554658510",
+            "company": "SBI LIFE Smart Humsafar",
+            "sumAssured": 1200000,
+            "premium": 57348,
+            "commenceDate": "2026-06-17",
+            "renewalDate": "2027-07-14",
+            "surrenderValue": 0,
+            "notes": ""
+          },
+          {
+            "id": "ins_1785847338695",
+            "owner": "Joint",
+            "type": "Life / Endowment",
+            "name": "Atharv - 708966007",
+            "company": "LIC",
+            "sumAssured": 500000,
+            "premium": 27401,
+            "commenceDate": "2024-02-28",
+            "renewalDate": "2027-02-28",
+            "surrenderValue": 0,
+            "notes": ""
+          },
+          {
+            "id": "ins_1785848282213",
+            "owner": "Self",
+            "type": "Term Insurance",
+            "name": "ARUN - 80208549",
+            "company": "Kotak",
+            "sumAssured": 10000000,
+            "premium": 84600,
+            "commenceDate": "2026-03-12",
+            "renewalDate": "2027-03-12",
+            "surrenderValue": 84600,
+            "notes": ""
+          }
+        ],
+        "cashAccounts": [
+          {
+            "id": "ca1",
+            "title": "Kotak Blr Savings Account (Primary)",
+            "type": "Bank Account",
+            "owner": "Self",
+            "amount": 120000
+          },
+          {
+            "id": "ca2",
+            "title": "Kotak pvg Savings Account",
+            "type": "Bank Account",
+            "owner": "Self",
+            "amount": 12000
+          },
+          {
+            "id": "ca3",
+            "title": "Home Locker Reserve Cash",
+            "type": "Home / Locker Cash",
+            "owner": "Self",
+            "amount": 1000000
+          }
+        ],
+        "expenses": [
+          {
+            "id": "e2",
+            "title": "Jio fibre",
+            "category": "recharges",
+            "amount": 1077,
+            "date": "Monthly",
+            "kid": null
+          },
+          {
+            "id": "e4",
+            "title": "NBIRS 1ST Term",
+            "category": "kids",
+            "amount": 45000,
+            "date": "15-May",
+            "kid": "Aaryan"
+          },
+          {
+            "id": "e6",
+            "title": "Atharv - school fee",
+            "category": "kids",
+            "amount": 30000,
+            "date": "10-Jun",
+            "kid": "Atharv"
+          },
+          {
+            "id": "exp_1785806824988",
+            "title": "I10",
+            "category": "general",
+            "amount": 80000,
+            "date": "2025",
+            "kid": null
+          },
+          {
+            "id": "exp_1785806851947",
+            "category": "general",
+            "title": "Alto",
+            "amount": 100000,
+            "date": "July",
+            "kid": null
+          }
+        ],
+        "employees": [
+          {
+            "id": "emp_1786361413321",
+            "name": "Sai",
+            "role": "Helper",
+            "salary": 11000,
+            "payDay": 9
+          },
+          {
+            "id": "emp_1786364657127",
+            "name": "Devaraj",
+            "role": "Helper",
+            "salary": 7000,
+            "payDay": 15
+          },
+          {
+            "id": "emp_1786364681523",
+            "name": "Narayana ",
+            "role": "Helper",
+            "salary": 10000,
+            "payDay": 10
+          },
+          {
+            "id": "emp_1786364698835",
+            "name": "Murthy",
+            "role": "Helper",
+            "salary": 11500,
+            "payDay": 1
+          }
+        ],
+        "lending": [
+          {
+            "id": "l2",
+            "title": "DAD",
+            "amount": 5500000,
+            "details": ""
+          }
+        ],
+        "liabilities": []
+      }
+    },
+    {
+      "id": "auto_1786365273130",
+      "date": "10 Aug 2026, 6:04 pm (Auto)",
+      "netWorth": 10195769,
+      "assets": 10195769,
+      "liabilities": 0,
+      "state": {
+        "chits": [
+          {
+            "id": "c1",
+            "title": "Pavan Chits 5 Lakh",
+            "organizer": "Pavan",
+            "value": 500000,
+            "monthly": 25000,
+            "months": 20,
+            "date": 25,
+            "paidCount": 1,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          },
+          {
+            "id": "c2",
+            "title": "Ravi 2 Lakh",
+            "organizer": "Ravi",
+            "value": 300000,
+            "monthly": 8000,
+            "months": 25,
+            "date": 10,
+            "paidCount": 9,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          },
+          {
+            "id": "c_1785804642121",
+            "title": "Vasavi Templ 9L",
+            "organizer": "Suresh Janappa",
+            "value": 900000,
+            "monthly": 30000,
+            "months": 30,
+            "date": 15,
+            "paidCount": 10,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          },
+          {
+            "id": "c_1785804751971",
+            "title": "Vasavi Temple 9L",
+            "organizer": "Eshwar Glass",
+            "value": 900000,
+            "monthly": 30000,
+            "months": 30,
+            "date": 15,
+            "paidCount": 13,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          }
+        ],
+        "stocks": [
+          {
+            "id": "st_1785805256559",
+            "name": "AngelOne",
+            "category": "Direct Equity Portfolio",
+            "owner": "Self",
+            "broker": "AngelOne",
+            "monthlySip": 0,
+            "invested": 1065000,
+            "current": 1071000
+          },
+          {
+            "id": "st_1785805320140",
+            "name": "Angelone Mutual",
+            "category": "Mutual Fund Portfolio",
+            "owner": "Self",
+            "broker": "AngelOne",
+            "monthlySip": 5000,
+            "invested": 124994,
+            "current": 139775
+          },
+          {
+            "id": "st_1785805380040",
+            "name": "Angelone Equity",
+            "category": "Direct Equity Portfolio",
+            "owner": "Spouse",
+            "broker": "AngelOne",
+            "monthlySip": 0,
+            "invested": 441300,
+            "current": 441600
+          },
+          {
+            "id": "st_1785805436844",
+            "name": "Angelone Mutual",
+            "category": "Mutual Fund Portfolio",
+            "owner": "Spouse",
+            "broker": "AngelOne",
+            "monthlySip": 12000,
+            "invested": 292000,
+            "current": 314233
+          },
+          {
+            "id": "st_1785811131885",
+            "owner": "Spouse",
+            "broker": "Zerodha",
+            "category": "Direct Equity Portfolio",
+            "name": "Aaryan",
+            "monthlySip": 0,
+            "invested": 65000,
+            "current": 65000
+          }
+        ],
+        "fixedDeposits": [
+          {
+            "id": "fd1",
+            "bankName": "SSS Bank",
+            "owner": "Spouse",
+            "amount": 500000,
+            "interestRate": 10,
+            "depositDate": "2025-02-10",
+            "maturityDate": "2027-02-10",
+            "maturityAmount": 575000
+          },
+          {
+            "id": "fd2",
+            "bankName": "SSS Bank",
+            "owner": "Spouse",
+            "amount": 100000,
+            "interestRate": 10,
+            "depositDate": "2025-06-15",
+            "maturityDate": "2026-06-15",
+            "maturityAmount": 110000
+          },
+          {
+            "id": "fd_1785805770934",
+            "bankName": "One Card",
+            "owner": "Self",
+            "amount": 60561,
+            "interestRate": 7,
+            "depositDate": "2025-08-16",
+            "maturityDate": "2026-08-17",
+            "maturityAmount": 64950
+          }
+        ],
+        "cashAccounts": [
+          {
+            "id": "ca1",
+            "title": "Kotak Blr Savings Account (Primary)",
+            "type": "Bank Account",
+            "owner": "Self",
+            "amount": 120000
+          },
+          {
+            "id": "ca2",
+            "title": "Kotak pvg Savings Account",
+            "type": "Bank Account",
+            "owner": "Self",
+            "amount": 12000
+          },
+          {
+            "id": "ca3",
+            "title": "Home Locker Reserve Cash",
+            "type": "Home / Locker Cash",
+            "owner": "Self",
+            "amount": 1000000
+          }
+        ],
+        "expenses": [
+          {
+            "id": "e2",
+            "title": "Jio fibre",
+            "category": "recharges",
+            "amount": 1077,
+            "date": "Monthly",
+            "kid": null
+          },
+          {
+            "id": "e4",
+            "title": "NBIRS 1ST Term",
+            "category": "kids",
+            "amount": 45000,
+            "date": "15-May",
+            "kid": "Aaryan"
+          },
+          {
+            "id": "e6",
+            "title": "Atharv - school fee",
+            "category": "kids",
+            "amount": 30000,
+            "date": "10-Jun",
+            "kid": "Atharv"
+          },
+          {
+            "id": "exp_1785806824988",
+            "title": "I10",
+            "category": "general",
+            "amount": 80000,
+            "date": "2025",
+            "kid": null
+          },
+          {
+            "id": "exp_1785806851947",
+            "category": "general",
+            "title": "Alto",
+            "amount": 100000,
+            "date": "July",
+            "kid": null
+          }
+        ],
+        "employees": [
+          {
+            "id": "emp_1786361413321",
+            "name": "Sai",
+            "role": "Helper",
+            "salary": 11000,
+            "payDay": 9
+          },
+          {
+            "id": "emp_1786364657127",
+            "name": "Devaraj",
+            "role": "Helper",
+            "salary": 7000,
+            "payDay": 15
+          },
+          {
+            "id": "emp_1786364681523",
+            "name": "Narayana ",
+            "role": "Helper",
+            "salary": 10000,
+            "payDay": 10
+          },
+          {
+            "id": "emp_1786364698835",
+            "name": "Murthy",
+            "role": "Helper",
+            "salary": 11500,
+            "payDay": 1
+          }
+        ],
+        "lending": [
+          {
+            "id": "l2",
+            "title": "DAD",
+            "amount": 5500000,
+            "details": ""
+          }
+        ],
+        "liabilities": [],
+        "pigmies": [
+          {
+            "id": "pig1",
+            "title": "Sangam bank",
+            "agent": "Venumadav agent",
+            "dailyAmount": 2000,
+            "totalPaid": 319000,
+            "startDate": "2026-01-29",
+            "autoDaily": false
+          }
+        ],
+        "familyProfile": {
+          "selfName": "Arun",
+          "selfAge": "42",
+          "selfContact": "8105104599",
+          "spouseName": "Kavya",
+          "spouseAge": "37",
+          "spouseContact": "9620504256",
+          "kid1Name": "Aaryan",
+          "kid1Age": "12",
+          "kid2Name": "Atharv",
+          "kid2Age": "7"
+        },
+        "insurance": [
+          {
+            "id": "ins1",
+            "owner": "Self",
+            "type": "Life / Endowment",
+            "name": "ARUN - 708940104",
+            "company": "LIC Jeevan Labh",
+            "sumAssured": 1000000,
+            "premium": 55414,
+            "commenceDate": "2023-09-28",
+            "renewalDate": "2026-09-28",
+            "surrenderValue": 0,
+            "notes": ""
+          },
+          {
+            "id": "ins2",
+            "owner": "Self",
+            "type": "Life / Endowment",
+            "name": "Couple - 1W554658510",
+            "company": "SBI LIFE Smart Humsafar",
+            "sumAssured": 1200000,
+            "premium": 57348,
+            "commenceDate": "2026-06-17",
+            "renewalDate": "2027-07-14",
+            "surrenderValue": 0,
+            "notes": ""
+          },
+          {
+            "id": "ins_1785847338695",
+            "owner": "Joint",
+            "type": "Life / Endowment",
+            "name": "Atharv - 708966007",
+            "company": "LIC",
+            "sumAssured": 500000,
+            "premium": 27401,
+            "commenceDate": "2024-02-28",
+            "renewalDate": "2027-02-28",
+            "surrenderValue": 0,
+            "notes": ""
+          },
+          {
+            "id": "ins_1785848282213",
+            "owner": "Self",
+            "type": "Term Insurance",
+            "name": "ARUN - 80208549",
+            "company": "Kotak",
+            "sumAssured": 10000000,
+            "premium": 84600,
+            "commenceDate": "2026-03-12",
+            "renewalDate": "2027-03-12",
+            "surrenderValue": 84600,
+            "notes": ""
+          }
+        ],
+        "digitalDocs": [
+          {
+            "id": "doc1",
+            "title": "Self Aadhaar Card",
+            "category": "Aadhaar Card",
+            "holder": "Self",
+            "number": "381838155674",
+            "issueDate": "2015-04-10",
+            "expiryDate": "",
+            "notes": "Linked to mobile 8105104599"
+          },
+          {
+            "id": "doc2",
+            "title": "PAN",
+            "category": "PAN Card",
+            "holder": "Self",
+            "number": "AQCPA1597L",
+            "issueDate": "2016-08-12",
+            "expiryDate": "",
+            "notes": "Primary tax identification"
+          }
+        ]
+      }
+    },
+    {
+      "id": "auto_1786365270835",
+      "date": "10 Aug 2026, 6:04 pm (Auto)",
+      "netWorth": 10195769,
+      "assets": 10195769,
+      "liabilities": 0,
+      "state": {
+        "chits": [
+          {
+            "id": "c1",
+            "title": "Pavan Chits 5 Lakh",
+            "organizer": "Pavan",
+            "value": 500000,
+            "monthly": 25000,
+            "months": 20,
+            "date": 25,
+            "paidCount": 1,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          },
+          {
+            "id": "c2",
+            "title": "Ravi 2 Lakh",
+            "organizer": "Ravi",
+            "value": 300000,
+            "monthly": 8000,
+            "months": 25,
+            "date": 10,
+            "paidCount": 9,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          },
+          {
+            "id": "c_1785804642121",
+            "title": "Vasavi Templ 9L",
+            "organizer": "Suresh Janappa",
+            "value": 900000,
+            "monthly": 30000,
+            "months": 30,
+            "date": 15,
+            "paidCount": 10,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          },
+          {
+            "id": "c_1785804751971",
+            "title": "Vasavi Temple 9L",
+            "organizer": "Eshwar Glass",
+            "value": 900000,
+            "monthly": 30000,
+            "months": 30,
+            "date": 15,
+            "paidCount": 13,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          }
+        ],
+        "stocks": [
+          {
+            "id": "st_1785805256559",
+            "name": "AngelOne",
+            "category": "Direct Equity Portfolio",
+            "owner": "Self",
+            "broker": "AngelOne",
+            "monthlySip": 0,
+            "invested": 1065000,
+            "current": 1071000
+          },
+          {
+            "id": "st_1785805320140",
+            "name": "Angelone Mutual",
+            "category": "Mutual Fund Portfolio",
+            "owner": "Self",
+            "broker": "AngelOne",
+            "monthlySip": 5000,
+            "invested": 124994,
+            "current": 139775
+          },
+          {
+            "id": "st_1785805380040",
+            "name": "Angelone Equity",
+            "category": "Direct Equity Portfolio",
+            "owner": "Spouse",
+            "broker": "AngelOne",
+            "monthlySip": 0,
+            "invested": 441300,
+            "current": 441600
+          },
+          {
+            "id": "st_1785805436844",
+            "name": "Angelone Mutual",
+            "category": "Mutual Fund Portfolio",
+            "owner": "Spouse",
+            "broker": "AngelOne",
+            "monthlySip": 12000,
+            "invested": 292000,
+            "current": 314233
+          },
+          {
+            "id": "st_1785811131885",
+            "owner": "Spouse",
+            "broker": "Zerodha",
+            "category": "Direct Equity Portfolio",
+            "name": "Aaryan",
+            "monthlySip": 0,
+            "invested": 65000,
+            "current": 65000
+          }
+        ],
+        "fixedDeposits": [
+          {
+            "id": "fd1",
+            "bankName": "SSS Bank",
+            "owner": "Spouse",
+            "amount": 500000,
+            "interestRate": 10,
+            "depositDate": "2025-02-10",
+            "maturityDate": "2027-02-10",
+            "maturityAmount": 575000
+          },
+          {
+            "id": "fd2",
+            "bankName": "SSS Bank",
+            "owner": "Spouse",
+            "amount": 100000,
+            "interestRate": 10,
+            "depositDate": "2025-06-15",
+            "maturityDate": "2026-06-15",
+            "maturityAmount": 110000
+          },
+          {
+            "id": "fd_1785805770934",
+            "bankName": "One Card",
+            "owner": "Self",
+            "amount": 60561,
+            "interestRate": 7,
+            "depositDate": "2025-08-16",
+            "maturityDate": "2026-08-17",
+            "maturityAmount": 64950
+          }
+        ],
+        "cashAccounts": [
+          {
+            "id": "ca1",
+            "title": "Kotak Blr Savings Account (Primary)",
+            "type": "Bank Account",
+            "owner": "Self",
+            "amount": 120000
+          },
+          {
+            "id": "ca2",
+            "title": "Kotak pvg Savings Account",
+            "type": "Bank Account",
+            "owner": "Self",
+            "amount": 12000
+          },
+          {
+            "id": "ca3",
+            "title": "Home Locker Reserve Cash",
+            "type": "Home / Locker Cash",
+            "owner": "Self",
+            "amount": 1000000
+          }
+        ],
+        "expenses": [
+          {
+            "id": "e2",
+            "title": "Jio fibre",
+            "category": "recharges",
+            "amount": 1077,
+            "date": "Monthly",
+            "kid": null
+          },
+          {
+            "id": "e4",
+            "title": "NBIRS 1ST Term",
+            "category": "kids",
+            "amount": 45000,
+            "date": "15-May",
+            "kid": "Aaryan"
+          },
+          {
+            "id": "e6",
+            "title": "Atharv - school fee",
+            "category": "kids",
+            "amount": 30000,
+            "date": "10-Jun",
+            "kid": "Atharv"
+          },
+          {
+            "id": "exp_1785806824988",
+            "title": "I10",
+            "category": "general",
+            "amount": 80000,
+            "date": "2025",
+            "kid": null
+          },
+          {
+            "id": "exp_1785806851947",
+            "category": "general",
+            "title": "Alto",
+            "amount": 100000,
+            "date": "July",
+            "kid": null
+          }
+        ],
+        "employees": [
+          {
+            "id": "emp_1786361413321",
+            "name": "Sai",
+            "role": "Helper",
+            "salary": 11000,
+            "payDay": 9
+          },
+          {
+            "id": "emp_1786364657127",
+            "name": "Devaraj",
+            "role": "Helper",
+            "salary": 7000,
+            "payDay": 15
+          },
+          {
+            "id": "emp_1786364681523",
+            "name": "Narayana ",
+            "role": "Helper",
+            "salary": 10000,
+            "payDay": 10
+          },
+          {
+            "id": "emp_1786364698835",
+            "name": "Murthy",
+            "role": "Helper",
+            "salary": 11500,
+            "payDay": 1
+          }
+        ],
+        "lending": [
+          {
+            "id": "l2",
+            "title": "DAD",
+            "amount": 5500000,
+            "details": ""
+          }
+        ],
+        "liabilities": [],
+        "pigmies": [
+          {
+            "id": "pig1",
+            "title": "Sangam bank",
+            "agent": "Venumadav agent",
+            "dailyAmount": 2000,
+            "totalPaid": 317000,
+            "startDate": "2026-01-29",
+            "autoDaily": false
+          }
+        ],
+        "familyProfile": {
+          "selfName": "Arun",
+          "selfAge": "42",
+          "selfContact": "8105104599",
+          "spouseName": "Kavya",
+          "spouseAge": "37",
+          "spouseContact": "9620504256",
+          "kid1Name": "Aaryan",
+          "kid1Age": "12",
+          "kid2Name": "Atharv",
+          "kid2Age": "7"
+        },
+        "insurance": [
+          {
+            "id": "ins1",
+            "owner": "Self",
+            "type": "Life / Endowment",
+            "name": "ARUN - 708940104",
+            "company": "LIC Jeevan Labh",
+            "sumAssured": 1000000,
+            "premium": 55414,
+            "commenceDate": "2023-09-28",
+            "renewalDate": "2026-09-28",
+            "surrenderValue": 0,
+            "notes": ""
+          },
+          {
+            "id": "ins2",
+            "owner": "Self",
+            "type": "Life / Endowment",
+            "name": "Couple - 1W554658510",
+            "company": "SBI LIFE Smart Humsafar",
+            "sumAssured": 1200000,
+            "premium": 57348,
+            "commenceDate": "2026-06-17",
+            "renewalDate": "2027-07-14",
+            "surrenderValue": 0,
+            "notes": ""
+          },
+          {
+            "id": "ins_1785847338695",
+            "owner": "Joint",
+            "type": "Life / Endowment",
+            "name": "Atharv - 708966007",
+            "company": "LIC",
+            "sumAssured": 500000,
+            "premium": 27401,
+            "commenceDate": "2024-02-28",
+            "renewalDate": "2027-02-28",
+            "surrenderValue": 0,
+            "notes": ""
+          },
+          {
+            "id": "ins_1785848282213",
+            "owner": "Self",
+            "type": "Term Insurance",
+            "name": "ARUN - 80208549",
+            "company": "Kotak",
+            "sumAssured": 10000000,
+            "premium": 84600,
+            "commenceDate": "2026-03-12",
+            "renewalDate": "2027-03-12",
+            "surrenderValue": 84600,
+            "notes": ""
+          }
+        ],
+        "digitalDocs": [
+          {
+            "id": "doc1",
+            "title": "Self Aadhaar Card",
+            "category": "Aadhaar Card",
+            "holder": "Self",
+            "number": "381838155674",
+            "issueDate": "2015-04-10",
+            "expiryDate": "",
+            "notes": "Linked to mobile 8105104599"
+          },
+          {
+            "id": "doc2",
+            "title": "PAN",
+            "category": "PAN Card",
+            "holder": "Self",
+            "number": "AQCPA1597L",
+            "issueDate": "2016-08-12",
+            "expiryDate": "",
+            "notes": "Primary tax identification"
+          }
+        ]
+      }
+    },
+    {
+      "id": "auto_1786365249231",
+      "date": "10 Aug 2026, 6:04 pm (Auto)",
+      "netWorth": 10195769,
+      "assets": 10195769,
+      "liabilities": 0,
+      "state": {
+        "chits": [
+          {
+            "id": "c1",
+            "title": "Pavan Chits 5 Lakh",
+            "organizer": "Pavan",
+            "value": 500000,
+            "monthly": 25000,
+            "months": 20,
+            "date": 25,
+            "paidCount": 1,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          },
+          {
+            "id": "c2",
+            "title": "Ravi 2 Lakh",
+            "organizer": "Ravi",
+            "value": 300000,
+            "monthly": 8000,
+            "months": 25,
+            "date": 10,
+            "paidCount": 9,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          },
+          {
+            "id": "c_1785804642121",
+            "title": "Vasavi Templ 9L",
+            "organizer": "Suresh Janappa",
+            "value": 900000,
+            "monthly": 30000,
+            "months": 30,
+            "date": 15,
+            "paidCount": 10,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          },
+          {
+            "id": "c_1785804751971",
+            "title": "Vasavi Temple 9L",
+            "organizer": "Eshwar Glass",
+            "value": 900000,
+            "monthly": 30000,
+            "months": 30,
+            "date": 15,
+            "paidCount": 13,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          }
+        ],
+        "stocks": [
+          {
+            "id": "st_1785805256559",
+            "name": "AngelOne",
+            "category": "Direct Equity Portfolio",
+            "owner": "Self",
+            "broker": "AngelOne",
+            "monthlySip": 0,
+            "invested": 1065000,
+            "current": 1071000
+          },
+          {
+            "id": "st_1785805320140",
+            "name": "Angelone Mutual",
+            "category": "Mutual Fund Portfolio",
+            "owner": "Self",
+            "broker": "AngelOne",
+            "monthlySip": 5000,
+            "invested": 124994,
+            "current": 139775
+          },
+          {
+            "id": "st_1785805380040",
+            "name": "Angelone Equity",
+            "category": "Direct Equity Portfolio",
+            "owner": "Spouse",
+            "broker": "AngelOne",
+            "monthlySip": 0,
+            "invested": 441300,
+            "current": 441600
+          },
+          {
+            "id": "st_1785805436844",
+            "name": "Angelone Mutual",
+            "category": "Mutual Fund Portfolio",
+            "owner": "Spouse",
+            "broker": "AngelOne",
+            "monthlySip": 12000,
+            "invested": 292000,
+            "current": 314233
+          },
+          {
+            "id": "st_1785811131885",
+            "owner": "Spouse",
+            "broker": "Zerodha",
+            "category": "Direct Equity Portfolio",
+            "name": "Aaryan",
+            "monthlySip": 0,
+            "invested": 65000,
+            "current": 65000
+          }
+        ],
+        "fixedDeposits": [
+          {
+            "id": "fd1",
+            "bankName": "SSS Bank",
+            "owner": "Spouse",
+            "amount": 500000,
+            "interestRate": 10,
+            "depositDate": "2025-02-10",
+            "maturityDate": "2027-02-10",
+            "maturityAmount": 575000
+          },
+          {
+            "id": "fd2",
+            "bankName": "SSS Bank",
+            "owner": "Spouse",
+            "amount": 100000,
+            "interestRate": 10,
+            "depositDate": "2025-06-15",
+            "maturityDate": "2026-06-15",
+            "maturityAmount": 110000
+          },
+          {
+            "id": "fd_1785805770934",
+            "bankName": "One Card",
+            "owner": "Self",
+            "amount": 60561,
+            "interestRate": 7,
+            "depositDate": "2025-08-16",
+            "maturityDate": "2026-08-17",
+            "maturityAmount": 64950
+          }
+        ],
+        "cashAccounts": [
+          {
+            "id": "ca1",
+            "title": "Kotak Blr Savings Account (Primary)",
+            "type": "Bank Account",
+            "owner": "Self",
+            "amount": 120000
+          },
+          {
+            "id": "ca2",
+            "title": "Kotak pvg Savings Account",
+            "type": "Bank Account",
+            "owner": "Self",
+            "amount": 12000
+          },
+          {
+            "id": "ca3",
+            "title": "Home Locker Reserve Cash",
+            "type": "Home / Locker Cash",
+            "owner": "Self",
+            "amount": 1000000
+          }
+        ],
+        "expenses": [
+          {
+            "id": "e2",
+            "title": "Jio fibre",
+            "category": "recharges",
+            "amount": 1077,
+            "date": "Monthly",
+            "kid": null
+          },
+          {
+            "id": "e4",
+            "title": "NBIRS 1ST Term",
+            "category": "kids",
+            "amount": 45000,
+            "date": "15-May",
+            "kid": "Aaryan"
+          },
+          {
+            "id": "e6",
+            "title": "Atharv - school fee",
+            "category": "kids",
+            "amount": 30000,
+            "date": "10-Jun",
+            "kid": "Atharv"
+          },
+          {
+            "id": "exp_1785806824988",
+            "title": "I10",
+            "category": "general",
+            "amount": 80000,
+            "date": "2025",
+            "kid": null
+          },
+          {
+            "id": "exp_1785806851947",
+            "category": "general",
+            "title": "Alto",
+            "amount": 100000,
+            "date": "July",
+            "kid": null
+          }
+        ],
+        "employees": [
+          {
+            "id": "emp_1786361413321",
+            "name": "Sai",
+            "role": "Helper",
+            "salary": 11000,
+            "payDay": 9
+          },
+          {
+            "id": "emp_1786364657127",
+            "name": "Devaraj",
+            "role": "Helper",
+            "salary": 7000,
+            "payDay": 15
+          },
+          {
+            "id": "emp_1786364681523",
+            "name": "Narayana ",
+            "role": "Helper",
+            "salary": 10000,
+            "payDay": 10
+          },
+          {
+            "id": "emp_1786364698835",
+            "name": "Murthy",
+            "role": "Helper",
+            "salary": 11500,
+            "payDay": 1
+          }
+        ],
+        "lending": [
+          {
+            "id": "l2",
+            "title": "DAD",
+            "amount": 5500000,
+            "details": ""
+          }
+        ],
+        "liabilities": [],
+        "pigmies": [
+          {
+            "id": "pig1",
+            "title": "Sangam bank",
+            "agent": "Venumadav agent",
+            "dailyAmount": 2000,
+            "totalPaid": 317000,
+            "startDate": "2026-01-29",
+            "autoDaily": true
+          }
+        ],
+        "familyProfile": {
+          "selfName": "Arun",
+          "selfAge": "42",
+          "selfContact": "8105104599",
+          "spouseName": "Kavya",
+          "spouseAge": "37",
+          "spouseContact": "9620504256",
+          "kid1Name": "Aaryan",
+          "kid1Age": "12",
+          "kid2Name": "Atharv",
+          "kid2Age": "7"
+        },
+        "insurance": [
+          {
+            "id": "ins1",
+            "owner": "Self",
+            "type": "Life / Endowment",
+            "name": "ARUN - 708940104",
+            "company": "LIC Jeevan Labh",
+            "sumAssured": 1000000,
+            "premium": 55414,
+            "commenceDate": "2023-09-28",
+            "renewalDate": "2026-09-28",
+            "surrenderValue": 0,
+            "notes": ""
+          },
+          {
+            "id": "ins2",
+            "owner": "Self",
+            "type": "Life / Endowment",
+            "name": "Couple - 1W554658510",
+            "company": "SBI LIFE Smart Humsafar",
+            "sumAssured": 1200000,
+            "premium": 57348,
+            "commenceDate": "2026-06-17",
+            "renewalDate": "2027-07-14",
+            "surrenderValue": 0,
+            "notes": ""
+          },
+          {
+            "id": "ins_1785847338695",
+            "owner": "Joint",
+            "type": "Life / Endowment",
+            "name": "Atharv - 708966007",
+            "company": "LIC",
+            "sumAssured": 500000,
+            "premium": 27401,
+            "commenceDate": "2024-02-28",
+            "renewalDate": "2027-02-28",
+            "surrenderValue": 0,
+            "notes": ""
+          },
+          {
+            "id": "ins_1785848282213",
+            "owner": "Self",
+            "type": "Term Insurance",
+            "name": "ARUN - 80208549",
+            "company": "Kotak",
+            "sumAssured": 10000000,
+            "premium": 84600,
+            "commenceDate": "2026-03-12",
+            "renewalDate": "2027-03-12",
+            "surrenderValue": 84600,
+            "notes": ""
+          }
+        ],
+        "digitalDocs": [
+          {
+            "id": "doc1",
+            "title": "Self Aadhaar Card",
+            "category": "Aadhaar Card",
+            "holder": "Self",
+            "number": "381838155674",
+            "issueDate": "2015-04-10",
+            "expiryDate": "",
+            "notes": "Linked to mobile 8105104599"
+          },
+          {
+            "id": "doc2",
+            "title": "PAN",
+            "category": "PAN Card",
+            "holder": "Self",
+            "number": "AQCPA1597L",
+            "issueDate": "2016-08-12",
+            "expiryDate": "",
+            "notes": "Primary tax identification"
+          }
+        ]
+      }
+    },
+    {
+      "id": "auto_1786365241346",
+      "date": "10 Aug 2026, 6:04 pm (Auto)",
+      "netWorth": 10195769,
+      "assets": 10195769,
+      "liabilities": 0,
+      "state": {
+        "chits": [
+          {
+            "id": "c1",
+            "title": "Pavan Chits 5 Lakh",
+            "organizer": "Pavan",
+            "value": 500000,
+            "monthly": 25000,
+            "months": 20,
+            "date": 25,
+            "paidCount": 1,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          },
+          {
+            "id": "c2",
+            "title": "Ravi 2 Lakh",
+            "organizer": "Ravi",
+            "value": 300000,
+            "monthly": 8000,
+            "months": 25,
+            "date": 10,
+            "paidCount": 9,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          },
+          {
+            "id": "c_1785804642121",
+            "title": "Vasavi Templ 9L",
+            "organizer": "Suresh Janappa",
+            "value": 900000,
+            "monthly": 30000,
+            "months": 30,
+            "date": 15,
+            "paidCount": 10,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          },
+          {
+            "id": "c_1785804751971",
+            "title": "Vasavi Temple 9L",
+            "organizer": "Eshwar Glass",
+            "value": 900000,
+            "monthly": 30000,
+            "months": 30,
+            "date": 15,
+            "paidCount": 13,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          }
+        ],
+        "stocks": [
+          {
+            "id": "st_1785805256559",
+            "name": "AngelOne",
+            "category": "Direct Equity Portfolio",
+            "owner": "Self",
+            "broker": "AngelOne",
+            "monthlySip": 0,
+            "invested": 1065000,
+            "current": 1071000
+          },
+          {
+            "id": "st_1785805320140",
+            "name": "Angelone Mutual",
+            "category": "Mutual Fund Portfolio",
+            "owner": "Self",
+            "broker": "AngelOne",
+            "monthlySip": 5000,
+            "invested": 124994,
+            "current": 139775
+          },
+          {
+            "id": "st_1785805380040",
+            "name": "Angelone Equity",
+            "category": "Direct Equity Portfolio",
+            "owner": "Spouse",
+            "broker": "AngelOne",
+            "monthlySip": 0,
+            "invested": 441300,
+            "current": 441600
+          },
+          {
+            "id": "st_1785805436844",
+            "name": "Angelone Mutual",
+            "category": "Mutual Fund Portfolio",
+            "owner": "Spouse",
+            "broker": "AngelOne",
+            "monthlySip": 12000,
+            "invested": 292000,
+            "current": 314233
+          },
+          {
+            "id": "st_1785811131885",
+            "owner": "Spouse",
+            "broker": "Zerodha",
+            "category": "Direct Equity Portfolio",
+            "name": "Aaryan",
+            "monthlySip": 0,
+            "invested": 65000,
+            "current": 65000
+          }
+        ],
+        "fixedDeposits": [
+          {
+            "id": "fd1",
+            "bankName": "SSS Bank",
+            "owner": "Spouse",
+            "amount": 500000,
+            "interestRate": 10,
+            "depositDate": "2025-02-10",
+            "maturityDate": "2027-02-10",
+            "maturityAmount": 575000
+          },
+          {
+            "id": "fd2",
+            "bankName": "SSS Bank",
+            "owner": "Spouse",
+            "amount": 100000,
+            "interestRate": 10,
+            "depositDate": "2025-06-15",
+            "maturityDate": "2026-06-15",
+            "maturityAmount": 110000
+          },
+          {
+            "id": "fd_1785805770934",
+            "bankName": "One Card",
+            "owner": "Self",
+            "amount": 60561,
+            "interestRate": 7,
+            "depositDate": "2025-08-16",
+            "maturityDate": "2026-08-17",
+            "maturityAmount": 64950
+          }
+        ],
+        "cashAccounts": [
+          {
+            "id": "ca1",
+            "title": "Kotak Blr Savings Account (Primary)",
+            "type": "Bank Account",
+            "owner": "Self",
+            "amount": 120000
+          },
+          {
+            "id": "ca2",
+            "title": "Kotak pvg Savings Account",
+            "type": "Bank Account",
+            "owner": "Self",
+            "amount": 12000
+          },
+          {
+            "id": "ca3",
+            "title": "Home Locker Reserve Cash",
+            "type": "Home / Locker Cash",
+            "owner": "Self",
+            "amount": 1000000
+          }
+        ],
+        "expenses": [
+          {
+            "id": "e2",
+            "title": "Jio fibre",
+            "category": "recharges",
+            "amount": 1077,
+            "date": "Monthly",
+            "kid": null
+          },
+          {
+            "id": "e4",
+            "title": "NBIRS 1ST Term",
+            "category": "kids",
+            "amount": 45000,
+            "date": "15-May",
+            "kid": "Aaryan"
+          },
+          {
+            "id": "e6",
+            "title": "Atharv - school fee",
+            "category": "kids",
+            "amount": 30000,
+            "date": "10-Jun",
+            "kid": "Atharv"
+          },
+          {
+            "id": "exp_1785806824988",
+            "title": "I10",
+            "category": "general",
+            "amount": 80000,
+            "date": "2025",
+            "kid": null
+          },
+          {
+            "id": "exp_1785806851947",
+            "category": "general",
+            "title": "Alto",
+            "amount": 100000,
+            "date": "July",
+            "kid": null
+          }
+        ],
+        "employees": [
+          {
+            "id": "emp_1786361413321",
+            "name": "Sai",
+            "role": "Helper",
+            "salary": 11000,
+            "payDay": 9
+          },
+          {
+            "id": "emp_1786364657127",
+            "name": "Devaraj",
+            "role": "Helper",
+            "salary": 7000,
+            "payDay": 15
+          },
+          {
+            "id": "emp_1786364681523",
+            "name": "Narayana ",
+            "role": "Helper",
+            "salary": 10000,
+            "payDay": 10
+          },
+          {
+            "id": "emp_1786364698835",
+            "name": "Murthy",
+            "role": "Helper",
+            "salary": 11500,
+            "payDay": 1
+          }
+        ],
+        "lending": [
+          {
+            "id": "l2",
+            "title": "DAD",
+            "amount": 5500000,
+            "details": ""
+          }
+        ],
+        "liabilities": [],
+        "pigmies": [
+          {
+            "id": "pig1",
+            "title": "Sangam bank",
+            "agent": "Venumadav agent",
+            "dailyAmount": 2000,
+            "totalPaid": 317000,
+            "startDate": "2026-01-29",
+            "autoDaily": false
+          }
+        ],
+        "familyProfile": {
+          "selfName": "Arun",
+          "selfAge": "42",
+          "selfContact": "8105104599",
+          "spouseName": "Kavya",
+          "spouseAge": "37",
+          "spouseContact": "9620504256",
+          "kid1Name": "Aaryan",
+          "kid1Age": "12",
+          "kid2Name": "Atharv",
+          "kid2Age": "7"
+        },
+        "insurance": [
+          {
+            "id": "ins1",
+            "owner": "Self",
+            "type": "Life / Endowment",
+            "name": "ARUN - 708940104",
+            "company": "LIC Jeevan Labh",
+            "sumAssured": 1000000,
+            "premium": 55414,
+            "commenceDate": "2023-09-28",
+            "renewalDate": "2026-09-28",
+            "surrenderValue": 0,
+            "notes": ""
+          },
+          {
+            "id": "ins2",
+            "owner": "Self",
+            "type": "Life / Endowment",
+            "name": "Couple - 1W554658510",
+            "company": "SBI LIFE Smart Humsafar",
+            "sumAssured": 1200000,
+            "premium": 57348,
+            "commenceDate": "2026-06-17",
+            "renewalDate": "2027-07-14",
+            "surrenderValue": 0,
+            "notes": ""
+          },
+          {
+            "id": "ins_1785847338695",
+            "owner": "Joint",
+            "type": "Life / Endowment",
+            "name": "Atharv - 708966007",
+            "company": "LIC",
+            "sumAssured": 500000,
+            "premium": 27401,
+            "commenceDate": "2024-02-28",
+            "renewalDate": "2027-02-28",
+            "surrenderValue": 0,
+            "notes": ""
+          },
+          {
+            "id": "ins_1785848282213",
+            "owner": "Self",
+            "type": "Term Insurance",
+            "name": "ARUN - 80208549",
+            "company": "Kotak",
+            "sumAssured": 10000000,
+            "premium": 84600,
+            "commenceDate": "2026-03-12",
+            "renewalDate": "2027-03-12",
+            "surrenderValue": 84600,
+            "notes": ""
+          }
+        ],
+        "digitalDocs": [
+          {
+            "id": "doc1",
+            "title": "Self Aadhaar Card",
+            "category": "Aadhaar Card",
+            "holder": "Self",
+            "number": "381838155674",
+            "issueDate": "2015-04-10",
+            "expiryDate": "",
+            "notes": "Linked to mobile 8105104599"
+          },
+          {
+            "id": "doc2",
+            "title": "PAN",
+            "category": "PAN Card",
+            "holder": "Self",
+            "number": "AQCPA1597L",
+            "issueDate": "2016-08-12",
+            "expiryDate": "",
+            "notes": "Primary tax identification"
+          }
+        ]
+      }
+    },
+    {
+      "id": "auto_1786365216019",
+      "date": "10 Aug 2026, 6:03 pm (Auto)",
+      "netWorth": 10195769,
+      "assets": 10195769,
+      "liabilities": 0,
+      "state": {
+        "chits": [
+          {
+            "id": "c1",
+            "title": "Pavan Chits 5 Lakh",
+            "organizer": "Pavan",
+            "value": 500000,
+            "monthly": 25000,
+            "months": 20,
+            "date": 25,
+            "paidCount": 1,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          },
+          {
+            "id": "c2",
+            "title": "Ravi 2 Lakh",
+            "organizer": "Ravi",
+            "value": 300000,
+            "monthly": 8000,
+            "months": 25,
+            "date": 10,
+            "paidCount": 9,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          },
+          {
+            "id": "c_1785804642121",
+            "title": "Vasavi Templ 9L",
+            "organizer": "Suresh Janappa",
+            "value": 900000,
+            "monthly": 30000,
+            "months": 30,
+            "date": 15,
+            "paidCount": 10,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          },
+          {
+            "id": "c_1785804751971",
+            "title": "Vasavi Temple 9L",
+            "organizer": "Eshwar Glass",
+            "value": 900000,
+            "monthly": 30000,
+            "months": 30,
+            "date": 15,
+            "paidCount": 13,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          }
+        ],
+        "stocks": [
+          {
+            "id": "st_1785805256559",
+            "name": "AngelOne",
+            "category": "Direct Equity Portfolio",
+            "owner": "Self",
+            "broker": "AngelOne",
+            "monthlySip": 0,
+            "invested": 1065000,
+            "current": 1071000
+          },
+          {
+            "id": "st_1785805320140",
+            "name": "Angelone Mutual",
+            "category": "Mutual Fund Portfolio",
+            "owner": "Self",
+            "broker": "AngelOne",
+            "monthlySip": 5000,
+            "invested": 124994,
+            "current": 139775
+          },
+          {
+            "id": "st_1785805380040",
+            "name": "Angelone Equity",
+            "category": "Direct Equity Portfolio",
+            "owner": "Spouse",
+            "broker": "AngelOne",
+            "monthlySip": 0,
+            "invested": 441300,
+            "current": 441600
+          },
+          {
+            "id": "st_1785805436844",
+            "name": "Angelone Mutual",
+            "category": "Mutual Fund Portfolio",
+            "owner": "Spouse",
+            "broker": "AngelOne",
+            "monthlySip": 12000,
+            "invested": 292000,
+            "current": 314233
+          },
+          {
+            "id": "st_1785811131885",
+            "owner": "Spouse",
+            "broker": "Zerodha",
+            "category": "Direct Equity Portfolio",
+            "name": "Aaryan",
+            "monthlySip": 0,
+            "invested": 65000,
+            "current": 65000
+          }
+        ],
+        "fixedDeposits": [
+          {
+            "id": "fd1",
+            "bankName": "SSS Bank",
+            "owner": "Spouse",
+            "amount": 500000,
+            "interestRate": 10,
+            "depositDate": "2025-02-10",
+            "maturityDate": "2027-02-10",
+            "maturityAmount": 575000
+          },
+          {
+            "id": "fd2",
+            "bankName": "SSS Bank",
+            "owner": "Spouse",
+            "amount": 100000,
+            "interestRate": 10,
+            "depositDate": "2025-06-15",
+            "maturityDate": "2026-06-15",
+            "maturityAmount": 110000
+          },
+          {
+            "id": "fd_1785805770934",
+            "bankName": "One Card",
+            "owner": "Self",
+            "amount": 60561,
+            "interestRate": 7,
+            "depositDate": "2025-08-16",
+            "maturityDate": "2026-08-17",
+            "maturityAmount": 64950
+          }
+        ],
+        "cashAccounts": [
+          {
+            "id": "ca1",
+            "title": "Kotak Blr Savings Account (Primary)",
+            "type": "Bank Account",
+            "owner": "Self",
+            "amount": 120000
+          },
+          {
+            "id": "ca2",
+            "title": "Kotak pvg Savings Account",
+            "type": "Bank Account",
+            "owner": "Self",
+            "amount": 12000
+          },
+          {
+            "id": "ca3",
+            "title": "Home Locker Reserve Cash",
+            "type": "Home / Locker Cash",
+            "owner": "Self",
+            "amount": 1000000
+          }
+        ],
+        "expenses": [
+          {
+            "id": "e2",
+            "title": "Jio fibre",
+            "category": "recharges",
+            "amount": 1077,
+            "date": "Monthly",
+            "kid": null
+          },
+          {
+            "id": "e4",
+            "title": "NBIRS 1ST Term",
+            "category": "kids",
+            "amount": 45000,
+            "date": "15-May",
+            "kid": "Aaryan"
+          },
+          {
+            "id": "e6",
+            "title": "Atharv - school fee",
+            "category": "kids",
+            "amount": 30000,
+            "date": "10-Jun",
+            "kid": "Atharv"
+          },
+          {
+            "id": "exp_1785806824988",
+            "title": "I10",
+            "category": "general",
+            "amount": 80000,
+            "date": "2025",
+            "kid": null
+          },
+          {
+            "id": "exp_1785806851947",
+            "category": "general",
+            "title": "Alto",
+            "amount": 100000,
+            "date": "July",
+            "kid": null
+          }
+        ],
+        "employees": [
+          {
+            "id": "emp_1786361413321",
+            "name": "Sai",
+            "role": "Helper",
+            "salary": 11000,
+            "payDay": 9
+          },
+          {
+            "id": "emp_1786364657127",
+            "name": "Devaraj",
+            "role": "Helper",
+            "salary": 7000,
+            "payDay": 15
+          },
+          {
+            "id": "emp_1786364681523",
+            "name": "Narayana ",
+            "role": "Helper",
+            "salary": 10000,
+            "payDay": 10
+          },
+          {
+            "id": "emp_1786364698835",
+            "name": "Murthy",
+            "role": "Helper",
+            "salary": 11500,
+            "payDay": 1
+          }
+        ],
+        "lending": [
+          {
+            "id": "l2",
+            "title": "DAD",
+            "amount": 5500000,
+            "details": ""
+          }
+        ],
+        "liabilities": [],
+        "pigmies": [
+          {
+            "id": "pig1",
+            "title": "Sangam bank",
+            "agent": "Venumadav agent",
+            "dailyAmount": 2000,
+            "totalPaid": 317000,
+            "startDate": "2026-01-29",
+            "autoDaily": true
+          }
+        ],
+        "familyProfile": {
+          "selfName": "Arun",
+          "selfAge": "42",
+          "selfContact": "8105104599",
+          "spouseName": "Kavya",
+          "spouseAge": "37",
+          "spouseContact": "9620504256",
+          "kid1Name": "Aaryan",
+          "kid1Age": "12",
+          "kid2Name": "Atharv",
+          "kid2Age": "7"
+        },
+        "insurance": [
+          {
+            "id": "ins1",
+            "owner": "Self",
+            "type": "Life / Endowment",
+            "name": "ARUN - 708940104",
+            "company": "LIC Jeevan Labh",
+            "sumAssured": 1000000,
+            "premium": 55414,
+            "commenceDate": "2023-09-28",
+            "renewalDate": "2026-09-28",
+            "surrenderValue": 0,
+            "notes": ""
+          },
+          {
+            "id": "ins2",
+            "owner": "Self",
+            "type": "Life / Endowment",
+            "name": "Couple - 1W554658510",
+            "company": "SBI LIFE Smart Humsafar",
+            "sumAssured": 1200000,
+            "premium": 57348,
+            "commenceDate": "2026-06-17",
+            "renewalDate": "2027-07-14",
+            "surrenderValue": 0,
+            "notes": ""
+          },
+          {
+            "id": "ins_1785847338695",
+            "owner": "Joint",
+            "type": "Life / Endowment",
+            "name": "Atharv - 708966007",
+            "company": "LIC",
+            "sumAssured": 500000,
+            "premium": 27401,
+            "commenceDate": "2024-02-28",
+            "renewalDate": "2027-02-28",
+            "surrenderValue": 0,
+            "notes": ""
+          },
+          {
+            "id": "ins_1785848282213",
+            "owner": "Self",
+            "type": "Term Insurance",
+            "name": "ARUN - 80208549",
+            "company": "Kotak",
+            "sumAssured": 10000000,
+            "premium": 84600,
+            "commenceDate": "2026-03-12",
+            "renewalDate": "2027-03-12",
+            "surrenderValue": 84600,
+            "notes": ""
+          }
+        ],
+        "digitalDocs": [
+          {
+            "id": "doc1",
+            "title": "Self Aadhaar Card",
+            "category": "Aadhaar Card",
+            "holder": "Self",
+            "number": "381838155674",
+            "issueDate": "2015-04-10",
+            "expiryDate": "",
+            "notes": "Linked to mobile 8105104599"
+          },
+          {
+            "id": "doc2",
+            "title": "PAN",
+            "category": "PAN Card",
+            "holder": "Self",
+            "number": "AQCPA1597L",
+            "issueDate": "2016-08-12",
+            "expiryDate": "",
+            "notes": "Primary tax identification"
+          }
+        ]
+      }
+    },
+    {
+      "id": "auto_1786365198410",
+      "date": "10 Aug 2026, 6:03 pm (Auto)",
+      "netWorth": 10195769,
+      "assets": 10195769,
+      "liabilities": 0,
+      "state": {
+        "chits": [
+          {
+            "id": "c1",
+            "title": "Pavan Chits 5 Lakh",
+            "organizer": "Pavan",
+            "value": 500000,
+            "monthly": 25000,
+            "months": 20,
+            "date": 25,
+            "paidCount": 1,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          },
+          {
+            "id": "c2",
+            "title": "Ravi 2 Lakh",
+            "organizer": "Ravi",
+            "value": 300000,
+            "monthly": 8000,
+            "months": 25,
+            "date": 10,
+            "paidCount": 9,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          },
+          {
+            "id": "c_1785804642121",
+            "title": "Vasavi Templ 9L",
+            "organizer": "Suresh Janappa",
+            "value": 900000,
+            "monthly": 30000,
+            "months": 30,
+            "date": 15,
+            "paidCount": 10,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          },
+          {
+            "id": "c_1785804751971",
+            "title": "Vasavi Temple 9L",
+            "organizer": "Eshwar Glass",
+            "value": 900000,
+            "monthly": 30000,
+            "months": 30,
+            "date": 15,
+            "paidCount": 13,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          }
+        ],
+        "stocks": [
+          {
+            "id": "st_1785805256559",
+            "name": "AngelOne",
+            "category": "Direct Equity Portfolio",
+            "owner": "Self",
+            "broker": "AngelOne",
+            "monthlySip": 0,
+            "invested": 1065000,
+            "current": 1071000
+          },
+          {
+            "id": "st_1785805320140",
+            "name": "Angelone Mutual",
+            "category": "Mutual Fund Portfolio",
+            "owner": "Self",
+            "broker": "AngelOne",
+            "monthlySip": 5000,
+            "invested": 124994,
+            "current": 139775
+          },
+          {
+            "id": "st_1785805380040",
+            "name": "Angelone Equity",
+            "category": "Direct Equity Portfolio",
+            "owner": "Spouse",
+            "broker": "AngelOne",
+            "monthlySip": 0,
+            "invested": 441300,
+            "current": 441600
+          },
+          {
+            "id": "st_1785805436844",
+            "name": "Angelone Mutual",
+            "category": "Mutual Fund Portfolio",
+            "owner": "Spouse",
+            "broker": "AngelOne",
+            "monthlySip": 12000,
+            "invested": 292000,
+            "current": 314233
+          },
+          {
+            "id": "st_1785811131885",
+            "owner": "Spouse",
+            "broker": "Zerodha",
+            "category": "Direct Equity Portfolio",
+            "name": "Aaryan",
+            "monthlySip": 0,
+            "invested": 65000,
+            "current": 65000
+          }
+        ],
+        "fixedDeposits": [
+          {
+            "id": "fd1",
+            "bankName": "SSS Bank",
+            "owner": "Spouse",
+            "amount": 500000,
+            "interestRate": 10,
+            "depositDate": "2025-02-10",
+            "maturityDate": "2027-02-10",
+            "maturityAmount": 575000
+          },
+          {
+            "id": "fd2",
+            "bankName": "SSS Bank",
+            "owner": "Spouse",
+            "amount": 100000,
+            "interestRate": 10,
+            "depositDate": "2025-06-15",
+            "maturityDate": "2026-06-15",
+            "maturityAmount": 110000
+          },
+          {
+            "id": "fd_1785805770934",
+            "bankName": "One Card",
+            "owner": "Self",
+            "amount": 60561,
+            "interestRate": 7,
+            "depositDate": "2025-08-16",
+            "maturityDate": "2026-08-17",
+            "maturityAmount": 64950
+          }
+        ],
+        "cashAccounts": [
+          {
+            "id": "ca1",
+            "title": "Kotak Blr Savings Account (Primary)",
+            "type": "Bank Account",
+            "owner": "Self",
+            "amount": 120000
+          },
+          {
+            "id": "ca2",
+            "title": "Kotak pvg Savings Account",
+            "type": "Bank Account",
+            "owner": "Self",
+            "amount": 12000
+          },
+          {
+            "id": "ca3",
+            "title": "Home Locker Reserve Cash",
+            "type": "Home / Locker Cash",
+            "owner": "Self",
+            "amount": 1000000
+          }
+        ],
+        "expenses": [
+          {
+            "id": "e2",
+            "title": "Jio fibre",
+            "category": "recharges",
+            "amount": 1077,
+            "date": "Monthly",
+            "kid": null
+          },
+          {
+            "id": "e4",
+            "title": "NBIRS 1ST Term",
+            "category": "kids",
+            "amount": 45000,
+            "date": "15-May",
+            "kid": "Aaryan"
+          },
+          {
+            "id": "e6",
+            "title": "Atharv - school fee",
+            "category": "kids",
+            "amount": 30000,
+            "date": "10-Jun",
+            "kid": "Atharv"
+          },
+          {
+            "id": "exp_1785806824988",
+            "title": "I10",
+            "category": "general",
+            "amount": 80000,
+            "date": "2025",
+            "kid": null
+          },
+          {
+            "id": "exp_1785806851947",
+            "category": "general",
+            "title": "Alto",
+            "amount": 100000,
+            "date": "July",
+            "kid": null
+          }
+        ],
+        "employees": [
+          {
+            "id": "emp_1786361413321",
+            "name": "Sai",
+            "role": "Helper",
+            "salary": 11000,
+            "payDay": 9
+          },
+          {
+            "id": "emp_1786364657127",
+            "name": "Devaraj",
+            "role": "Helper",
+            "salary": 7000,
+            "payDay": 15
+          },
+          {
+            "id": "emp_1786364681523",
+            "name": "Narayana ",
+            "role": "Helper",
+            "salary": 10000,
+            "payDay": 10
+          },
+          {
+            "id": "emp_1786364698835",
+            "name": "Murthy",
+            "role": "Helper",
+            "salary": 11500,
+            "payDay": 1
+          }
+        ],
+        "lending": [
+          {
+            "id": "l2",
+            "title": "DAD",
+            "amount": 5500000,
+            "details": ""
+          }
+        ],
+        "liabilities": [],
+        "pigmies": [
+          {
+            "id": "pig1",
+            "title": "Sangam bank",
+            "agent": "Venumadav agent",
+            "dailyAmount": 2000,
+            "totalPaid": 311000,
+            "startDate": "2026-01-29",
+            "autoDaily": true
+          }
+        ],
+        "familyProfile": {
+          "selfName": "Arun",
+          "selfAge": "42",
+          "selfContact": "8105104599",
+          "spouseName": "Kavya",
+          "spouseAge": "37",
+          "spouseContact": "9620504256",
+          "kid1Name": "Aaryan",
+          "kid1Age": "12",
+          "kid2Name": "Atharv",
+          "kid2Age": "7"
+        },
+        "insurance": [
+          {
+            "id": "ins1",
+            "owner": "Self",
+            "type": "Life / Endowment",
+            "name": "ARUN - 708940104",
+            "company": "LIC Jeevan Labh",
+            "sumAssured": 1000000,
+            "premium": 55414,
+            "commenceDate": "2023-09-28",
+            "renewalDate": "2026-09-28",
+            "surrenderValue": 0,
+            "notes": ""
+          },
+          {
+            "id": "ins2",
+            "owner": "Self",
+            "type": "Life / Endowment",
+            "name": "Couple - 1W554658510",
+            "company": "SBI LIFE Smart Humsafar",
+            "sumAssured": 1200000,
+            "premium": 57348,
+            "commenceDate": "2026-06-17",
+            "renewalDate": "2027-07-14",
+            "surrenderValue": 0,
+            "notes": ""
+          },
+          {
+            "id": "ins_1785847338695",
+            "owner": "Joint",
+            "type": "Life / Endowment",
+            "name": "Atharv - 708966007",
+            "company": "LIC",
+            "sumAssured": 500000,
+            "premium": 27401,
+            "commenceDate": "2024-02-28",
+            "renewalDate": "2027-02-28",
+            "surrenderValue": 0,
+            "notes": ""
+          },
+          {
+            "id": "ins_1785848282213",
+            "owner": "Self",
+            "type": "Term Insurance",
+            "name": "ARUN - 80208549",
+            "company": "Kotak",
+            "sumAssured": 10000000,
+            "premium": 84600,
+            "commenceDate": "2026-03-12",
+            "renewalDate": "2027-03-12",
+            "surrenderValue": 84600,
+            "notes": ""
+          }
+        ],
+        "digitalDocs": [
+          {
+            "id": "doc1",
+            "title": "Self Aadhaar Card",
+            "category": "Aadhaar Card",
+            "holder": "Self",
+            "number": "381838155674",
+            "issueDate": "2015-04-10",
+            "expiryDate": "",
+            "notes": "Linked to mobile 8105104599"
+          },
+          {
+            "id": "doc2",
+            "title": "PAN",
+            "category": "PAN Card",
+            "holder": "Self",
+            "number": "AQCPA1597L",
+            "issueDate": "2016-08-12",
+            "expiryDate": "",
+            "notes": "Primary tax identification"
+          }
+        ]
+      }
+    },
+    {
+      "id": "auto_1786364817614",
+      "date": "10 Aug 2026, 5:56 pm (Auto)",
+      "netWorth": 10195769,
+      "assets": 10195769,
+      "liabilities": 0,
+      "state": {
+        "chits": [
+          {
+            "id": "c1",
+            "title": "Pavan Chits 5 Lakh",
+            "organizer": "Pavan",
+            "value": 500000,
+            "monthly": 25000,
+            "months": 20,
+            "date": 25,
+            "paidCount": 1,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          },
+          {
+            "id": "c2",
+            "title": "Ravi 2 Lakh",
+            "organizer": "Ravi",
+            "value": 300000,
+            "monthly": 8000,
+            "months": 25,
+            "date": 10,
+            "paidCount": 9,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          },
+          {
+            "id": "c_1785804642121",
+            "title": "Vasavi Templ 9L",
+            "organizer": "Suresh Janappa",
+            "value": 900000,
+            "monthly": 30000,
+            "months": 30,
+            "date": 15,
+            "paidCount": 10,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          },
+          {
+            "id": "c_1785804751971",
+            "title": "Vasavi Temple 9L",
+            "organizer": "Eshwar Glass",
+            "value": 900000,
+            "monthly": 30000,
+            "months": 30,
+            "date": 15,
+            "paidCount": 13,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          }
+        ],
+        "stocks": [
+          {
+            "id": "st_1785805256559",
+            "name": "AngelOne",
+            "category": "Direct Equity Portfolio",
+            "owner": "Self",
+            "broker": "AngelOne",
+            "monthlySip": 0,
+            "invested": 1065000,
+            "current": 1071000
+          },
+          {
+            "id": "st_1785805320140",
+            "name": "Angelone Mutual",
+            "category": "Mutual Fund Portfolio",
+            "owner": "Self",
+            "broker": "AngelOne",
+            "monthlySip": 5000,
+            "invested": 124994,
+            "current": 139775
+          },
+          {
+            "id": "st_1785805380040",
+            "name": "Angelone Equity",
+            "category": "Direct Equity Portfolio",
+            "owner": "Spouse",
+            "broker": "AngelOne",
+            "monthlySip": 0,
+            "invested": 441300,
+            "current": 441600
+          },
+          {
+            "id": "st_1785805436844",
+            "name": "Angelone Mutual",
+            "category": "Mutual Fund Portfolio",
+            "owner": "Spouse",
+            "broker": "AngelOne",
+            "monthlySip": 12000,
+            "invested": 292000,
+            "current": 314233
+          },
+          {
+            "id": "st_1785811131885",
+            "owner": "Spouse",
+            "broker": "Zerodha",
+            "category": "Direct Equity Portfolio",
+            "name": "Aaryan",
+            "monthlySip": 0,
+            "invested": 65000,
+            "current": 65000
+          }
+        ],
+        "fixedDeposits": [
+          {
+            "id": "fd1",
+            "bankName": "SSS Bank",
+            "owner": "Spouse",
+            "amount": 500000,
+            "interestRate": 10,
+            "depositDate": "2025-02-10",
+            "maturityDate": "2027-02-10",
+            "maturityAmount": 575000
+          },
+          {
+            "id": "fd2",
+            "bankName": "SSS Bank",
+            "owner": "Spouse",
+            "amount": 100000,
+            "interestRate": 10,
+            "depositDate": "2025-06-15",
+            "maturityDate": "2026-06-15",
+            "maturityAmount": 110000
+          },
+          {
+            "id": "fd_1785805770934",
+            "bankName": "One Card",
+            "owner": "Self",
+            "amount": 60561,
+            "interestRate": 7,
+            "depositDate": "2025-08-16",
+            "maturityDate": "2026-08-17",
+            "maturityAmount": 64950
+          }
+        ],
+        "cashAccounts": [
+          {
+            "id": "ca1",
+            "title": "Kotak Blr Savings Account (Primary)",
+            "type": "Bank Account",
+            "owner": "Self",
+            "amount": 120000
+          },
+          {
+            "id": "ca2",
+            "title": "Kotak pvg Savings Account",
+            "type": "Bank Account",
+            "owner": "Self",
+            "amount": 12000
+          },
+          {
+            "id": "ca3",
+            "title": "Home Locker Reserve Cash",
+            "type": "Home / Locker Cash",
+            "owner": "Self",
+            "amount": 1000000
+          }
+        ],
+        "expenses": [
+          {
+            "id": "e2",
+            "title": "Jio fibre",
+            "category": "recharges",
+            "amount": 1077,
+            "date": "Monthly",
+            "kid": null
+          },
+          {
+            "id": "e4",
+            "title": "NBIRS 1ST Term",
+            "category": "kids",
+            "amount": 45000,
+            "date": "15-May",
+            "kid": "Aaryan"
+          },
+          {
+            "id": "e6",
+            "title": "Atharv - school fee",
+            "category": "kids",
+            "amount": 30000,
+            "date": "10-Jun",
+            "kid": "Atharv"
+          },
+          {
+            "id": "exp_1785806824988",
+            "title": "I10",
+            "category": "general",
+            "amount": 80000,
+            "date": "2025",
+            "kid": null
+          },
+          {
+            "id": "exp_1785806851947",
+            "category": "general",
+            "title": "Alto",
+            "amount": 100000,
+            "date": "July",
+            "kid": null
+          }
+        ],
+        "employees": [
+          {
+            "id": "emp_1786361413321",
+            "name": "Sai",
+            "role": "Helper",
+            "salary": 11000,
+            "payDay": 9
+          },
+          {
+            "id": "emp_1786364657127",
+            "name": "Devaraj",
+            "role": "Helper",
+            "salary": 7000,
+            "payDay": 15
+          },
+          {
+            "id": "emp_1786364681523",
+            "name": "Narayana ",
+            "role": "Helper",
+            "salary": 10000,
+            "payDay": 10
+          },
+          {
+            "id": "emp_1786364698835",
+            "name": "Murthy",
+            "role": "Helper",
+            "salary": 11500,
+            "payDay": 1
+          }
+        ],
+        "lending": [
+          {
+            "id": "l2",
+            "title": "DAD",
+            "amount": 5500000,
+            "details": ""
+          }
+        ],
+        "liabilities": [],
+        "pigmies": [
+          {
+            "id": "pig1",
+            "title": "Sangam bank",
+            "agent": "Venumadav agent",
+            "dailyAmount": 2000,
+            "totalPaid": 311000,
+            "startDate": "2026-08-04"
+          }
+        ],
+        "familyProfile": {
+          "selfName": "Arun",
+          "selfAge": "42",
+          "selfContact": "8105104599",
+          "spouseName": "Kavya",
+          "spouseAge": "37",
+          "spouseContact": "9620504256",
+          "kid1Name": "Aaryan",
+          "kid1Age": "12",
+          "kid2Name": "Atharv",
+          "kid2Age": "7"
+        },
+        "insurance": [
+          {
+            "id": "ins1",
+            "owner": "Self",
+            "type": "Life / Endowment",
+            "name": "ARUN - 708940104",
+            "company": "LIC Jeevan Labh",
+            "sumAssured": 1000000,
+            "premium": 55414,
+            "commenceDate": "2023-09-28",
+            "renewalDate": "2026-09-28",
+            "surrenderValue": 0,
+            "notes": ""
+          },
+          {
+            "id": "ins2",
+            "owner": "Self",
+            "type": "Life / Endowment",
+            "name": "Couple - 1W554658510",
+            "company": "SBI LIFE Smart Humsafar",
+            "sumAssured": 1200000,
+            "premium": 57348,
+            "commenceDate": "2026-06-17",
+            "renewalDate": "2027-07-14",
+            "surrenderValue": 0,
+            "notes": ""
+          },
+          {
+            "id": "ins_1785847338695",
+            "owner": "Joint",
+            "type": "Life / Endowment",
+            "name": "Atharv - 708966007",
+            "company": "LIC",
+            "sumAssured": 500000,
+            "premium": 27401,
+            "commenceDate": "2024-02-28",
+            "renewalDate": "2027-02-28",
+            "surrenderValue": 0,
+            "notes": ""
+          },
+          {
+            "id": "ins_1785848282213",
+            "owner": "Self",
+            "type": "Term Insurance",
+            "name": "ARUN - 80208549",
+            "company": "Kotak",
+            "sumAssured": 10000000,
+            "premium": 84600,
+            "commenceDate": "2026-03-12",
+            "renewalDate": "2027-03-12",
+            "surrenderValue": 84600,
+            "notes": ""
+          }
+        ],
+        "digitalDocs": [
+          {
+            "id": "doc1",
+            "title": "Self Aadhaar Card",
+            "category": "Aadhaar Card",
+            "holder": "Self",
+            "number": "381838155674",
+            "issueDate": "2015-04-10",
+            "expiryDate": "",
+            "notes": "Linked to mobile 8105104599"
+          },
+          {
+            "id": "doc2",
+            "title": "PAN",
+            "category": "PAN Card",
+            "holder": "Self",
+            "number": "AQCPA1597L",
+            "issueDate": "2016-08-12",
+            "expiryDate": "",
+            "notes": "Primary tax identification"
+          }
+        ]
+      }
+    },
+    {
+      "id": "auto_1786364698844",
+      "date": "10 Aug 2026, 5:54 pm (Auto)",
+      "netWorth": 10195769,
+      "assets": 10195769,
+      "liabilities": 0,
+      "state": {
+        "chits": [
+          {
+            "id": "c1",
+            "title": "Pavan Chits 5 Lakh",
+            "organizer": "Pavan",
+            "value": 500000,
+            "monthly": 25000,
+            "months": 20,
+            "date": 25,
+            "paidCount": 1,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          },
+          {
+            "id": "c2",
+            "title": "Ravi 2 Lakh",
+            "organizer": "Ravi",
+            "value": 300000,
+            "monthly": 8000,
+            "months": 25,
+            "date": 10,
+            "paidCount": 9,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          },
+          {
+            "id": "c_1785804642121",
+            "title": "Vasavi Templ 9L",
+            "organizer": "Suresh Janappa",
+            "value": 900000,
+            "monthly": 30000,
+            "months": 30,
+            "date": 15,
+            "paidCount": 10,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          },
+          {
+            "id": "c_1785804751971",
+            "title": "Vasavi Temple 9L",
+            "organizer": "Eshwar Glass",
+            "value": 900000,
+            "monthly": 30000,
+            "months": 30,
+            "date": 15,
+            "paidCount": 13,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          }
+        ],
+        "stocks": [
+          {
+            "id": "st_1785805256559",
+            "name": "AngelOne",
+            "category": "Direct Equity Portfolio",
+            "owner": "Self",
+            "broker": "AngelOne",
+            "monthlySip": 0,
+            "invested": 1065000,
+            "current": 1071000
+          },
+          {
+            "id": "st_1785805320140",
+            "name": "Angelone Mutual",
+            "category": "Mutual Fund Portfolio",
+            "owner": "Self",
+            "broker": "AngelOne",
+            "monthlySip": 5000,
+            "invested": 124994,
+            "current": 139775
+          },
+          {
+            "id": "st_1785805380040",
+            "name": "Angelone Equity",
+            "category": "Direct Equity Portfolio",
+            "owner": "Spouse",
+            "broker": "AngelOne",
+            "monthlySip": 0,
+            "invested": 441300,
+            "current": 441600
+          },
+          {
+            "id": "st_1785805436844",
+            "name": "Angelone Mutual",
+            "category": "Mutual Fund Portfolio",
+            "owner": "Spouse",
+            "broker": "AngelOne",
+            "monthlySip": 12000,
+            "invested": 292000,
+            "current": 314233
+          },
+          {
+            "id": "st_1785811131885",
+            "owner": "Spouse",
+            "broker": "Zerodha",
+            "category": "Direct Equity Portfolio",
+            "name": "Aaryan",
+            "monthlySip": 0,
+            "invested": 65000,
+            "current": 65000
+          }
+        ],
+        "fixedDeposits": [
+          {
+            "id": "fd1",
+            "bankName": "SSS Bank",
+            "owner": "Spouse",
+            "amount": 500000,
+            "interestRate": 10,
+            "depositDate": "2025-02-10",
+            "maturityDate": "2027-02-10",
+            "maturityAmount": 575000
+          },
+          {
+            "id": "fd2",
+            "bankName": "SSS Bank",
+            "owner": "Spouse",
+            "amount": 100000,
+            "interestRate": 10,
+            "depositDate": "2025-06-15",
+            "maturityDate": "2026-06-15",
+            "maturityAmount": 110000
+          },
+          {
+            "id": "fd_1785805770934",
+            "bankName": "One Card",
+            "owner": "Self",
+            "amount": 60561,
+            "interestRate": 7,
+            "depositDate": "2025-08-16",
+            "maturityDate": "2026-08-17",
+            "maturityAmount": 64950
+          }
+        ],
+        "cashAccounts": [
+          {
+            "id": "ca1",
+            "title": "Kotak Blr Savings Account (Primary)",
+            "type": "Bank Account",
+            "owner": "Self",
+            "amount": 120000
+          },
+          {
+            "id": "ca2",
+            "title": "Kotak pvg Savings Account",
+            "type": "Bank Account",
+            "owner": "Self",
+            "amount": 12000
+          },
+          {
+            "id": "ca3",
+            "title": "Home Locker Reserve Cash",
+            "type": "Home / Locker Cash",
+            "owner": "Self",
+            "amount": 1000000
+          }
+        ],
+        "expenses": [
+          {
+            "id": "e2",
+            "title": "Jio fibre",
+            "category": "recharges",
+            "amount": 1077,
+            "date": "Monthly",
+            "kid": null
+          },
+          {
+            "id": "e4",
+            "title": "NBIRS 1ST Term",
+            "category": "kids",
+            "amount": 45000,
+            "date": "15-May",
+            "kid": "Aaryan"
+          },
+          {
+            "id": "e6",
+            "title": "Atharv - school fee",
+            "category": "kids",
+            "amount": 30000,
+            "date": "10-Jun",
+            "kid": "Atharv"
+          },
+          {
+            "id": "exp_1785806824988",
+            "title": "I10",
+            "category": "general",
+            "amount": 80000,
+            "date": "2025",
+            "kid": null
+          },
+          {
+            "id": "exp_1785806851947",
+            "category": "general",
+            "title": "Alto",
+            "amount": 100000,
+            "date": "July",
+            "kid": null
+          }
+        ],
+        "employees": [
+          {
+            "id": "emp_1786361413321",
+            "name": "Sai",
+            "role": "Helper",
+            "salary": 11000,
+            "payDay": 9
+          },
+          {
+            "id": "emp_1786364657127",
+            "name": "Devaraj",
+            "role": "Helper",
+            "salary": 7000,
+            "payDay": 15
+          },
+          {
+            "id": "emp_1786364681523",
+            "name": "Narayana ",
+            "role": "Helper",
+            "salary": 10000,
+            "payDay": 10
+          },
+          {
+            "id": "emp_1786364698835",
+            "name": "Murthy",
+            "role": "Helper",
+            "salary": 11500,
+            "payDay": 1
+          }
+        ],
+        "lending": [
+          {
+            "id": "l2",
+            "title": "DAD",
+            "amount": 5500000,
+            "details": ""
+          }
+        ],
+        "liabilities": [],
+        "pigmies": [
+          {
+            "id": "pig1",
+            "title": "Sangam bank",
+            "agent": "Venumadav agent",
+            "dailyAmount": 2000,
+            "totalPaid": 311000,
+            "startDate": "2026-08-04"
+          }
+        ],
+        "familyProfile": {
+          "selfName": "Arun",
+          "selfAge": "42",
+          "selfContact": "8105104599",
+          "spouseName": "Kavya",
+          "spouseAge": "37",
+          "spouseContact": "9620504256",
+          "kid1Name": "Aaryan",
+          "kid1Age": "12",
+          "kid2Name": "Atharv",
+          "kid2Age": "7"
+        },
+        "insurance": [
+          {
+            "id": "ins1",
+            "owner": "Self",
+            "type": "Life / Endowment",
+            "name": "ARUN - 708940104",
+            "company": "LIC Jeevan Labh",
+            "sumAssured": 1000000,
+            "premium": 55414,
+            "commenceDate": "2023-09-28",
+            "renewalDate": "2026-09-28",
+            "surrenderValue": 0,
+            "notes": ""
+          },
+          {
+            "id": "ins2",
+            "owner": "Self",
+            "type": "Life / Endowment",
+            "name": "Couple - 1W554658510",
+            "company": "SBI LIFE Smart Humsafar",
+            "sumAssured": 1200000,
+            "premium": 57348,
+            "commenceDate": "2026-06-17",
+            "renewalDate": "2027-07-14",
+            "surrenderValue": 0,
+            "notes": ""
+          },
+          {
+            "id": "ins_1785847338695",
+            "owner": "Joint",
+            "type": "Life / Endowment",
+            "name": "Atharv - 708966007",
+            "company": "LIC",
+            "sumAssured": 500000,
+            "premium": 27401,
+            "commenceDate": "2024-02-28",
+            "renewalDate": "2027-02-28",
+            "surrenderValue": 0,
+            "notes": ""
+          },
+          {
+            "id": "ins_1785848282213",
+            "owner": "Self",
+            "type": "Term Insurance",
+            "name": "ARUN - 80208549",
+            "company": "Kotak",
+            "sumAssured": 10000000,
+            "premium": 84600,
+            "commenceDate": "2026-03-12",
+            "renewalDate": "2027-03-12",
+            "surrenderValue": 84600,
+            "notes": ""
+          }
+        ],
+        "digitalDocs": [
+          {
+            "id": "doc1",
+            "title": "Self Aadhaar Card",
+            "category": "Aadhaar Card",
+            "holder": "Self",
+            "number": "381838155674",
+            "issueDate": "2015-04-10",
+            "expiryDate": "",
+            "notes": "Linked to mobile 8105104599"
+          },
+          {
+            "id": "doc2",
+            "title": "PAN",
+            "category": "PAN Card",
+            "holder": "Self",
+            "number": "AQCPA1597L",
+            "issueDate": "2016-08-12",
+            "expiryDate": "",
+            "notes": "Primary tax identification"
+          }
+        ]
+      }
+    },
+    {
+      "id": "auto_1786364681530",
+      "date": "10 Aug 2026, 5:54 pm (Auto)",
+      "netWorth": 10195769,
+      "assets": 10195769,
+      "liabilities": 0,
+      "state": {
+        "chits": [
+          {
+            "id": "c1",
+            "title": "Pavan Chits 5 Lakh",
+            "organizer": "Pavan",
+            "value": 500000,
+            "monthly": 25000,
+            "months": 20,
+            "date": 25,
+            "paidCount": 1,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          },
+          {
+            "id": "c2",
+            "title": "Ravi 2 Lakh",
+            "organizer": "Ravi",
+            "value": 300000,
+            "monthly": 8000,
+            "months": 25,
+            "date": 10,
+            "paidCount": 9,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          },
+          {
+            "id": "c_1785804642121",
+            "title": "Vasavi Templ 9L",
+            "organizer": "Suresh Janappa",
+            "value": 900000,
+            "monthly": 30000,
+            "months": 30,
+            "date": 15,
+            "paidCount": 10,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          },
+          {
+            "id": "c_1785804751971",
+            "title": "Vasavi Temple 9L",
+            "organizer": "Eshwar Glass",
+            "value": 900000,
+            "monthly": 30000,
+            "months": 30,
+            "date": 15,
+            "paidCount": 13,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          }
+        ],
+        "stocks": [
+          {
+            "id": "st_1785805256559",
+            "name": "AngelOne",
+            "category": "Direct Equity Portfolio",
+            "owner": "Self",
+            "broker": "AngelOne",
+            "monthlySip": 0,
+            "invested": 1065000,
+            "current": 1071000
+          },
+          {
+            "id": "st_1785805320140",
+            "name": "Angelone Mutual",
+            "category": "Mutual Fund Portfolio",
+            "owner": "Self",
+            "broker": "AngelOne",
+            "monthlySip": 5000,
+            "invested": 124994,
+            "current": 139775
+          },
+          {
+            "id": "st_1785805380040",
+            "name": "Angelone Equity",
+            "category": "Direct Equity Portfolio",
+            "owner": "Spouse",
+            "broker": "AngelOne",
+            "monthlySip": 0,
+            "invested": 441300,
+            "current": 441600
+          },
+          {
+            "id": "st_1785805436844",
+            "name": "Angelone Mutual",
+            "category": "Mutual Fund Portfolio",
+            "owner": "Spouse",
+            "broker": "AngelOne",
+            "monthlySip": 12000,
+            "invested": 292000,
+            "current": 314233
+          },
+          {
+            "id": "st_1785811131885",
+            "owner": "Spouse",
+            "broker": "Zerodha",
+            "category": "Direct Equity Portfolio",
+            "name": "Aaryan",
+            "monthlySip": 0,
+            "invested": 65000,
+            "current": 65000
+          }
+        ],
+        "fixedDeposits": [
+          {
+            "id": "fd1",
+            "bankName": "SSS Bank",
+            "owner": "Spouse",
+            "amount": 500000,
+            "interestRate": 10,
+            "depositDate": "2025-02-10",
+            "maturityDate": "2027-02-10",
+            "maturityAmount": 575000
+          },
+          {
+            "id": "fd2",
+            "bankName": "SSS Bank",
+            "owner": "Spouse",
+            "amount": 100000,
+            "interestRate": 10,
+            "depositDate": "2025-06-15",
+            "maturityDate": "2026-06-15",
+            "maturityAmount": 110000
+          },
+          {
+            "id": "fd_1785805770934",
+            "bankName": "One Card",
+            "owner": "Self",
+            "amount": 60561,
+            "interestRate": 7,
+            "depositDate": "2025-08-16",
+            "maturityDate": "2026-08-17",
+            "maturityAmount": 64950
+          }
+        ],
+        "cashAccounts": [
+          {
+            "id": "ca1",
+            "title": "Kotak Blr Savings Account (Primary)",
+            "type": "Bank Account",
+            "owner": "Self",
+            "amount": 120000
+          },
+          {
+            "id": "ca2",
+            "title": "Kotak pvg Savings Account",
+            "type": "Bank Account",
+            "owner": "Self",
+            "amount": 12000
+          },
+          {
+            "id": "ca3",
+            "title": "Home Locker Reserve Cash",
+            "type": "Home / Locker Cash",
+            "owner": "Self",
+            "amount": 1000000
+          }
+        ],
+        "expenses": [
+          {
+            "id": "e2",
+            "title": "Jio fibre",
+            "category": "recharges",
+            "amount": 1077,
+            "date": "Monthly",
+            "kid": null
+          },
+          {
+            "id": "e4",
+            "title": "NBIRS 1ST Term",
+            "category": "kids",
+            "amount": 45000,
+            "date": "15-May",
+            "kid": "Aaryan"
+          },
+          {
+            "id": "e6",
+            "title": "Atharv - school fee",
+            "category": "kids",
+            "amount": 30000,
+            "date": "10-Jun",
+            "kid": "Atharv"
+          },
+          {
+            "id": "exp_1785806824988",
+            "title": "I10",
+            "category": "general",
+            "amount": 80000,
+            "date": "2025",
+            "kid": null
+          },
+          {
+            "id": "exp_1785806851947",
+            "category": "general",
+            "title": "Alto",
+            "amount": 100000,
+            "date": "July",
+            "kid": null
+          }
+        ],
+        "employees": [
+          {
+            "id": "emp_1786361413321",
+            "name": "Sai",
+            "role": "Helper",
+            "salary": 11000,
+            "payDay": 9
+          },
+          {
+            "id": "emp_1786364657127",
+            "name": "Devaraj",
+            "role": "Helper",
+            "salary": 7000,
+            "payDay": 15
+          },
+          {
+            "id": "emp_1786364681523",
+            "name": "Narayana ",
+            "role": "Helper",
+            "salary": 10000,
+            "payDay": 10
+          }
+        ],
+        "lending": [
+          {
+            "id": "l2",
+            "title": "DAD",
+            "amount": 5500000,
+            "details": ""
+          }
+        ],
+        "liabilities": [],
+        "pigmies": [
+          {
+            "id": "pig1",
+            "title": "Sangam bank",
+            "agent": "Venumadav agent",
+            "dailyAmount": 2000,
+            "totalPaid": 311000,
+            "startDate": "2026-08-04"
+          }
+        ],
+        "familyProfile": {
+          "selfName": "Arun",
+          "selfAge": "42",
+          "selfContact": "8105104599",
+          "spouseName": "Kavya",
+          "spouseAge": "37",
+          "spouseContact": "9620504256",
+          "kid1Name": "Aaryan",
+          "kid1Age": "12",
+          "kid2Name": "Atharv",
+          "kid2Age": "7"
+        },
+        "insurance": [
+          {
+            "id": "ins1",
+            "owner": "Self",
+            "type": "Life / Endowment",
+            "name": "ARUN - 708940104",
+            "company": "LIC Jeevan Labh",
+            "sumAssured": 1000000,
+            "premium": 55414,
+            "commenceDate": "2023-09-28",
+            "renewalDate": "2026-09-28",
+            "surrenderValue": 0,
+            "notes": ""
+          },
+          {
+            "id": "ins2",
+            "owner": "Self",
+            "type": "Life / Endowment",
+            "name": "Couple - 1W554658510",
+            "company": "SBI LIFE Smart Humsafar",
+            "sumAssured": 1200000,
+            "premium": 57348,
+            "commenceDate": "2026-06-17",
+            "renewalDate": "2027-07-14",
+            "surrenderValue": 0,
+            "notes": ""
+          },
+          {
+            "id": "ins_1785847338695",
+            "owner": "Joint",
+            "type": "Life / Endowment",
+            "name": "Atharv - 708966007",
+            "company": "LIC",
+            "sumAssured": 500000,
+            "premium": 27401,
+            "commenceDate": "2024-02-28",
+            "renewalDate": "2027-02-28",
+            "surrenderValue": 0,
+            "notes": ""
+          },
+          {
+            "id": "ins_1785848282213",
+            "owner": "Self",
+            "type": "Term Insurance",
+            "name": "ARUN - 80208549",
+            "company": "Kotak",
+            "sumAssured": 10000000,
+            "premium": 84600,
+            "commenceDate": "2026-03-12",
+            "renewalDate": "2027-03-12",
+            "surrenderValue": 84600,
+            "notes": ""
+          }
+        ],
+        "digitalDocs": [
+          {
+            "id": "doc1",
+            "title": "Self Aadhaar Card",
+            "category": "Aadhaar Card",
+            "holder": "Self",
+            "number": "381838155674",
+            "issueDate": "2015-04-10",
+            "expiryDate": "",
+            "notes": "Linked to mobile 8105104599"
+          },
+          {
+            "id": "doc2",
+            "title": "PAN",
+            "category": "PAN Card",
+            "holder": "Self",
+            "number": "AQCPA1597L",
+            "issueDate": "2016-08-12",
+            "expiryDate": "",
+            "notes": "Primary tax identification"
+          }
+        ]
+      }
+    },
+    {
+      "id": "auto_1786364657128",
+      "date": "10 Aug 2026, 5:54 pm (Auto)",
+      "netWorth": 10195769,
+      "assets": 10195769,
+      "liabilities": 0,
+      "state": {
+        "chits": [
+          {
+            "id": "c1",
+            "title": "Pavan Chits 5 Lakh",
+            "organizer": "Pavan",
+            "value": 500000,
+            "monthly": 25000,
+            "months": 20,
+            "date": 25,
+            "paidCount": 1,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          },
+          {
+            "id": "c2",
+            "title": "Ravi 2 Lakh",
+            "organizer": "Ravi",
+            "value": 300000,
+            "monthly": 8000,
+            "months": 25,
+            "date": 10,
+            "paidCount": 9,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          },
+          {
+            "id": "c_1785804642121",
+            "title": "Vasavi Templ 9L",
+            "organizer": "Suresh Janappa",
+            "value": 900000,
+            "monthly": 30000,
+            "months": 30,
+            "date": 15,
+            "paidCount": 10,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          },
+          {
+            "id": "c_1785804751971",
+            "title": "Vasavi Temple 9L",
+            "organizer": "Eshwar Glass",
+            "value": 900000,
+            "monthly": 30000,
+            "months": 30,
+            "date": 15,
+            "paidCount": 13,
+            "isLifted": false,
+            "liftedAmount": 0,
+            "monthlyInterest": 0
+          }
+        ],
+        "stocks": [
+          {
+            "id": "st_1785805256559",
+            "name": "AngelOne",
+            "category": "Direct Equity Portfolio",
+            "owner": "Self",
+            "broker": "AngelOne",
+            "monthlySip": 0,
+            "invested": 1065000,
+            "current": 1071000
+          },
+          {
+            "id": "st_1785805320140",
+            "name": "Angelone Mutual",
+            "category": "Mutual Fund Portfolio",
+            "owner": "Self",
+            "broker": "AngelOne",
+            "monthlySip": 5000,
+            "invested": 124994,
+            "current": 139775
+          },
+          {
+            "id": "st_1785805380040",
+            "name": "Angelone Equity",
+            "category": "Direct Equity Portfolio",
+            "owner": "Spouse",
+            "broker": "AngelOne",
+            "monthlySip": 0,
+            "invested": 441300,
+            "current": 441600
+          },
+          {
+            "id": "st_1785805436844",
+            "name": "Angelone Mutual",
+            "category": "Mutual Fund Portfolio",
+            "owner": "Spouse",
+            "broker": "AngelOne",
+            "monthlySip": 12000,
+            "invested": 292000,
+            "current": 314233
+          },
+          {
+            "id": "st_1785811131885",
+            "owner": "Spouse",
+            "broker": "Zerodha",
+            "category": "Direct Equity Portfolio",
+            "name": "Aaryan",
+            "monthlySip": 0,
+            "invested": 65000,
+            "current": 65000
+          }
+        ],
+        "fixedDeposits": [
+          {
+            "id": "fd1",
+            "bankName": "SSS Bank",
+            "owner": "Spouse",
+            "amount": 500000,
+            "interestRate": 10,
+            "depositDate": "2025-02-10",
+            "maturityDate": "2027-02-10",
+            "maturityAmount": 575000
+          },
+          {
+            "id": "fd2",
+            "bankName": "SSS Bank",
+            "owner": "Spouse",
+            "amount": 100000,
+            "interestRate": 10,
+            "depositDate": "2025-06-15",
+            "maturityDate": "2026-06-15",
+            "maturityAmount": 110000
+          },
+          {
+            "id": "fd_1785805770934",
+            "bankName": "One Card",
+            "owner": "Self",
+            "amount": 60561,
+            "interestRate": 7,
+            "depositDate": "2025-08-16",
+            "maturityDate": "2026-08-17",
+            "maturityAmount": 64950
+          }
+        ],
+        "cashAccounts": [
+          {
+            "id": "ca1",
+            "title": "Kotak Blr Savings Account (Primary)",
+            "type": "Bank Account",
+            "owner": "Self",
+            "amount": 120000
+          },
+          {
+            "id": "ca2",
+            "title": "Kotak pvg Savings Account",
+            "type": "Bank Account",
+            "owner": "Self",
+            "amount": 12000
+          },
+          {
+            "id": "ca3",
+            "title": "Home Locker Reserve Cash",
+            "type": "Home / Locker Cash",
+            "owner": "Self",
+            "amount": 1000000
+          }
+        ],
+        "expenses": [
+          {
+            "id": "e2",
+            "title": "Jio fibre",
+            "category": "recharges",
+            "amount": 1077,
+            "date": "Monthly",
+            "kid": null
+          },
+          {
+            "id": "e4",
+            "title": "NBIRS 1ST Term",
+            "category": "kids",
+            "amount": 45000,
+            "date": "15-May",
+            "kid": "Aaryan"
+          },
+          {
+            "id": "e6",
+            "title": "Atharv - school fee",
+            "category": "kids",
+            "amount": 30000,
+            "date": "10-Jun",
+            "kid": "Atharv"
+          },
+          {
+            "id": "exp_1785806824988",
+            "title": "I10",
+            "category": "general",
+            "amount": 80000,
+            "date": "2025",
+            "kid": null
+          },
+          {
+            "id": "exp_1785806851947",
+            "category": "general",
+            "title": "Alto",
+            "amount": 100000,
+            "date": "July",
+            "kid": null
+          }
+        ],
+        "employees": [
+          {
+            "id": "emp_1786361413321",
+            "name": "Sai",
+            "role": "Helper",
+            "salary": 11000,
+            "payDay": 9
+          },
+          {
+            "id": "emp_1786364657127",
+            "name": "Devaraj",
+            "role": "Helper",
+            "salary": 7000,
+            "payDay": 15
+          }
+        ],
+        "lending": [
+          {
+            "id": "l2",
+            "title": "DAD",
+            "amount": 5500000,
+            "details": ""
+          }
+        ],
+        "liabilities": [],
+        "pigmies": [
+          {
+            "id": "pig1",
+            "title": "Sangam bank",
+            "agent": "Venumadav agent",
+            "dailyAmount": 2000,
+            "totalPaid": 311000,
+            "startDate": "2026-08-04"
+          }
+        ],
+        "familyProfile": {
+          "selfName": "Arun",
+          "selfAge": "42",
+          "selfContact": "8105104599",
+          "spouseName": "Kavya",
+          "spouseAge": "37",
+          "spouseContact": "9620504256",
+          "kid1Name": "Aaryan",
+          "kid1Age": "12",
+          "kid2Name": "Atharv",
+          "kid2Age": "7"
+        },
+        "insurance": [
+          {
+            "id": "ins1",
+            "owner": "Self",
+            "type": "Life / Endowment",
+            "name": "ARUN - 708940104",
+            "company": "LIC Jeevan Labh",
+            "sumAssured": 1000000,
+            "premium": 55414,
+            "commenceDate": "2023-09-28",
+            "renewalDate": "2026-09-28",
+            "surrenderValue": 0,
+            "notes": ""
+          },
+          {
+            "id": "ins2",
+            "owner": "Self",
+            "type": "Life / Endowment",
+            "name": "Couple - 1W554658510",
+            "company": "SBI LIFE Smart Humsafar",
+            "sumAssured": 1200000,
+            "premium": 57348,
+            "commenceDate": "2026-06-17",
+            "renewalDate": "2027-07-14",
+            "surrenderValue": 0,
+            "notes": ""
+          },
+          {
+            "id": "ins_1785847338695",
+            "owner": "Joint",
+            "type": "Life / Endowment",
+            "name": "Atharv - 708966007",
+            "company": "LIC",
+            "sumAssured": 500000,
+            "premium": 27401,
+            "commenceDate": "2024-02-28",
+            "renewalDate": "2027-02-28",
+            "surrenderValue": 0,
+            "notes": ""
+          },
+          {
+            "id": "ins_1785848282213",
+            "owner": "Self",
+            "type": "Term Insurance",
+            "name": "ARUN - 80208549",
+            "company": "Kotak",
+            "sumAssured": 10000000,
+            "premium": 84600,
+            "commenceDate": "2026-03-12",
+            "renewalDate": "2027-03-12",
+            "surrenderValue": 84600,
+            "notes": ""
+          }
+        ],
+        "digitalDocs": [
+          {
+            "id": "doc1",
+            "title": "Self Aadhaar Card",
+            "category": "Aadhaar Card",
+            "holder": "Self",
+            "number": "381838155674",
+            "issueDate": "2015-04-10",
+            "expiryDate": "",
+            "notes": "Linked to mobile 8105104599"
+          },
+          {
+            "id": "doc2",
+            "title": "PAN",
+            "category": "PAN Card",
+            "holder": "Self",
+            "number": "AQCPA1597L",
+            "issueDate": "2016-08-12",
+            "expiryDate": "",
+            "notes": "Primary tax identification"
+          }
+        ]
+      }
+    }
+  ]
+}
