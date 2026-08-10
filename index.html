@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="theme-color" content="#0f172a">
-    <meta name="description" content="FinTrack v4.0 - Complete Family Financial & Asset Management Hub">
-    <title>FinTrack v4.0 Family Hub</title>
+    <meta name="description" content="FinTrack v4.1 - Complete Family Financial & Asset Management Hub">
+    <title>FinTrack v4.1 Family Hub</title>
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Chart.js -->
@@ -18,7 +18,7 @@
     <link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/512/7890/7890493.png">
     
     <!-- Web App Manifest for Android PWA Native Installation Support -->
-    <link rel="manifest" href="data:application/manifest+json;utf8,%7B%22name%22%3A%22FinTrack%20v4.0%20Family%20Hub%22%2C%22short_name%22%3A%22FinTrack%22%2C%22description%22%3A%22Complete%20Family%20Financial%20%26%20Asset%20Management%20Hub%22%2C%22start_url%22%3A%22.%22%2C%22display%22%3A%22standalone%22%2C%22background_color%22%3A%22%230f172a%22%2C%22theme_color%22%3A%22%230f172a%22%2C%22icons%22%3A%5B%7B%22src%22%3A%22https%3A%2F%2Fcdn-icons-png.flaticon.com%2F512%2F7890%2F7890493.png%22%2C%22sizes%22%3A%22512x512%22%2C%22type%22%3A%22image%2Fpng%22%2C%22purpose%22%3A%22any%20maskable%22%7D%5D%7D">
+    <link rel="manifest" href="data:application/manifest+json;utf8,%7B%22name%22%3A%22FinTrack%20v4.1%20Family%20Hub%22%2C%22short_name%22%3A%22FinTrack%22%2C%22description%22%3A%22Complete%20Family%20Financial%20%26%20Asset%20Management%20Hub%22%2C%22start_url%22%3A%22.%22%2C%22display%22%3A%22standalone%22%2C%22background_color%22%3A%22%230f172a%22%2C%22theme_color%22%3A%22%230f172a%22%2C%22icons%22%3A%5B%7B%22src%22%3A%22https%3A%2F%2Fcdn-icons-png.flaticon.com%2F512%2F7890%2F7890493.png%22%2C%22sizes%22%3A%22512x512%22%2C%22type%22%3A%22image%2Fpng%22%2C%22purpose%22%3A%22any%20maskable%22%7D%5D%7D">
 
     <script>
         tailwind.config = {
@@ -355,7 +355,7 @@
             </div>
             <div>
                 <h1 class="font-black text-lg tracking-tight">FinTrack</h1>
-                <p class="text-[11px] text-indigo-400 font-semibold tracking-wide uppercase">v4.0 Family Hub</p>
+                <p class="text-[11px] text-indigo-400 font-semibold tracking-wide uppercase">v4.1 Family Hub</p>
             </div>
         </div>
 
@@ -421,7 +421,7 @@
                 <div class="w-8 h-8 rounded-lg bg-indigo-600 flex items-center justify-center text-white text-sm font-bold p-1">
                     <img src="https://cdn-icons-png.flaticon.com/512/7890/7890493.png" onerror="this.onerror=null; this.src='https://cdn-icons-png.flaticon.com/512/2845/2845722.png'" class="w-5 h-5 object-contain" alt="FinTrack Logo">
                 </div>
-                <span class="font-extrabold tracking-tight text-white">FinTrack <span class="text-xs text-indigo-400">v4.0</span></span>
+                <span class="font-extrabold tracking-tight text-white">FinTrack <span class="text-xs text-indigo-400">v4.1</span></span>
             </div>
             
             <div class="hidden md:flex items-center space-x-3">
@@ -464,35 +464,50 @@
                     <button onclick="toggleImportExportMenu(event)" id="importExportMenuBtn" title="Import & Export Options" class="w-8 h-8 text-emerald-400 hover:text-emerald-300 bg-emerald-500/20 border border-emerald-500/30 rounded-xl flex items-center justify-center transition active:scale-95 flex-shrink-0">
                         <i class="fa-solid fa-right-left text-xs"></i>
                     </button>
-                    <div id="importExportDropdownMenu" class="hidden absolute right-0 mt-2 w-56 theme-card border rounded-2xl shadow-2xl z-50 p-2 space-y-1 backdrop-blur-md">
-                        <div class="px-3 py-1.5 text-[10px] font-extrabold uppercase tracking-wider text-slate-500 dark:text-slate-400 border-b border-slate-200 dark:border-slate-800/80 mb-1">
-                            Data Backup & Operations
+                    <div id="importExportDropdownMenu" class="hidden absolute right-0 mt-2 w-60 theme-card border rounded-2xl shadow-2xl z-50 p-2 space-y-1 backdrop-blur-md">
+                        <!-- Group 1: JSON Backup & Sync -->
+                        <div class="px-3 py-1 text-[9px] font-extrabold uppercase tracking-wider text-slate-500 dark:text-slate-400 border-b border-slate-200 dark:border-slate-800/80 mb-0.5">
+                            JSON Backup & Sync
                         </div>
-                        <button onclick="triggerPwaInstall(); closeImportExportMenu();" id="installPwaMenuBtn" class="w-full text-left px-3 py-2 rounded-xl text-xs font-bold text-slate-800 dark:text-slate-100 hover:bg-indigo-50 dark:hover:bg-indigo-600/20 hover:text-indigo-600 dark:hover:text-indigo-300 flex items-center space-x-2 transition">
-                            <i class="fa-solid fa-download text-xs text-indigo-600 dark:text-indigo-400 w-4 text-center"></i>
-                            <span>Install App (PWA)</span>
-                        </button>
-                        <button onclick="exportData(); closeImportExportMenu();" class="w-full text-left px-3 py-2 rounded-xl text-xs font-bold text-slate-800 dark:text-slate-100 hover:bg-indigo-50 dark:hover:bg-indigo-600/20 hover:text-indigo-600 dark:hover:text-indigo-300 flex items-center space-x-2 transition">
+                        <button onclick="exportData(); closeImportExportMenu();" class="w-full text-left px-3 py-1.5 rounded-xl text-xs font-bold text-slate-800 dark:text-slate-100 hover:bg-indigo-50 dark:hover:bg-indigo-600/20 hover:text-indigo-600 dark:hover:text-indigo-300 flex items-center space-x-2 transition">
                             <i class="fa-solid fa-download text-xs text-indigo-600 dark:text-indigo-400 w-4 text-center"></i>
                             <span>Export JSON Backup</span>
                         </button>
-                        <button onclick="backupToGoogleDrive(); closeImportExportMenu();" class="w-full text-left px-3 py-2 rounded-xl text-xs font-bold text-slate-800 dark:text-slate-100 hover:bg-emerald-50 dark:hover:bg-emerald-600/20 hover:text-emerald-600 dark:hover:text-emerald-300 flex items-center space-x-2 transition">
+                        <button onclick="backupToGoogleDrive(); closeImportExportMenu();" class="w-full text-left px-3 py-1.5 rounded-xl text-xs font-bold text-slate-800 dark:text-slate-100 hover:bg-emerald-50 dark:hover:bg-emerald-600/20 hover:text-emerald-600 dark:hover:text-emerald-300 flex items-center space-x-2 transition">
                             <i class="fa-brands fa-google-drive text-xs text-emerald-600 dark:text-emerald-400 w-4 text-center"></i>
                             <span>Backup / Share File</span>
                         </button>
-                        <button onclick="importDataPrompt(); closeImportExportMenu();" class="w-full text-left px-3 py-2 rounded-xl text-xs font-bold text-slate-800 dark:text-slate-100 hover:bg-indigo-50 dark:hover:bg-indigo-600/20 hover:text-indigo-600 dark:hover:text-indigo-300 flex items-center space-x-2 transition">
+                        <button onclick="openImportModal(); closeImportExportMenu();" class="w-full text-left px-3 py-1.5 rounded-xl text-xs font-bold text-slate-800 dark:text-slate-100 hover:bg-indigo-50 dark:hover:bg-indigo-600/20 hover:text-indigo-600 dark:hover:text-indigo-300 flex items-center space-x-2 transition">
                             <i class="fa-solid fa-upload text-xs text-emerald-600 dark:text-emerald-400 w-4 text-center"></i>
                             <span>Import JSON Backup</span>
                         </button>
-                        <button onclick="exportCSV(); closeImportExportMenu();" class="w-full text-left px-3 py-2 rounded-xl text-xs font-bold text-slate-800 dark:text-slate-100 hover:bg-amber-50 dark:hover:bg-amber-600/20 hover:text-amber-600 dark:hover:text-amber-300 flex items-center space-x-2 transition">
-                            <i class="fa-solid fa-file-csv text-xs text-amber-600 dark:text-amber-400 w-4 text-center"></i>
+
+                        <!-- Group 2: CSV Data Operations -->
+                        <div class="px-3 py-1 text-[9px] font-extrabold uppercase tracking-wider text-slate-500 dark:text-slate-400 border-t border-b border-slate-200 dark:border-slate-800/80 my-1 pt-1">
+                            CSV Data Tools
+                        </div>
+                        <button onclick="openImportCsvModal(); closeImportExportMenu();" class="w-full text-left px-3 py-1.5 rounded-xl text-xs font-bold text-slate-800 dark:text-slate-100 hover:bg-sky-50 dark:hover:bg-sky-600/20 hover:text-sky-600 dark:hover:text-sky-300 flex items-center space-x-2 transition">
+                            <i class="fa-solid fa-file-csv text-xs text-sky-600 dark:text-sky-400 w-4 text-center"></i>
+                            <span>Import CSV (with Mapping)</span>
+                        </button>
+                        <button onclick="exportCSV(); closeImportExportMenu();" class="w-full text-left px-3 py-1.5 rounded-xl text-xs font-bold text-slate-800 dark:text-slate-100 hover:bg-amber-50 dark:hover:bg-amber-600/20 hover:text-amber-600 dark:hover:text-amber-300 flex items-center space-x-2 transition">
+                            <i class="fa-solid fa-file-export text-xs text-amber-600 dark:text-amber-400 w-4 text-center"></i>
                             <span>Export CSV Report</span>
                         </button>
-                        <button onclick="downloadStandaloneHtml(); closeImportExportMenu();" class="w-full text-left px-3 py-2 rounded-xl text-xs font-bold text-slate-800 dark:text-slate-100 hover:bg-purple-50 dark:hover:bg-purple-600/20 hover:text-purple-600 dark:hover:text-purple-300 flex items-center space-x-2 transition">
+
+                        <!-- Group 3: App, Standalone & Snapshots -->
+                        <div class="px-3 py-1 text-[9px] font-extrabold uppercase tracking-wider text-slate-500 dark:text-slate-400 border-t border-b border-slate-200 dark:border-slate-800/80 my-1 pt-1">
+                            App & Restore Points
+                        </div>
+                        <button onclick="triggerPwaInstall(); closeImportExportMenu();" id="installPwaMenuBtn" class="w-full text-left px-3 py-1.5 rounded-xl text-xs font-bold text-slate-800 dark:text-slate-100 hover:bg-indigo-50 dark:hover:bg-indigo-600/20 hover:text-indigo-600 dark:hover:text-indigo-300 flex items-center space-x-2 transition">
+                            <i class="fa-solid fa-download text-xs text-indigo-600 dark:text-indigo-400 w-4 text-center"></i>
+                            <span>Install App (PWA)</span>
+                        </button>
+                        <button onclick="downloadStandaloneHtml(); closeImportExportMenu();" class="w-full text-left px-3 py-1.5 rounded-xl text-xs font-bold text-slate-800 dark:text-slate-100 hover:bg-purple-50 dark:hover:bg-purple-600/20 hover:text-purple-600 dark:hover:text-purple-300 flex items-center space-x-2 transition">
                             <i class="fa-solid fa-file-code text-xs text-purple-600 dark:text-purple-400 w-4 text-center"></i>
                             <span>Download Standalone HTML</span>
                         </button>
-                        <button onclick="openSnapshotCenter(); closeImportExportMenu();" class="w-full text-left px-3 py-2 rounded-xl text-xs font-bold text-slate-800 dark:text-slate-100 hover:bg-rose-50 dark:hover:bg-rose-600/20 hover:text-rose-600 dark:hover:text-rose-300 flex items-center space-x-2 transition border-t border-slate-200 dark:border-slate-800/80 mt-1 pt-2">
+                        <button onclick="openSnapshotCenter(); closeImportExportMenu();" class="w-full text-left px-3 py-1.5 rounded-xl text-xs font-bold text-slate-800 dark:text-slate-100 hover:bg-rose-50 dark:hover:bg-rose-600/20 hover:text-rose-600 dark:hover:text-rose-300 flex items-center space-x-2 transition">
                             <i class="fa-solid fa-camera-retro text-xs text-rose-600 dark:text-rose-400 w-4 text-center"></i>
                             <span>Snapshot Center</span>
                         </button>
@@ -1007,55 +1022,38 @@
                     <button onclick="filterExpensesTab('general')" id="expTab-general" class="exp-subtab-btn px-3 py-1.5 rounded-lg font-bold theme-card text-slate-300 hover:bg-slate-800 transition">General Utilities</button>
                 </div>
 
-                <div class="theme-card border rounded-2xl overflow-hidden shadow-xl">
-                    <div class="p-4 border-b border-slate-800 flex justify-between items-center">
-                        <h3 class="font-bold text-sm" id="expenseSectionTitle">Expense Logs</h3>
-                        <span class="text-xs font-bold text-rose-400" id="expenseTotalBadge">Total: ₹ 0</span>
-                    </div>
-                    <div class="divide-y divide-slate-800/60" id="expenseItemsList"></div>
-                </div>
-            </section>
-
-            <!-- View: Employees -->
-            <section id="view-employees" class="tab-content space-y-6 hidden">
-                <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
-                    <div>
-                        <h2 class="text-xl font-black">Employee & Staff Salary Roll</h2>
-                        <p class="text-xs text-slate-400">Add drivers, maids, security. Monthly salary commitments update automatically.</p>
-                    </div>
-                    <button onclick="openAddEmployeeModal()" class="bg-amber-600 hover:bg-amber-500 text-white px-4 py-2 rounded-xl text-xs font-bold flex items-center space-x-2 self-start shadow-md">
-                        <i class="fa-solid fa-user-plus"></i>
-                        <span>Add New Employee</span>
+                <div class="theme-card border rounded-2xl p-5 space-y-4 shadow-xl">
+                    <button onclick="toggleCollapsible('expenseSectionContent', 'expenseChevron')" class="w-full flex items-center justify-between border-b border-slate-800 pb-3 text-left">
+                        <div class="flex items-center space-x-2">
+                            <h3 class="font-bold text-sm" id="expenseSectionTitle">Expense Logs</h3>
+                            <span class="text-xs font-bold text-rose-400" id="expenseTotalBadge">Total: ₹ 0</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <i class="fa-solid fa-chevron-down text-slate-400 text-xs transition-transform duration-300" id="expenseChevron"></i>
+                        </div>
                     </button>
-                </div>
-
-                <div class="grid grid-cols-2 gap-3 md:gap-4">
-                    <div class="theme-card tile-warm-amber border p-3.5 md:p-5 rounded-2xl flex items-center justify-between shadow-sm">
-                        <div class="min-w-0 pr-2">
-                            <span class="text-[10px] md:text-xs font-bold uppercase tracking-wider block truncate">Active Employees</span>
-                            <div class="text-base sm:text-xl md:text-2xl font-black mt-1 truncate" id="empActiveCount">0 Staff</div>
-                        </div>
-                        <div class="w-8 h-8 sm:w-10 sm:h-10 rounded-xl tile-icon-box flex items-center justify-center flex-shrink-0">
-                            <i class="fa-solid fa-users text-sm md:text-lg"></i>
-                        </div>
-                    </div>
-
-                    <div class="theme-card tile-emerald-green border p-3.5 md:p-5 rounded-2xl flex items-center justify-between shadow-sm">
-                        <div class="min-w-0 pr-2">
-                            <span class="text-[10px] md:text-xs font-bold uppercase tracking-wider block truncate">Monthly Salary Roll</span>
-                            <div class="text-base sm:text-xl md:text-2xl font-black mt-1 truncate" id="empTotalSalary">₹ 0 / mo</div>
-                        </div>
-                        <div class="w-8 h-8 sm:w-10 sm:h-10 rounded-xl tile-icon-box flex items-center justify-center flex-shrink-0">
-                            <i class="fa-solid fa-money-bill-wave text-sm md:text-lg"></i>
-                        </div>
+                    <div id="expenseSectionContent" class="space-y-4">
+                        <div class="divide-y divide-slate-800/60" id="expenseItemsList"></div>
                     </div>
                 </div>
 
-                <div class="theme-card border rounded-2xl p-5 space-y-4">
-                    <h3 class="text-sm font-bold border-b border-slate-800 pb-3 flex items-center gap-2">
-                        <i class="fa-solid fa-address-card text-amber-400"></i> Household & Staff Directory
-                    </h3>
-                    <div id="employeesList" class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
+                <!-- Staff & Salary Roll Merged Section -->
+                <div id="spendStaffSection" class="theme-card border rounded-2xl p-5 space-y-4">
+                    <button onclick="toggleCollapsible('spendStaffSectionContent', 'spendStaffChevron')" class="w-full flex items-center justify-between border-b border-slate-800 pb-3 text-left">
+                        <div class="flex items-center space-x-2">
+                            <h3 class="text-sm font-bold flex items-center gap-2">
+                                <i class="fa-solid fa-users-gear text-amber-400"></i> Staff & Salary Roll
+                            </h3>
+                            <span class="text-xs font-bold text-amber-500 dark:text-amber-400" id="spendStaffTotalBadge">₹ 0 / mo</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <i class="fa-solid fa-chevron-down text-slate-400 text-xs transition-transform duration-300" id="spendStaffChevron"></i>
+                        </div>
+                    </button>
+                    <div id="spendStaffSectionContent" class="space-y-4">
+                        <!-- Full Staff Member Directory List (Matching Expense Log style) -->
+                        <div class="divide-y divide-slate-800/60" id="employeesList"></div>
+                    </div>
                 </div>
             </section>
 
@@ -1161,7 +1159,7 @@
             <div class="flex justify-between items-center border-b border-slate-800 pb-3">
                 <div class="flex items-center space-x-2">
                     <i class="fa-solid fa-circle-info text-indigo-400 text-lg"></i>
-                    <h3 class="font-bold text-base">About FinTrack v4.0</h3>
+                    <h3 class="font-bold text-base">About FinTrack v4.1</h3>
                 </div>
                 <button onclick="closeModal('aboutAppModal')" class="text-slate-400 hover:text-white"><i class="fa-solid fa-xmark text-lg"></i></button>
             </div>
@@ -1172,7 +1170,7 @@
                         <img src="https://cdn-icons-png.flaticon.com/512/7890/7890493.png" onerror="this.onerror=null; this.src='https://cdn-icons-png.flaticon.com/512/2845/2845722.png'" class="w-8 h-8 object-contain" alt="FinTrack Logo">
                     </div>
                     <div>
-                        <h4 class="font-black text-base">FinTrack <span class="text-xs text-indigo-400 font-bold">v4.0 Family Hub</span></h4>
+                        <h4 class="font-black text-base">FinTrack <span class="text-xs text-indigo-400 font-bold">v4.1 Family Hub</span></h4>
                         <p class="text-xs text-slate-400">Personal & Family Financial Suite</p>
                     </div>
                 </div>
@@ -1190,7 +1188,7 @@
                     </div>
                     <div class="flex justify-between items-center">
                         <span class="text-slate-400 font-semibold">App Version:</span>
-                        <span class="font-mono text-slate-300">v4.0 (Build 2026.8)</span>
+                        <span class="font-mono text-slate-300">v4.1 (Build 2026.8)</span>
                     </div>
                 </div>
             </div>
@@ -1198,7 +1196,7 @@
             <!-- How to Use Section inside About Modal -->
             <div class="p-4 theme-card-sub border rounded-2xl space-y-2 text-xs">
                 <h4 class="font-bold text-indigo-400 uppercase tracking-wider flex items-center gap-1.5">
-                    <i class="fa-solid fa-book-open"></i> How to Use FinTrack v4.0
+                    <i class="fa-solid fa-book-open"></i> How to Use FinTrack v4.1
                 </h4>
                 <ol class="list-decimal list-inside space-y-1 text-slate-300 text-[11px] leading-relaxed">
                     <li><strong>Dashboard & Alerts:</strong> Tap any top summary card to jump straight to that section. Keep an eye on upcoming chit dues or insurance renewals.</li>
@@ -1337,7 +1335,7 @@
                 <button onclick="closeModal('quickAddModal'); openAddEmployeeModal()" class="p-3.5 rounded-xl theme-card-sub hover:border-amber-500 text-left space-y-1.5 border transition">
                     <i class="fa-solid fa-users-gear text-amber-400 text-lg"></i>
                     <div class="font-bold text-xs">Staff Salary</div>
-                    <div class="text-[10px] text-slate-400">Household Staff Roll</div>
+                    <div class="text-[10px] text-slate-400">Staff Roll</div>
                 </button>
                 <button onclick="closeModal('quickAddModal'); openAddLendingModal()" class="p-3.5 rounded-xl theme-card-sub hover:border-sky-500 text-left space-y-1.5 border transition">
                     <i class="fa-solid fa-handshake text-sky-400 text-lg"></i>
@@ -1521,17 +1519,9 @@
                         <input type="number" id="pigmyTotalPaid" required placeholder="5000" class="w-full theme-card-sub border rounded-xl p-2.5 text-xs focus:outline-none focus:border-indigo-500">
                     </div>
                 </div>
-                <div class="grid grid-cols-2 gap-3 items-center">
-                    <div>
-                        <label class="block text-xs font-bold text-slate-300 mb-1">Start Date</label>
-                        <input type="date" id="pigmyStartDate" class="w-full theme-card-sub border rounded-xl p-2.5 text-xs focus:outline-none focus:border-indigo-500">
-                    </div>
-                    <div class="pt-4">
-                        <label class="flex items-center space-x-2 text-xs font-bold text-emerald-400 cursor-pointer">
-                            <input type="checkbox" id="pigmyAutoDaily" checked class="rounded border-slate-700 text-emerald-500 focus:ring-0">
-                            <span>Auto Daily Increment</span>
-                        </label>
-                    </div>
+                <div>
+                    <label class="block text-xs font-bold text-slate-300 mb-1">Start Date (Optional)</label>
+                    <input type="date" id="pigmyStartDate" class="w-full theme-card-sub border rounded-xl p-2.5 text-xs focus:outline-none focus:border-indigo-500">
                 </div>
                 <div class="pt-2 flex gap-3">
                     <button type="button" onclick="closeModal('addPigmyModal')" class="w-1/2 py-2.5 rounded-xl border border-slate-700 text-xs text-slate-300 hover:bg-slate-800">Cancel</button>
@@ -1943,6 +1933,137 @@
         </div>
     </div>
 
+    <!-- Import JSON Modal with Dual Import Methods (File Pick & Raw Paste) -->
+    <div id="importDataModal" class="fixed inset-0 bg-slate-950/80 backdrop-blur-sm z-50 flex items-center justify-center hidden p-4">
+        <div class="theme-card border w-full max-w-md rounded-2xl p-6 shadow-2xl space-y-4 max-h-[90vh] overflow-y-auto">
+            <div class="flex justify-between items-center border-b border-slate-800 pb-3">
+                <div class="flex items-center space-x-2">
+                    <i class="fa-solid fa-file-import text-emerald-400 text-lg"></i>
+                    <h3 class="font-bold text-base">Import JSON Backup</h3>
+                </div>
+                <button onclick="closeModal('importDataModal')" class="text-slate-400 hover:text-white"><i class="fa-solid fa-xmark text-lg"></i></button>
+            </div>
+
+            <!-- Hidden File Input Fallback -->
+            <input type="file" id="jsonFileInput" accept=".json,application/json,text/plain" class="hidden" onchange="handleFileImportSelect(event)">
+
+            <!-- File Upload Option -->
+            <div class="p-4 theme-card-sub border rounded-xl space-y-2">
+                <h4 class="font-bold text-xs text-emerald-400 uppercase">Option 1: Upload JSON File</h4>
+                <p class="text-[11px] text-slate-400">Select a previously exported FinTrack backup file (.json).</p>
+                <input type="file" id="jsonFileInputDirect" accept=".json,application/json,text/plain" onclick="this.value=null" onchange="handleFileImportSelect(event)" class="w-full text-xs text-slate-300 file:mr-3 file:py-2 file:px-3 file:rounded-xl file:border-0 file:text-xs file:font-bold file:bg-emerald-600 file:text-white hover:file:bg-emerald-500 cursor-pointer">
+            </div>
+
+            <div class="flex items-center justify-center space-x-2 my-2 text-slate-500 text-xs font-bold">
+                <span class="h-px bg-slate-800 flex-1"></span>
+                <span>OR</span>
+                <span class="h-px bg-slate-800 flex-1"></span>
+            </div>
+
+            <!-- Paste Text Option -->
+            <div class="p-4 theme-card-sub border rounded-xl space-y-2">
+                <h4 class="font-bold text-xs text-indigo-400 uppercase">Option 2: Paste JSON Content</h4>
+                <p class="text-[11px] text-slate-400">Paste JSON text here (smart quotes auto-fixed):</p>
+                <textarea id="importJsonTextarea" rows="4" placeholder="Paste full JSON text starting with { here..." class="w-full theme-card border rounded-xl p-2.5 text-[11px] font-mono focus:outline-none focus:border-indigo-500 text-slate-200"></textarea>
+                <button onclick="handlePasteJsonImport()" class="w-full py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs flex items-center justify-center space-x-2 transition shadow-md">
+                    <i class="fa-solid fa-paste"></i>
+                    <span>Import Pasted JSON</span>
+                </button>
+            </div>
+
+            <div class="pt-1">
+                <button type="button" onclick="closeModal('importDataModal')" class="w-full py-2.5 rounded-xl border border-slate-700 text-xs text-slate-300 hover:bg-slate-800">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Import CSV with Field Mapping Modal -->
+    <div id="importCsvModal" class="fixed inset-0 bg-slate-950/80 backdrop-blur-sm z-50 flex items-center justify-center hidden p-4">
+        <div class="theme-card border w-full max-w-xl rounded-2xl p-6 shadow-2xl space-y-4 max-h-[90vh] overflow-y-auto">
+            <div class="flex justify-between items-center border-b border-slate-800 pb-3">
+                <div class="flex items-center space-x-2">
+                    <i class="fa-solid fa-file-csv text-sky-400 text-lg"></i>
+                    <h3 class="font-bold text-base">Import CSV with Field Mapping</h3>
+                </div>
+                <button onclick="closeModal('importCsvModal')" class="text-slate-400 hover:text-white"><i class="fa-solid fa-xmark text-lg"></i></button>
+            </div>
+
+            <!-- Step 1: Target Collection Selection -->
+            <div class="p-3.5 theme-card-sub border rounded-xl space-y-2">
+                <label class="block text-xs font-bold text-sky-400 uppercase">1. Select Target Category / Module</label>
+                <select id="csvTargetCollection" onchange="handleCsvTargetChange()" class="hi-fi-select w-full theme-card border rounded-xl p-2.5 text-xs focus:outline-none focus:border-sky-500">
+                    <option value="expenses">Expenses Log</option>
+                    <option value="stocks">Stocks & SIPs Portfolio</option>
+                    <option value="fixedDeposits">Fixed Deposits</option>
+                    <option value="insurance">Insurance Policies</option>
+                    <option value="cashAccounts">Cash & Bank Accounts</option>
+                    <option value="digitalDocs">Digital Vault Documents</option>
+                    <option value="chits">Chit Funds</option>
+                    <option value="pigmies">Daily Pigmy Schemes</option>
+                    <option value="employees">Staff & Salary Roll</option>
+                    <option value="lending">Family Loans (Receivables)</option>
+                    <option value="liabilities">Debt / Liabilities (Payables)</option>
+                </select>
+            </div>
+
+            <!-- Hidden CSV File Input -->
+            <input type="file" id="csvFileInput" accept=".csv,text/csv" class="hidden" onchange="handleCsvFileSelect(event)">
+
+            <!-- Step 2: Source CSV Input (Upload or Paste) -->
+            <div class="p-3.5 theme-card-sub border rounded-xl space-y-3">
+                <label class="block text-xs font-bold text-indigo-400 uppercase">2. Load CSV Data</label>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                    <button onclick="document.getElementById('csvFileInput').click()" class="py-2 rounded-xl bg-sky-600 hover:bg-sky-500 text-white font-bold text-xs flex items-center justify-center space-x-2 transition shadow-md">
+                        <i class="fa-solid fa-folder-open"></i>
+                        <span>Choose CSV File</span>
+                    </button>
+                    <button onclick="toggleCsvPasteBox()" class="py-2 rounded-xl border border-slate-700 hover:border-indigo-500 text-slate-200 font-bold text-xs flex items-center justify-center space-x-2 transition">
+                        <i class="fa-solid fa-paste"></i>
+                        <span>Paste Raw CSV Text</span>
+                    </button>
+                </div>
+
+                <div id="csvPasteContainer" class="hidden space-y-2 pt-1">
+                    <textarea id="csvRawTextarea" rows="4" placeholder="Paste raw CSV content here (including header line)..." class="w-full theme-card border rounded-xl p-2.5 text-[11px] font-mono focus:outline-none focus:border-indigo-500 text-slate-200"></textarea>
+                    <button onclick="handleCsvTextPaste()" class="w-full py-2 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs transition shadow-md">
+                        Parse Pasted CSV Text
+                    </button>
+                </div>
+
+                <div id="csvFileMetaNotice" class="hidden text-[11px] text-emerald-400 font-semibold flex items-center gap-1.5 bg-emerald-500/10 p-2 rounded-lg border border-emerald-500/20">
+                    <i class="fa-solid fa-circle-check"></i> <span id="csvFileMetaText">CSV parsed successfully</span>
+                </div>
+            </div>
+
+            <!-- Step 3: Field Mapping UI Container -->
+            <div id="csvMappingSection" class="hidden p-3.5 theme-card-sub border rounded-xl space-y-3">
+                <div class="flex items-center justify-between border-b border-slate-800/80 pb-2">
+                    <h4 class="font-bold text-xs text-amber-500 dark:text-amber-400 uppercase tracking-wider flex items-center gap-1.5">
+                        <i class="fa-solid fa-sliders"></i> 3. Map CSV Columns to Target Fields
+                    </h4>
+                    <span class="text-[10px] text-slate-400 font-mono" id="csvRowCountBadge">0 rows found</span>
+                </div>
+
+                <div id="csvFieldMappingGrid" class="space-y-2 max-h-60 overflow-y-auto pr-1"></div>
+
+                <!-- Preview Table -->
+                <div class="space-y-1.5 pt-2 border-t border-slate-800">
+                    <span class="text-[10px] font-extrabold uppercase text-slate-400 block">Mapped Data Preview (First 2 Rows)</span>
+                    <div id="csvPreviewContainer" class="overflow-x-auto theme-card border rounded-xl p-2 text-[10px] font-mono text-slate-300"></div>
+                </div>
+
+                <button onclick="executeCsvImport()" class="w-full py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-xs flex items-center justify-center space-x-2 transition shadow-lg">
+                    <i class="fa-solid fa-download"></i>
+                    <span id="csvImportActionText">Import Mapped Records</span>
+                </button>
+            </div>
+
+            <div class="pt-1">
+                <button type="button" onclick="closeModal('importCsvModal')" class="w-full py-2.5 rounded-xl border border-slate-700 text-xs text-slate-300 hover:bg-slate-800">Cancel</button>
+            </div>
+        </div>
+    </div>
+
     <!-- PWA Android / iOS Installation Modal -->
     <div id="pwaInstallModal" class="fixed inset-0 bg-slate-950/80 backdrop-blur-sm z-50 flex items-center justify-center hidden p-4">
         <div class="theme-card border w-full max-w-lg rounded-2xl p-6 shadow-2xl space-y-4 max-h-[90vh] overflow-y-auto">
@@ -1956,7 +2077,7 @@
 
             <div class="p-3.5 theme-card-sub border rounded-xl space-y-2">
                 <p class="text-xs text-slate-300 leading-relaxed">
-                    Inside this preview window, Chrome suppresses automatic install prompts. Follow these quick steps to install <strong>FinTrack v4.0</strong> directly onto your home screen:
+                    Inside this preview window, Chrome suppresses automatic install prompts. Follow these quick steps to install <strong>FinTrack v4.1</strong> directly onto your home screen:
                 </p>
             </div>
 
@@ -2016,6 +2137,14 @@
     <script>
         /* Top-Level Explicit Global Function Definitions attached to window for reliable HTML event binding */
         window.switchTab = function(tabId) {
+            if (tabId === 'employees') {
+                tabId = 'expenses';
+                setTimeout(() => {
+                    const el = document.getElementById('spendStaffSection');
+                    if (el) el.scrollIntoView({ behavior: 'smooth' });
+                }, 100);
+            }
+
             document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
             
             const target = document.getElementById('view-' + tabId);
@@ -2240,23 +2369,8 @@
         };
 
         window.autoSyncPigmyDeposits = function() {
-            if (!appData || !appData.pigmies) return;
-            const today = new Date();
-            today.setHours(0, 0, 0, 0);
-
-            appData.pigmies.forEach(p => {
-                if (p.autoDaily && p.startDate) {
-                    const start = new Date(p.startDate);
-                    start.setHours(0, 0, 0, 0);
-                    if (!isNaN(start.getTime()) && start <= today) {
-                        const elapsedDays = Math.floor((today - start) / (1000 * 60 * 60 * 24)) + 1;
-                        const autoTotal = elapsedDays * Number(p.dailyAmount || 0);
-                        if (autoTotal > Number(p.totalPaid || 0)) {
-                            p.totalPaid = autoTotal;
-                        }
-                    }
-                }
-            });
+            // Total paid amount is strictly based on the user-entered amount and manual +1 day deposit increments.
+            return;
         };
 
         window.takeAutoSnapshot = function() {
@@ -2921,7 +3035,7 @@
                         let catBadge = '';
                         const kidDisplayName = e.kid === 'Kid 1' ? k1 : (e.kid === 'Kid 2' ? k2 : (e.kid || 'Kid'));
                         if (e.category === 'recharges') catBadge = '<span class="px-2 py-0.5 rounded text-[10px] font-bold bg-amber-500/10 text-amber-600 dark:text-amber-400 border border-amber-500/20">Recharge</span>';
-                        else if (e.category === 'kids') catBadge = '<span class="px-2 py-0.5 rounded text-[10px] font-bold bg-sky-500/10 text-sky-600 dark:text-sky-400 border border-sky-500/20">' + kidDisplayName + ' Log</span>';
+                        else if (e.category === 'kids') catBadge = '<span class="px-2 py-0.5 rounded text-[10px] font-bold bg-sky-500/10 text-sky-600 dark:text-sky-400 border border-sky-500/20">' + kidDisplayName + '</span>';
                         else catBadge = '<span class="px-2 py-0.5 rounded text-[10px] font-bold bg-slate-500/10 text-slate-600 dark:text-slate-400 border border-slate-500/20">General</span>';
 
                         return '<div class="p-3.5 flex justify-between items-center hover:bg-slate-100 dark:hover:bg-slate-800/30 transition">' +
@@ -2943,62 +3057,27 @@
             }
         };
 
-        window.filterExpensesByKid = function(kidKey) {
-            activeKidFilter = kidKey;
-
-            // Highlight selected kid filter button
-            document.querySelectorAll('.kid-filter-btn').forEach(btn => {
-                btn.classList.remove('bg-indigo-600', 'text-white');
-                btn.classList.add('text-slate-400');
-            });
-            const btnKey = kidKey === 'Kid 1' ? 'Kid1' : (kidKey === 'Kid 2' ? 'Kid2' : 'all');
-            const activeBtn = document.getElementById('kidFilterBtn-' + btnKey);
-            if (activeBtn) {
-                activeBtn.classList.remove('text-slate-400');
-                activeBtn.classList.add('bg-indigo-600', 'text-white');
-            }
-
-            // If user specifically filtered by a kid, switch tab filter to 'kids' Log tab
-            if (kidKey !== 'all') {
-                activeExpTab = 'kids';
-                document.querySelectorAll('.exp-subtab-btn').forEach(btn => {
-                    btn.classList.remove('bg-indigo-600', 'text-white');
-                    btn.classList.add('theme-card', 'text-slate-300');
-                });
-                const kidsTabBtn = document.getElementById('expTab-kids');
-                if (kidsTabBtn) {
-                    kidsTabBtn.classList.remove('theme-card', 'text-slate-300');
-                    kidsTabBtn.classList.add('bg-indigo-600', 'text-white');
-                }
-            }
-
-            const prof = window.getFamilyProfile();
-            const k1Name = prof.kid1Name || 'Kid 1';
-            const k2Name = prof.kid2Name || 'Kid 2';
-            const aaryanTotal = (appData.expenses||[]).filter(e => e.kid === 'Kid 1' || e.kid === k1Name).reduce((sum, e) => sum + Number(e.amount), 0);
-            const atharvTotal = (appData.expenses||[]).filter(e => e.kid === 'Kid 2' || e.kid === k2Name).reduce((sum, e) => sum + Number(e.amount), 0);
-
-            window.renderExpensesView(aaryanTotal, atharvTotal);
-        };
-
         window.renderEmployeesView = function(totalStaffSalaries) {
             const elEAC = document.getElementById('empActiveCount'); if (elEAC) elEAC.innerText = (appData.employees || []).length + ' Staff';
             const elETS = document.getElementById('empTotalSalary'); if (elETS) elETS.innerText = window.formatINR(totalStaffSalaries) + ' / mo';
+            const elSSTB = document.getElementById('spendStaffTotalBadge'); if (elSSTB) elSSTB.innerText = window.formatINR(totalStaffSalaries) + ' / mo';
 
             const list = document.getElementById('employeesList');
             if (list) {
                 if ((appData.employees || []).length === 0) {
-                    list.innerHTML = '<p class="text-xs text-slate-500 col-span-2 italic">No staff members listed.</p>';
+                    list.innerHTML = '<p class="text-xs text-slate-500 p-4 italic">No staff members listed.</p>';
                 } else {
                     list.innerHTML = appData.employees.map(emp => {
-                        return '<div class="theme-card-sub border rounded-2xl p-4 flex justify-between items-center">' +
-                            '<div>' +
-                                '<h4 class="font-bold text-sm">' + emp.name + '</h4>' +
-                                '<p class="text-[11px] text-amber-600 dark:text-amber-400 font-semibold">' + emp.role + '</p>' +
-                                '<p class="text-[10px] text-slate-500 dark:text-slate-400 mt-1">Pay Date: ' + emp.payDay + 'st of month</p>' +
+                        return '<div class="p-3.5 flex justify-between items-center hover:bg-slate-100 dark:hover:bg-slate-800/30 transition">' +
+                            '<div class="space-y-1">' +
+                                '<div class="flex items-center space-x-2">' +
+                                    '<h4 class="font-bold text-xs">' + emp.name + '</h4>' +
+                                    '<span class="px-2 py-0.5 rounded text-[10px] font-bold bg-amber-500/10 text-amber-600 dark:text-amber-400 border border-amber-500/20">' + emp.role + '</span>' +
+                                '</div>' +
+                                '<p class="text-[10px] text-slate-500 dark:text-slate-400">Pay Date: ' + emp.payDay + 'st of month</p>' +
                             '</div>' +
                             '<div class="flex items-center space-x-3">' +
-                                '<span class="font-black text-sm text-emerald-600 dark:text-emerald-400">' + window.formatINR(emp.salary) + ' / mo</span>' +
+                                '<span class="font-black text-xs text-amber-600 dark:text-amber-400">' + window.formatINR(emp.salary) + ' / mo</span>' +
                                 '<button onclick="openEditEmployeeModal(\'' + emp.id + '\')" class="text-slate-500 hover:text-indigo-400 text-xs"><i class="fa-solid fa-pen-to-square"></i></button>' +
                                 '<button onclick="deleteItem(\'employees\', \'' + emp.id + '\')" class="text-slate-500 hover:text-rose-400 text-xs"><i class="fa-solid fa-trash"></i></button>' +
                             '</div>' +
@@ -3342,7 +3421,6 @@
             document.getElementById('pigmyDailyAmount').value = pig.dailyAmount;
             document.getElementById('pigmyTotalPaid').value = pig.totalPaid;
             document.getElementById('pigmyStartDate').value = pig.startDate || '';
-            document.getElementById('pigmyAutoDaily').checked = pig.autoDaily !== false;
             document.getElementById('pigmyModalTitle').innerText = "Edit Daily Pigmy Scheme";
             window.openModal('addPigmyModal');
         };
@@ -3356,9 +3434,8 @@
             const dailyAmount = Number(document.getElementById('pigmyDailyAmount').value);
             const totalPaid = Number(document.getElementById('pigmyTotalPaid').value);
             const startDate = document.getElementById('pigmyStartDate').value;
-            const autoDaily = document.getElementById('pigmyAutoDaily').checked;
 
-            const item = { id: editId || 'pig_' + Date.now(), title, agent, dailyAmount, totalPaid, startDate, autoDaily };
+            const item = { id: editId || 'pig_' + Date.now(), title, agent, dailyAmount, totalPaid, startDate };
 
             if (editId) {
                 const idx = appData.pigmies.findIndex(p => p.id === editId);
@@ -3692,6 +3769,27 @@
             window.showToast("Expense Entry saved!");
         };
 
+        window.filterExpensesByKid = function(kid) {
+            activeKidFilter = kid;
+            document.querySelectorAll('.kid-filter-btn').forEach(btn => {
+                btn.classList.remove('bg-indigo-600', 'text-white');
+                btn.classList.add('text-slate-400');
+            });
+            const btnId = kid === 'Kid 1' ? 'kidFilterBtn-Kid1' : (kid === 'Kid 2' ? 'kidFilterBtn-Kid2' : 'kidFilterBtn-all');
+            const activeBtn = document.getElementById(btnId);
+            if (activeBtn) {
+                activeBtn.classList.remove('text-slate-400');
+                activeBtn.classList.add('bg-indigo-600', 'text-white');
+            }
+            const prof = window.getFamilyProfile();
+            const k1Name = prof.kid1Name || 'Kid 1';
+            const k2Name = prof.kid2Name || 'Kid 2';
+
+            const aaryanTotal = (appData.expenses||[]).filter(e => e.kid === 'Kid 1' || e.kid === k1Name).reduce((sum, e) => sum + Number(e.amount), 0);
+            const atharvTotal = (appData.expenses||[]).filter(e => e.kid === 'Kid 2' || e.kid === k2Name).reduce((sum, e) => sum + Number(e.amount), 0);
+            window.renderExpensesView(aaryanTotal, atharvTotal);
+        };
+
         window.filterExpensesTab = function(tab) {
             activeExpTab = tab;
             document.querySelectorAll('.exp-subtab-btn').forEach(btn => {
@@ -3854,21 +3952,21 @@
             const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(appData, null, 2));
             const dlAnchorElem = document.createElement('a');
             dlAnchorElem.setAttribute("href", dataStr);
-            dlAnchorElem.setAttribute("download", 'FinTrack_v4.0_Backup_' + new Date().toISOString().slice(0,10) + '.json');
+            dlAnchorElem.setAttribute("download", 'FinTrack_v4.1_Backup_' + new Date().toISOString().slice(0,10) + '.json');
             dlAnchorElem.click();
             window.showToast("JSON Backup downloaded.");
         };
 
         window.backupToGoogleDrive = function() {
             const jsonStr = JSON.stringify(appData, null, 2);
-            const fileName = 'FinTrack_v4.0_Backup_' + new Date().toISOString().slice(0, 10) + '.json';
+            const fileName = 'FinTrack_v4.1_Backup_' + new Date().toISOString().slice(0, 10) + '.json';
             const file = new File([jsonStr], fileName, { type: 'application/json' });
 
             if (navigator.canShare && navigator.canShare({ files: [file] })) {
                 navigator.share({
                     files: [file],
                     title: 'FinTrack Google Drive Backup',
-                    text: 'FinTrack v4.0 Data Backup File'
+                    text: 'FinTrack v4.1 Data Backup File'
                 }).then(() => {
                     window.showToast("Backup sent to Google Drive / Share");
                 }).catch(() => {
@@ -3888,130 +3986,567 @@
             const blob = new Blob([htmlContent], { type: 'text/html;charset=utf-8' });
             const dlAnchorElem = document.createElement('a');
             dlAnchorElem.setAttribute("href", URL.createObjectURL(blob));
-            dlAnchorElem.setAttribute("download", 'FinTrack_v4.0_Standalone_' + new Date().toISOString().slice(0,10) + '.html');
+            dlAnchorElem.setAttribute("download", 'FinTrack_v4.1_Standalone_' + new Date().toISOString().slice(0,10) + '.html');
             dlAnchorElem.click();
             window.showToast("Standalone HTML downloaded.");
         };
 
-        window.importDataPrompt = function() {
-            const input = document.createElement('input');
-            input.type = 'file';
-            input.accept = 'application/json';
-            input.onchange = e => {
-                const file = e.target.files[0];
-                const reader = new FileReader();
-                reader.readAsText(file, 'UTF-8');
-                reader.onload = readerEvent => {
-                    try {
-                        const content = JSON.parse(readerEvent.target.result);
-                        if (content) {
-                            appData = content;
-                            window.saveAppData();
-                            window.renderAllViews();
-                            window.showToast("Backup JSON imported successfully.");
-                        }
-                    } catch (err) {
-                        window.showToast("Invalid JSON file format.");
-                    }
+        window.openImportModal = function() {
+            const textarea = document.getElementById('importJsonTextarea');
+            if (textarea) textarea.value = '';
+            const fileInput = document.getElementById('jsonFileInput');
+            if (fileInput) fileInput.value = '';
+            const fileInputDirect = document.getElementById('jsonFileInputDirect');
+            if (fileInputDirect) fileInputDirect.value = '';
+            window.openModal('importDataModal');
+        };
+
+        window.processImportedJsonData = function(parsed) {
+            if (!parsed) {
+                window.showToast("Import failed: Empty or invalid JSON data.");
+                return false;
+            }
+
+            // Handle double-stringified JSON payload if present
+            if (typeof parsed === 'string') {
+                try {
+                    parsed = JSON.parse(parsed);
+                } catch(e) {
+                    window.showToast("Import error: Invalid JSON string format.");
+                    return false;
                 }
             }
-            input.click();
+
+            if (typeof parsed !== 'object') {
+                window.showToast("Import failed: Data must be a JSON object.");
+                return false;
+            }
+
+            // Unpack nested object wrappers if present (.state, .data, .appData, or .wealthtrack_pwa_data_v3)
+            let data = parsed;
+            if (data.state && typeof data.state === 'object') {
+                data = data.state;
+            } else if (data.data && typeof data.data === 'object' && !Array.isArray(data.data)) {
+                data = data.data;
+            } else if (data.appData && typeof data.appData === 'object') {
+                data = data.appData;
+            } else if (data.wealthtrack_pwa_data_v3 && typeof data.wealthtrack_pwa_data_v3 === 'object') {
+                data = data.wealthtrack_pwa_data_v3;
+            }
+
+            appData = {
+                familyProfile: data.familyProfile || JSON.parse(JSON.stringify(DEFAULT_DATA.familyProfile)),
+                digitalDocs: Array.isArray(data.digitalDocs) ? data.digitalDocs : [],
+                chits: Array.isArray(data.chits) ? data.chits : [],
+                pigmies: Array.isArray(data.pigmies) ? data.pigmies : [],
+                stocks: Array.isArray(data.stocks) ? data.stocks : [],
+                fixedDeposits: Array.isArray(data.fixedDeposits) ? data.fixedDeposits : [],
+                insurance: Array.isArray(data.insurance) ? data.insurance : [],
+                cashAccounts: Array.isArray(data.cashAccounts) ? data.cashAccounts : [],
+                expenses: Array.isArray(data.expenses) ? data.expenses : [],
+                employees: Array.isArray(data.employees) ? data.employees : [],
+                lending: Array.isArray(data.lending) ? data.lending : [],
+                liabilities: Array.isArray(data.liabilities) ? data.liabilities : [],
+                snapshots: Array.isArray(data.snapshots) ? data.snapshots : []
+            };
+
+            window.appData = appData;
+            window.saveAppData();
+            window.renderAllViews();
+            window.closeModal('importDataModal');
+            window.showToast("Backup JSON imported successfully!");
+            return true;
+        };
+
+        window.handleFileImportSelect = function(event) {
+            const file = event.target.files && event.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                try {
+                    let content = e.target.result || '';
+                    // Strip BOM and fix smart quotes
+                    content = content.replace(/^\uFEFF/, '')
+                                     .replace(/[\u201C\u201D]/g, '"')
+                                     .replace(/[\u2018\u2019]/g, "'");
+                    const parsed = JSON.parse(content);
+                    window.processImportedJsonData(parsed);
+                } catch (err) {
+                    window.showToast("JSON Error: " + (err.message || "Check file syntax"));
+                }
+            };
+            reader.onerror = function() {
+                window.showToast("Failed to read selected JSON file.");
+            };
+            reader.readAsText(file, 'UTF-8');
+        };
+
+        window.handlePasteJsonImport = function() {
+            const textarea = document.getElementById('importJsonTextarea');
+            if (!textarea || !textarea.value.trim()) {
+                window.showToast("Please paste JSON text first.");
+                return;
+            }
+            try {
+                let rawText = textarea.value.trim()
+                    .replace(/^\uFEFF/, '')
+                    .replace(/[\u201C\u201D]/g, '"')
+                    .replace(/[\u2018\u2019]/g, "'");
+                
+                const parsed = JSON.parse(rawText);
+                window.processImportedJsonData(parsed);
+            } catch (err) {
+                window.showToast("JSON Syntax Error: " + (err.message || "Check pasted text"));
+            }
+        };
+
+        window.importDataPrompt = function() {
+            window.openImportModal();
+        };
+
+        /* CSV Import with Field Mapping Logic */
+        const CSV_TARGET_SCHEMAS = {
+            expenses: {
+                label: "Expenses Log",
+                fields: [
+                    { key: "title", label: "Title / Description", required: true, default: "Expense Entry" },
+                    { key: "amount", label: "Amount (₹)", required: true, type: "number", default: 0 },
+                    { key: "category", label: "Category (recharges/kids/general)", default: "general" },
+                    { key: "date", label: "Date / Schedule", default: "1st of Month" },
+                    { key: "kid", label: "Child Name (Kid 1 / Kid 2)", default: null }
+                ]
+            },
+            stocks: {
+                label: "Stocks & SIPs",
+                fields: [
+                    { key: "name", label: "Stock / Fund Name", required: true, default: "Stock Holding" },
+                    { key: "invested", label: "Invested Value (₹)", required: true, type: "number", default: 0 },
+                    { key: "current", label: "Current Value (₹)", required: true, type: "number", default: 0 },
+                    { key: "monthlySip", label: "Monthly SIP (₹)", type: "number", default: 0 },
+                    { key: "owner", label: "Owner (Self/Spouse/Joint)", default: "Self" },
+                    { key: "broker", label: "Broker (AngelOne/Zerodha/Anand Rathi/Others)", default: "AngelOne" },
+                    { key: "category", label: "Category (Equity Stocks/Mutual Fund SIPs/ETFs)", default: "Equity Stocks" }
+                ]
+            },
+            fixedDeposits: {
+                label: "Fixed Deposits",
+                fields: [
+                    { key: "bankName", label: "Bank / NBFC Name", required: true, default: "Bank FD" },
+                    { key: "amount", label: "Deposit Amount (₹)", required: true, type: "number", default: 0 },
+                    { key: "interestRate", label: "Interest Rate (%)", type: "number", default: 7.0 },
+                    { key: "owner", label: "Owner (Self/Spouse/Joint)", default: "Self" },
+                    { key: "depositDate", label: "Deposit Date", default: "" },
+                    { key: "maturityDate", label: "Maturity Date", default: "" },
+                    { key: "maturityAmount", label: "Maturity Amount (₹)", type: "number", default: 0 }
+                ]
+            },
+            insurance: {
+                label: "Insurance Policies",
+                fields: [
+                    { key: "name", label: "Policy Name", required: true, default: "Insurance Policy" },
+                    { key: "company", label: "Company / Provider", default: "LIC" },
+                    { key: "sumAssured", label: "Sum Assured (₹)", type: "number", default: 100000 },
+                    { key: "premium", label: "Annual Premium (₹)", type: "number", default: 0 },
+                    { key: "surrenderValue", label: "Surrender Value (₹)", type: "number", default: 0 },
+                    { key: "owner", label: "Owner (Self/Spouse/Kids/Joint)", default: "Self" },
+                    { key: "type", label: "Type (Life / Endowment/Term/Health/Vehicle)", default: "Life / Endowment" },
+                    { key: "commenceDate", label: "Commence Date", default: "" },
+                    { key: "renewalDate", label: "Renewal Date", default: "" },
+                    { key: "notes", label: "Notes / Policy No.", default: "" }
+                ]
+            },
+            cashAccounts: {
+                label: "Cash & Bank Accounts",
+                fields: [
+                    { key: "title", label: "Account Title / Bank", required: true, default: "Savings Account" },
+                    { key: "amount", label: "Balance Amount (₹)", required: true, type: "number", default: 0 },
+                    { key: "type", label: "Category Type", default: "Savings Bank Account" },
+                    { key: "owner", label: "Owner (Self/Spouse/Joint)", default: "Self" }
+                ]
+            },
+            digitalDocs: {
+                label: "Digital Vault Documents",
+                fields: [
+                    { key: "title", label: "Document Title", required: true, default: "Digital Record" },
+                    { key: "number", label: "ID Number / RC No", required: true, default: "N/A" },
+                    { key: "category", label: "Category (Aadhaar Card/PAN Card/Vehicle RC/etc)", default: "Aadhaar Card" },
+                    { key: "holder", label: "Holder (Self/Spouse/Kids/Joint)", default: "Self" },
+                    { key: "issueDate", label: "Issue Date", default: "" },
+                    { key: "expiryDate", label: "Expiry Date", default: "" },
+                    { key: "notes", label: "Notes", default: "" }
+                ]
+            },
+            chits: {
+                label: "Chit Funds",
+                fields: [
+                    { key: "title", label: "Chit Title", required: true, default: "Chit Scheme" },
+                    { key: "organizer", label: "Organizer", default: "Local Group" },
+                    { key: "value", label: "Total Chit Value (₹)", type: "number", default: 100000 },
+                    { key: "monthly", label: "Monthly Amount (₹)", required: true, type: "number", default: 5000 },
+                    { key: "months", label: "Total Months", type: "number", default: 20 },
+                    { key: "date", label: "Due Day of Month (1-31)", type: "number", default: 10 },
+                    { key: "paidCount", label: "Paid Installment Count", type: "number", default: 0 }
+                ]
+            },
+            pigmies: {
+                label: "Daily Pigmy Schemes",
+                fields: [
+                    { key: "title", label: "Pigmy Title", required: true, default: "Daily Pigmy" },
+                    { key: "agent", label: "Agent / Bank", default: "Bank Agent" },
+                    { key: "dailyAmount", label: "Daily Amount (₹)", required: true, type: "number", default: 100 },
+                    { key: "totalPaid", label: "Total Saved So Far (₹)", type: "number", default: 0 },
+                    { key: "startDate", label: "Start Date", default: "" }
+                ]
+            },
+            employees: {
+                label: "Staff & Salary Roll",
+                fields: [
+                    { key: "name", label: "Staff Name", required: true, default: "Staff Member" },
+                    { key: "role", label: "Role / Job Title", default: "Assistant" },
+                    { key: "salary", label: "Monthly Salary (₹)", required: true, type: "number", default: 10000 },
+                    { key: "payDay", label: "Payout Day of Month", type: "number", default: 1 }
+                ]
+            },
+            lending: {
+                label: "Family Loans (Receivables)",
+                fields: [
+                    { key: "title", label: "Borrower / Loan Title", required: true, default: "Family Loan" },
+                    { key: "amount", label: "Principal Amount (₹)", required: true, type: "number", default: 0 },
+                    { key: "details", label: "Agreed Terms / Details", default: "" }
+                ]
+            },
+            liabilities: {
+                label: "Debt / Liabilities (Payables)",
+                fields: [
+                    { key: "name", label: "Loan / Debt Name", required: true, default: "Bank Loan" },
+                    { key: "amount", label: "Outstanding Amount (₹)", required: true, type: "number", default: 0 }
+                ]
+            }
+        };
+
+        let parsedCsvData = { headers: [], rows: [] };
+
+        window.openImportCsvModal = function() {
+            parsedCsvData = { headers: [], rows: [] };
+            const rawText = document.getElementById('csvRawTextarea'); if (rawText) rawText.value = '';
+            const fileNotice = document.getElementById('csvFileMetaNotice'); if (fileNotice) fileNotice.classList.add('hidden');
+            const mapSec = document.getElementById('csvMappingSection'); if (mapSec) mapSec.classList.add('hidden');
+            const pasteBox = document.getElementById('csvPasteContainer'); if (pasteBox) pasteBox.classList.add('hidden');
+            window.openModal('importCsvModal');
+        };
+
+        window.toggleCsvPasteBox = function() {
+            const pasteBox = document.getElementById('csvPasteContainer');
+            if (pasteBox) pasteBox.classList.toggle('hidden');
+        };
+
+        window.parseCSVText = function(text) {
+            const lines = [];
+            let curLine = [];
+            let curVal = '';
+            let inQuotes = false;
+            
+            for (let i = 0; i < text.length; i++) {
+                const char = text[i];
+                const nextChar = text[i+1];
+                
+                if (char === '"') {
+                    if (inQuotes && nextChar === '"') {
+                        curVal += '"';
+                        i++;
+                    } else {
+                        inQuotes = !inQuotes;
+                    }
+                } else if (char === ',' && !inQuotes) {
+                    curLine.push(curVal.trim());
+                    curVal = '';
+                } else if ((char === '\r' || char === '\n') && !inQuotes) {
+                    if (char === '\r' && nextChar === '\n') i++;
+                    curLine.push(curVal.trim());
+                    if (curLine.some(c => c !== '')) lines.push(curLine);
+                    curLine = [];
+                    curVal = '';
+                } else {
+                    curVal += char;
+                }
+            }
+            if (curVal !== '' || curLine.length > 0) {
+                curLine.push(curVal.trim());
+                if (curLine.some(c => c !== '')) lines.push(curLine);
+            }
+            return lines;
+        };
+
+        window.handleCsvFileSelect = function(event) {
+            const file = event.target.files && event.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                window.processRawCsvString(e.target.result, file.name);
+            };
+            reader.onerror = function() {
+                window.showToast("Failed to read CSV file.");
+            };
+            reader.readAsText(file, 'UTF-8');
+        };
+
+        window.handleCsvTextPaste = function() {
+            const textarea = document.getElementById('csvRawTextarea');
+            if (!textarea || !textarea.value.trim()) {
+                window.showToast("Please paste CSV text first.");
+                return;
+            }
+            window.processRawCsvString(textarea.value.trim(), "Pasted Text");
+        };
+
+        window.processRawCsvString = function(csvText, sourceName) {
+            const parsedLines = window.parseCSVText(csvText);
+            if (parsedLines.length < 2) {
+                window.showToast("CSV must contain at least a header row and 1 data row.");
+                return;
+            }
+
+            parsedCsvData.headers = parsedLines[0];
+            parsedCsvData.rows = parsedLines.slice(1);
+
+            const notice = document.getElementById('csvFileMetaNotice');
+            const noticeTxt = document.getElementById('csvFileMetaText');
+            if (notice && noticeTxt) {
+                noticeTxt.innerText = `Loaded "${sourceName}": ${parsedCsvData.headers.length} Columns, ${parsedCsvData.rows.length} Rows`;
+                notice.classList.remove('hidden');
+            }
+
+            window.renderCsvMappingUI();
+        };
+
+        window.handleCsvTargetChange = function() {
+            if (parsedCsvData.headers.length > 0) {
+                window.renderCsvMappingUI();
+            }
+        };
+
+        window.renderCsvMappingUI = function() {
+            const collectionKey = document.getElementById('csvTargetCollection').value;
+            const schema = CSV_TARGET_SCHEMAS[collectionKey];
+            if (!schema) return;
+
+            const grid = document.getElementById('csvFieldMappingGrid');
+            if (!grid) return;
+
+            const headers = parsedCsvData.headers;
+            const rowsCount = parsedCsvData.rows.length;
+
+            const rowBadge = document.getElementById('csvRowCountBadge'); if (rowBadge) rowBadge.innerText = `${rowsCount} Data Rows`;
+            const actionTxt = document.getElementById('csvImportActionText'); if (actionTxt) actionTxt.innerText = `Import ${rowsCount} Records into ${schema.label}`;
+
+            grid.innerHTML = schema.fields.map(f => {
+                let suggestedIdx = -1;
+                headers.forEach((h, idx) => {
+                    const hLower = h.toLowerCase();
+                    const keyLower = f.key.toLowerCase();
+                    const labelLower = f.label.toLowerCase();
+                    if (hLower === keyLower || hLower.includes(keyLower) || labelLower.includes(hLower) || hLower.includes("amount") && f.key.includes("amount")) {
+                        if (suggestedIdx === -1) suggestedIdx = idx;
+                    }
+                });
+
+                return '<div class="flex items-center justify-between gap-2 p-2 theme-card rounded-xl border text-xs">' +
+                    '<div class="min-w-0 flex-1">' +
+                        '<span class="font-bold text-slate-200 block truncate">' + f.label + (f.required ? ' <span class="text-rose-400">*</span>' : '') + '</span>' +
+                        '<span class="text-[10px] text-slate-500 font-mono">Field: ' + f.key + '</span>' +
+                    '</div>' +
+                    '<select id="csvMapSelect_' + f.key + '" onchange="updateCsvMappingPreview()" class="hi-fi-select theme-card-sub border rounded-lg px-2 py-1 text-xs text-slate-200 max-w-[200px]">' +
+                        '<option value="">-- Ignore / Default --</option>' +
+                        headers.map((h, i) => '<option value="' + i + '" ' + (i === suggestedIdx ? 'selected' : '') + '>CSV Col ' + (i+1) + ': ' + h + '</option>').join('') +
+                    '</select>' +
+                '</div>';
+            }).join('');
+
+            document.getElementById('csvMappingSection').classList.remove('hidden');
+            window.updateCsvMappingPreview();
+        };
+
+        window.updateCsvMappingPreview = function() {
+            const collectionKey = document.getElementById('csvTargetCollection').value;
+            const schema = CSV_TARGET_SCHEMAS[collectionKey];
+            const previewContainer = document.getElementById('csvPreviewContainer');
+            if (!schema || !previewContainer) return;
+
+            const sampleRows = parsedCsvData.rows.slice(0, 2);
+            if (sampleRows.length === 0) {
+                previewContainer.innerHTML = '<em>No preview available.</em>';
+                return;
+            }
+
+            let html = '<table class="w-full text-left border-collapse"><thead><tr class="border-b border-slate-700 text-sky-400">';
+            schema.fields.forEach(f => { html += '<th class="p-1">' + f.key + '</th>'; });
+            html += '</tr></thead><tbody>';
+
+            sampleRows.forEach(row => {
+                html += '<tr class="border-b border-slate-800/60">';
+                schema.fields.forEach(f => {
+                    const sel = document.getElementById('csvMapSelect_' + f.key);
+                    const colIdx = sel && sel.value !== '' ? Number(sel.value) : -1;
+                    let val = colIdx !== -1 && row[colIdx] !== undefined ? row[colIdx] : (f.default !== undefined ? f.default : '');
+                    if (f.type === 'number') {
+                        val = Number(String(val).replace(/[^0-9.-]+/g, "")) || 0;
+                    }
+                    html += '<td class="p-1 truncate max-w-[120px]">' + val + '</td>';
+                });
+                html += '</tr>';
+            });
+            html += '</tbody></table>';
+
+            previewContainer.innerHTML = html;
+        };
+
+        window.executeCsvImport = function() {
+            const collectionKey = document.getElementById('csvTargetCollection').value;
+            const schema = CSV_TARGET_SCHEMAS[collectionKey];
+            if (!schema || !parsedCsvData.rows || parsedCsvData.rows.length === 0) {
+                window.showToast("No CSV rows to import.");
+                return;
+            }
+
+            if (!appData[collectionKey]) appData[collectionKey] = [];
+
+            let importedCount = 0;
+            parsedCsvData.rows.forEach((row, idx) => {
+                const item = { id: collectionKey + '_csv_' + Date.now() + '_' + idx };
+                schema.fields.forEach(f => {
+                    const sel = document.getElementById('csvMapSelect_' + f.key);
+                    const colIdx = sel && sel.value !== '' ? Number(sel.value) : -1;
+                    let rawVal = colIdx !== -1 && row[colIdx] !== undefined ? row[colIdx] : f.default;
+
+                    if (f.type === 'number') {
+                        rawVal = Number(String(rawVal).replace(/[^0-9.-]+/g, "")) || (f.default || 0);
+                    } else if (typeof rawVal === 'string') {
+                        rawVal = rawVal.trim();
+                        if (!rawVal && f.default) rawVal = f.default;
+                    }
+
+                    item[f.key] = rawVal;
+                });
+
+                appData[collectionKey].push(item);
+                importedCount++;
+            });
+
+            window.saveAppData();
+            window.renderAllViews();
+            window.closeModal('importCsvModal');
+            window.showToast(`Imported ${importedCount} records into ${schema.label}!`);
         };
 
         window.exportCSV = function() {
-            let csv = [];
-            csv.push("FINTRACK v4.0 FINANCIAL REPORT");
-            csv.push("Generated Date," + new Date().toLocaleString());
-            csv.push("");
+            if (!appData) return;
+            let csv = 'Category,Title / Description,Owner / Details,Amount / Value (INR)\n';
             
-            const totalChitsPaidValue = (appData.chits||[]).reduce((sum, c) => sum + (c.monthly * c.paidCount), 0);
-            const stocksCurrent = (appData.stocks||[]).reduce((sum, s) => sum + Number(s.current), 0);
-            const totalFDs = (appData.fixedDeposits||[]).reduce((sum, f) => sum + Number(f.amount), 0);
-            const totalCash = (appData.cashAccounts||[]).reduce((sum, c) => sum + Number(c.amount), 0);
-            const totalLent = (appData.lending||[]).reduce((sum, l) => sum + Number(l.amount), 0);
-            const totalAssets = stocksCurrent + totalChitsPaidValue + totalFDs + totalCash + totalLent;
-            const totalLiabilities = (appData.liabilities||[]).reduce((sum, l) => sum + Number(l.amount), 0);
-            
-            csv.push("CONSOLIDATED SUMMARY");
-            csv.push("Metric,Amount (INR)");
-            csv.push('"Total Net Worth",' + (totalAssets - totalLiabilities));
-            csv.push('"Total Assets",' + totalAssets);
-            csv.push('"Total Liabilities",' + totalLiabilities);
-            csv.push("");
+            // Assets - Stocks
+            (appData.stocks || []).forEach(s => {
+                csv += `Stocks & MFs,"${(s.name||'').replace(/"/g, '""')}","${s.broker||''} (${s.owner||''})",${s.current||0}\n`;
+            });
+            // Assets - Chits
+            (appData.chits || []).forEach(c => {
+                const totalPaid = Number(c.monthly||0) * Number(c.paidCount||0);
+                csv += `Chit Funds,"${(c.title||'').replace(/"/g, '""')}","Paid ${c.paidCount||0}/${c.months||0} months",${totalPaid}\n`;
+            });
+            // Assets - Pigmy
+            (appData.pigmies || []).forEach(p => {
+                csv += `Daily Pigmy,"${(p.title||'').replace(/"/g, '""')}","Agent: ${p.agent||''}",${p.totalPaid||0}\n`;
+            });
+            // Assets - Fixed Deposits
+            (appData.fixedDeposits || []).forEach(f => {
+                csv += `Fixed Deposit,"${(f.bankName||'').replace(/"/g, '""')}","Owner: ${f.owner||''} @ ${f.interestRate||0}%",${f.amount||0}\n`;
+            });
+            // Assets - Insurance
+            (appData.insurance || []).forEach(i => {
+                csv += `Insurance Surrender,"${(i.name||'').replace(/"/g, '""')}","Provider: ${i.company||''}",${i.surrenderValue||0}\n`;
+            });
+            // Assets - Cash & Bank
+            (appData.cashAccounts || []).forEach(c => {
+                csv += `Cash & Bank,"${(c.title||'').replace(/"/g, '""')}","Type: ${c.type||''}",${c.amount||0}\n`;
+            });
+            // Assets - Lending
+            (appData.lending || []).forEach(l => {
+                csv += `Family Loan Receivable,"${(l.title||'').replace(/"/g, '""')}","${(l.details||'').replace(/"/g, '""')}",${l.amount||0}\n`;
+            });
+            // Liabilities
+            (appData.liabilities || []).forEach(l => {
+                csv += `Liability / Loan,"${(l.name||'').replace(/"/g, '""')}","Outstanding Debt",-${l.amount||0}\n`;
+            });
+            // Expenses
+            (appData.expenses || []).forEach(e => {
+                csv += `Expense Log,"${(e.title||'').replace(/"/g, '""')}","Category: ${e.category||''} | Schedule: ${e.date||''}",-${e.amount||0}\n`;
+            });
 
-            const csvContent = "data:text/csv;charset=utf-8," + encodeURIComponent(csv.join("\n"));
-            const dlAnchorElem = document.createElement('a');
-            dlAnchorElem.setAttribute("href", csvContent);
-            dlAnchorElem.setAttribute("download", 'FinTrack_v4.0_Report_' + new Date().toISOString().slice(0,10) + '.csv');
-            dlAnchorElem.click();
+            const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(blob);
+            link.setAttribute('download', `FinTrack_v4.1_Report_${new Date().toISOString().slice(0, 10)}.csv`);
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            window.showToast("CSV Financial Report exported!");
         };
 
-        let deferredPrompt = null;
+        let deferredPwaPrompt = null;
         window.addEventListener('beforeinstallprompt', (e) => {
             e.preventDefault();
-            deferredPrompt = e;
-            const btn = document.getElementById('installPwaBtn');
-            if (btn) btn.classList.remove('hidden');
+            deferredPwaPrompt = e;
             const nativeBox = document.getElementById('pwaNativePromptBox');
             if (nativeBox) nativeBox.classList.remove('hidden');
         });
 
-        window.triggerPwaPromptDirect = function() {
-            if (deferredPrompt) {
-                deferredPrompt.prompt();
-                deferredPrompt.userChoice.then((choiceResult) => {
-                    if (choiceResult.outcome === 'accepted') {
-                        window.showToast("FinTrack v4.0 is installing...");
-                    }
-                    deferredPrompt = null;
-                    const nativeBox = document.getElementById('pwaNativePromptBox');
-                    if (nativeBox) nativeBox.classList.add('hidden');
-                    window.closeModal('pwaInstallModal');
-                });
-            }
-        };
-
         window.triggerPwaInstall = function() {
-            if (deferredPrompt) {
-                window.triggerPwaPromptDirect();
+            if (deferredPwaPrompt) {
+                deferredPwaPrompt.prompt();
+                deferredPwaPrompt.userChoice.then((choiceResult) => {
+                    if (choiceResult.outcome === 'accepted') {
+                        window.showToast('FinTrack installed successfully!');
+                    }
+                    deferredPwaPrompt = null;
+                });
             } else {
-                const isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone;
-                if (isStandalone) {
-                    window.showToast("FinTrack v4.0 is already running as an installed PWA!");
-                } else {
-                    window.openModal('pwaInstallModal');
-                }
+                window.openModal('pwaInstallModal');
             }
         };
 
-        /* Service Worker Registration for PWA Offline Support & Installability */
-        if ('serviceWorker' in navigator) {
-            window.addEventListener('load', () => {
-                try {
-                    const swCode = `
-                        const CACHE_NAME = 'fintrack-v4-cache-v1';
-                        self.addEventListener('install', (e) => self.skipWaiting());
-                        self.addEventListener('activate', (e) => self.clients.claim());
-                        self.addEventListener('fetch', (e) => {
-                            e.respondWith(fetch(e.request).catch(() => caches.match(e.request)));
-                        });
-                    `;
-                    const blob = new Blob([swCode], { type: 'application/javascript' });
-                    const swUrl = URL.createObjectURL(blob);
-                    navigator.serviceWorker.register(swUrl).catch(() => {});
-                } catch(e) {}
-            });
-        }
-
-        window.onload = function() {
-            window.loadAppData();
-
-            const savedTheme = localStorage.getItem('fintrack_theme') || 'light';
-            window.selectTheme(savedTheme);
-
-            window.renderAllViews();
-            window.switchTab('dashboard');
+        window.triggerPwaPromptDirect = function() {
+            if (deferredPwaPrompt) {
+                deferredPwaPrompt.prompt();
+                deferredPwaPrompt.userChoice.then(() => {
+                    deferredPwaPrompt = null;
+                });
+            } else {
+                window.showToast('Please use your browser menu (⋮) -> Add to Home screen');
+            }
         };
+
+        window.addEventListener('DOMContentLoaded', () => {
+            const savedTheme = localStorage.getItem('fintrack_theme') || 'light';
+            document.documentElement.setAttribute('data-theme', savedTheme);
+
+            window.loadAppData();
+            window.renderAllViews();
+
+            // Service worker registration for offline support
+            if ('serviceWorker' in navigator) {
+                const swCode = `
+                    const CACHE_NAME = 'fintrack-v4-1-cache';
+                    self.addEventListener('install', (e) => self.skipWaiting());
+                    self.addEventListener('activate', (e) => self.clients.claim());
+                    self.addEventListener('fetch', (e) => {
+                        e.respondWith(fetch(e.request).catch(() => caches.match(e.request)));
+                    });
+                `;
+                const blob = new Blob([swCode], { type: 'application/javascript' });
+                const swUrl = URL.createObjectURL(blob);
+                navigator.serviceWorker.register(swUrl).catch(() => {});
+            }
+        });
     </script>
 </body>
 </html>
